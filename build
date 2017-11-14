@@ -2,5 +2,5 @@ cd cv
 npm install -g resume-cli
 cp markusberglund.json resume.json
 resume export markusberglund.html
-cp markusberglund.html ../public/cv/
+cp markusberglund.html ../public/cv/markusberglund.html
 
