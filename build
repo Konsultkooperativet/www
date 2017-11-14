@@ -1,0 +1,4 @@
+cd cv
+npm install -g resume-cli
+resume -r markusberglund.json export markusberglund.html
+cp markusberglund.html ../public/cv/
