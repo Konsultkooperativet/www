@@ -1,0 +1,168 @@
+{
+  "basics": {
+    "name": "Markus Berglund",
+    "label": "Konsultkooperativet",
+    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/005/08b/07b/338e471.jpg",
+    "email": "markus.berglund@konsult.coop",
+    "phone": "0735-214942",
+    "website": "http://konsult.coop/cv/markusberglund.html",
+    "summary": "Markus is a technical consultant with experience within a broad range of technologies and businesses. Markus is a certified (PMP) project manager, having lead research projects for next generation mobile networks, as well as product development within internet safety and security.  Markus has very good communications skills, and often takes a leading role in teams. Comfortable in working in on many platforms, in agile teams. Very well structured and organized.",
+    "location": {
+      "address": "Doktor Lindhs gata 4",
+      "postalCode": "41325",
+      "city": "Göteborg",
+      "countryCode": "SE",
+      "region": "VG"
+    },
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "Markus Berglund",
+      "url": "https://www.linkedin.com/in/markusberglundmx/"
+    }]
+  },
+  "work": [
+    {
+      "company": "Huawei Technologies Sweden AB",
+      "position": "Technical Project Manager",
+      "website": "",
+      "startDate": "2015-04-01",
+      "endDate": "2017-04-30",
+      "summary": "Technical project manager for a team of researchers researching technologies for the next generation mobile systems, focusing on Massive MIMO antenna systems. Project included 25 highly skilled PhD's and MSc's, and resulted in several patent applications.",
+      "highlights": [
+        "5G Research project with regular contacts with HQ in Shanghai, China"
+      ]
+    },
+    {
+      "company": "CronLab Ltd",
+      "position": "Chief Technology Officer",
+      "website": "http://www.cronlab.com",
+      "startDate": "2010-01-01",
+      "endDate": "2015-03-31",
+      "summary": "Co-Founder of CronLab in 2009. I managed the technical development within the company. I recruited the development team in our Gothenburg office. Our software is used in products sold all over the world, e.g. the Kurio Android tablet designed specifically for kids.",
+      "highlights": [
+        "The filtering service has over 1,000,000 users worldwide"
+      ]
+    },
+    {
+      "company": "Ericsson",
+      "position": "Enbedded Software Engineer",
+      "website": "",
+      "startDate": "2007-09-01",
+      "endDate": "2010-08-31",
+      "summary": "DSP Software designer and architect, developing the next generation of Radio Base Station software for the 3G network.",
+      "highlights": [
+        "Designed and implemented one of the key memory allocators for the baseband chips",
+        "Managed the integration of the different software modules"
+      ]
+    },
+    {
+      "company": "TietoEnator",
+      "position": "Embedded Software Engineer",
+      "website": "",
+      "startDate": "2006-11-01",
+      "endDate": "2007-08-31",
+      "summary": "Worked within Ericsson's 3G base station L1 software, fixing bugs and implementing features.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Lund Institute of Technology",
+      "area": "Computer Science",
+      "studyType": "Master of Science and Engineering",
+      "startDate": "1999-09-01",
+      "endDate": "2003-06-30",
+      "gpa": "FInished first in my class, 6 months ahead of time",
+      "courses": []
+    },
+    {
+      "institution": "Think do and grow",
+      "area": "Management in Focus",
+      "studyType": "Personal Coaching",
+      "startDate": "2013-06-01",
+      "endDate": "2014-06-01",
+      "gpa": "Professional one-on-one coaching programme",
+      "courses": []
+    },
+    {
+      "institution": "Think do and grow",
+      "area": "Focused Leadership",
+      "studyType": "Personal COaching",
+      "startDate": "2012-06-01",
+      "endDate": "2013-06-01",
+      "gpa": "Professional one-on-one coaching programme",
+      "courses": []
+    },
+    {
+      "institution": "Nohau",
+      "area": "C++ for embedded systems",
+      "studyType": "",
+      "startDate": "2008-08-01",
+      "endDate": "2008-08-31",
+      "gpa": "C++ specifics for embedded systems with very limited resources",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Project Manager Professional",
+      "date": "2017-08-01",
+      "awarder": "Project Management Institute",
+      "summary": "Certified project manager professional by the Project Management Institute"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Master",
+      "keywords": [
+        "C/C++",
+        "Matlab",
+        "PHP",
+        "Java",
+        "Bash",
+        "Perl",
+        "Enbedded Systems"
+      ]
+    },
+    {
+      "name": "Management",
+      "level": "Master",
+      "keywords": [
+        "Project Management",
+        "Team Leader",
+        "Agile",
+        "Structured",
+        "Organized",
+        ""
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Swedish",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Food and Drink",
+      "keywords": [
+        "Wine Collecting",
+        "Fine dinig / cooking"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Michael Wallenius",
+      "reference": "Markus is an extremely sharp and intelligent person with a broad competence ranging from technology to starting a business. On the social side he shares his elegant humor to all around him when there is time for fun. As an entrepreneurial CTO he has been one of the best I've ever met."
+    }
+  ]
+}

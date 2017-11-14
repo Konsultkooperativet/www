@@ -1,6 +1,8 @@
 cd cv
 npm install -g resume-cli
+npm install -g jsonresume-theme-stackoverflow
+
 cp markusberglund.json resume.json
-resume export markusberglund.html
+resume export --theme stackoverflow markusberglund.html
 cp markusberglund.html ../public/cv/markusberglund.html
 
