@@ -3,7 +3,12 @@ npm install -g resume-cli
 npm install -g jsonresume-theme-stackoverflow
 npm install -g jsonresume-theme-elegant
 
-cp markusberglund.json resume.json
-resume export --theme elegant markusberglund.html
-cp markusberglund.html ../public/cv/markusberglund.html
+for f in *.json; 
+do 
+	echo "Processing $f file.."; 
+
+	cp $f resume.json
+	resume export --theme elegant $f.html
+	cp $f.html ../public/cv/$f.html
+done
 
