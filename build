@@ -8,7 +8,7 @@ do
 	echo "Processing $f file.."; 
 
 	cp $f resume.json
-	resume export --theme elegant $f.html
+	resume export --theme stackoverflow $f.html
 	cp $f.html ../public/cv/$f.html
 done
 
