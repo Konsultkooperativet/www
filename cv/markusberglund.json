@@ -3,9 +3,9 @@
     "name": "Markus Berglund",
     "label": "Konsultkooperativet",
     "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/005/08b/07b/338e471.jpg",
-    "email": "markus.berglund@konsult.coop",
+    "email": "mb@konsult.coop",
     "phone": "0735-214942",
-    "website": "http://konsult.coop/cv/markusberglund",
+    "website": "http://konsult.coop/cv/markusberglund.html",
     "summary": "Markus is a technical consultant with experience within a broad range of technologies and businesses. Markus is a certified (PMP) project manager, having lead research projects for next generation mobile networks, as well as product development within internet safety and security.  Markus has very good communications skills, and often takes a leading role in teams. Comfortable in working in on many platforms, in agile teams. Very well structured and organized.",
     "location": {
       "address": "Doktor Lindhs gata 4",
@@ -14,7 +14,11 @@
       "countryCode": "SE",
       "region": "VG"
     },
-    "profiles": []
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "Markus Berglund",
+      "url": "https://www.linkedin.com/in/markusberglundmx/"
+    }]
   },
   "work": [
     {
