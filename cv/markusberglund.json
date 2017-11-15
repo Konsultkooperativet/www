@@ -175,6 +175,18 @@
   "publications": [],
   "skills": [
     {
+      "name": "Management",
+      "level": "",
+      "keywords": [
+        "Project Management",
+        "Team Leader",
+        "Agile",
+        "Structured",
+        "Organized",
+        "PMI-PMP"
+      ]
+    },
+    {
       "name": "Programming",
       "level": "",
       "keywords": [
@@ -188,15 +200,26 @@
       ]
     },
     {
-      "name": "Management",
+      "name": "Telecom",
       "level": "",
       "keywords": [
-        "Project Management",
-        "Team Leader",
-        "Agile",
-        "Structured",
-        "Organized",
-        ""
+		  "Massive MIMIO",
+        "3GPP",
+        "WCDMA",
+        "LTE",
+        "5G",
+        "Channel Modeling"
+      ]
+    },
+    {
+      "name": "Internet / Web",
+      "level": "",
+      "keywords": [
+		  "SMTP",
+        "Networking",
+        "Load balancing",
+        "Clustering",
+        "HTML / CSS / AJAX"
       ]
     }
   ],
