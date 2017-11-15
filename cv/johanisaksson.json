@@ -1,45 +1,72 @@
 {
   "basics": {
-    "name": "Förnamn Efternamn",
+    "name": "Johan Isaksson",
     "label": "Programmer",
     "picture": "",
-    "email": "epost@konsult.coop",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "email": "johan@konsultkooperativet.se",
+    "phone": "0709-369520",
+    "website": "http://izaxon.se",
+    "summary": "Senior applikationsarkitekt, programmerare och projektledare. Johan har arbetat med utveckling av mjukvaruprodukter, programmering och projektledning i över 30 år. Hans specialkompetens är produktutveckling, helst svåra projekt som är en utmaning.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Eklanda Skog 104",
+      "postalCode": "431 49",
+      "city": "Mölndal",
+      "countryCode": "SE",
+      "region": "Västra Götalands Län"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "username": "@izaxon",
+        "url": "https://twitter.com/izaxon"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "Skype",
+        "username": "izaxonab",
+        "url": ""
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "Konsultkooperativet",
+      "position": "Grundare",
+      "website": "http://konsultkooperativet.se",
+      "startDate": "2017-11-15",
+      "endDate": "",
+      "summary": "Konsultkooperativet är ett ärligt, demokratiskt och öppet kooperativ för frilansande teknik- och managementkonsulter. Vi välkomnar alla konsulter som på riktigt vill ha möjlighet att påverka, som är trötta på konsultmäklare som skär emellan, och på andra medarbetsägda bolag, där alla inte får vara med på samma villkor. Konsultkooperativet har inte några storägare, eller orättvisa villkor - kolla gärna våra stadgar!",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Förening för konsulter",
+        "Ej vinstdrivande",
+        "Kul!"
       ]
+    },
+    {
+      "company": "ATI - Accurate Technologies AB",
+      "position": "Senior Developer",
+      "website": "https://accuratetechnologies.se",
+      "startDate": "2017-09-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Huawei",
+      "position": "BTS Software Engineer",
+      "website": "https://huawei.com",
+      "startDate": "2016-09-01",
+      "endDate": "2016-08-31",
+      "summary": "Programvaruutvecklingsexpert på Huaweis forskningskontor i Göteborg. Produkt- och Utvecklingsansvarig för en intern mjukvarusimulator för forskning. Arbetet bestod av Matlab-programmering, systemoptimering, GPU-kodning, utvecklingsmiljö (SVN/Git, YouTrack/TeamCity/GitLab) och distribuerade simuleringar. Kunden har gått från projekt till produkt med utvecklingsmiljö, projektverktyg, automatiserade tester och möjlighet att köra stora distribuerade simuleringar.",
+      "highlights": []
+    },
+    {
+      "company": "SKF",
+      "position": "Mobilarktitekt",
+      "website": "https://skf.com",
+      "startDate": "2016-07-01",
+      "endDate": "2017-03-01",
+      "summary": "Teknisk expert inom mobilapputveckling hos App Center of Excellence på SKF. Uppdrag att skapa App Governance-dokumentation för utveckling och förvaltning av appar på SKF. Roll som mobilarkitekt med erfarenhet av teknologi, utveckling och mobila appar. Arbetat med Github, Bitbucket, SAP, Citrix Netscaler, Amazon Web Services (AWS), Office365, PowerBI, PowerApps, BuddyBuild, Visual Studio Team Services (VSTS), Akamai, Ionic, app analytics, legal, design guidelines, säkerhet och mobil strategi.",
+      "highlights": []
     }
   ],
   "volunteer": [
@@ -57,16 +84,13 @@
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
+      "institution": "Chalmers Tekniska Högskola ",
+      "area": "Datateknik och matematik",
+      "studyType": "Civilingenjör",
+      "startDate": "1989",
+      "endDate": "1993",
+      "gpa": "",
+      "courses": []
     }
   ],
   "awards": [
@@ -88,43 +112,74 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Forskning",
+      "level": "",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Bild- och videokomprimering",
+        "Simuleringssystem",
+        "Matlab, Python"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Chefskap och ledarroller",
+      "level": "",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "CTO / teknisk chef",
+        "VD / startups",
+        "Marknadsföring / sälj"
       ]
+    },
+    {
+      "name": "Programmering",
+      "level": "",
+      "keywords": [
+        "Programmering",
+        "Arkitektur",
+        "Gränssnitt",
+        "Cloud/server/backend",
+        "Kommunikation",
+        "Datainsamling",
+        "Mobilt",
+        "Embedded"
+      ]
+    },
+    {
+      "name": "",
+      "level": "",
+      "keywords": []
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "flytande"
+    },
+    {
+      "language": "Tyska",
+      "fluency": "goda"
+    },
+    {
+      "language": "Franska",
+      "fluency": "nybörjare"
+    },
+    {
+      "language": "Spanska",
+      "fluency": "nybörjare"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
+      "name": "Alpin skidåkning",
+      "keywords": []
+    },
+    {
+      "name": "Motorcykel",
+      "keywords": []
+    },
+    {
+      "name": "Träning",
+      "keywords": []
     }
   ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ]
+  "references": []
 }
