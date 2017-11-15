@@ -141,6 +141,54 @@
 			"region": ""
 		} 
 
+	 } ,
+    {
+      "company": "Bioett",
+      "position": "Development Engineer",
+      "website": "",
+      "startDate": "2003-11-01",
+      "endDate": "2005-10-31",
+      "keywords": ["FPGA", "Verilog", "AXIS/ETRAX"],
+      "summary": "Developed software for an FPGA which enabled reading of biological RFID tags which were affected by temperature load. These tags were then used within logistics in the food industry.",
+      "highlights": [],
+      "location": {
+			"city": "Lund",
+			"countryCode": "",
+			"region": ""
+		} 
+
+	 } ,
+    {
+      "company": "Medical devices company",
+      "position": "Development Engineer",
+      "website": "",
+      "startDate": "2003-11-01",
+      "endDate": "2005-10-31",
+      "keywords": ["HW Prototyping", "C/C++", "JAVA", "Matlab", "PCB"],
+      "summary": "Markus developed a communications system for implants based on ultra sound. The work included hardware and software, and realistic experiments. A communications protocol was developed with error correction and high security.",
+      "highlights": [],
+      "location": {
+			"city": "Lund",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    } ,
+    {
+      "company": "Genovis",
+      "position": "Development Engineer",
+      "website": "",
+      "startDate": "2003-11-01",
+      "endDate": "2005-10-31",
+      "keywords": ["HW Prototyping", "C/C++", "JAVA", "Matlab", "PCB"],
+      "summary": "Genovis among other things manufactures microscopic ferro particles which are used in biotech research to e.g. change genetic information in cells. Markus helped Genovis to develop different tools to measure the particles sizes. Both by developing RF electronics to create high frequency magnetic fields and measure the induced energy, but also by developing simple systems to automate some lab tasks made by their staff.",
+      "highlights": [],
+      "location": {
+			"city": "Lund",
+			"countryCode": "",
+			"region": ""
+		} 
+
     }
   ],
   "volunteer": [],
