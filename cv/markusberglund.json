@@ -27,6 +27,7 @@
       "website": "",
       "startDate": "2015-04-01",
       "endDate": "2017-04-30",
+      "keywords": ["3GPP", "Telecom", "BTS System", "Project Management", "5G", "Research", "Matlab"],
       "summary": "Technical project manager for a team of researchers researching technologies for the next generation mobile systems, focusing on Massive MIMO antenna systems. Project included 25 highly skilled PhD's and MSc's, and resulted in several patent applications.",
       "highlights": [
         "5G Research project with regular contacts with HQ in Shanghai, China"
@@ -38,6 +39,7 @@
       "website": "http://www.cronlab.com",
       "startDate": "2010-01-01",
       "endDate": "2015-03-31",
+      "keywords": ["Entrepreneurship", "Project Management", "Linux", "Clustering", "PHP", "Bash", "Continuous Integration"],
       "summary": "Co-Founder of CronLab in 2009. I managed the technical development within the company. I recruited the development team in our Gothenburg office. Our software is used in products sold all over the world, e.g. the Kurio Android tablet designed specifically for kids.",
       "highlights": [
         "The filtering service has over 1,000,000 users worldwide"
@@ -49,6 +51,7 @@
       "website": "",
       "startDate": "2007-09-01",
       "endDate": "2010-08-31",
+		"keywords": ["3GPP", "BTS System", "Baseband", "C/C++", "Software Architecture", "Software Ingration", "ClearCase"],
       "summary": "DSP Software designer and architect, developing the next generation of Radio Base Station software for the 3G network.",
       "highlights": [
         "Designed and implemented one of the key memory allocators for the baseband chips",
@@ -61,6 +64,7 @@
       "website": "",
       "startDate": "2006-11-01",
       "endDate": "2007-08-31",
+      "keywords": ["3GPP", "Baseband", "C", "ClearCase", "Bug Fixing", "Testing"],
       "summary": "Worked within Ericsson's 3G base station L1 software, fixing bugs and implementing features.",
       "highlights": []
     }
@@ -73,7 +77,8 @@
       "studyType": "Master of Science and Engineering",
       "startDate": "1999-09-01",
       "endDate": "2003-06-30",
-      "gpa": "FInished first in my class, 6 months ahead of time",
+      "gpa": "",
+      "summary": "FInished first in my class, 6 months ahead of time",
       "courses": []
     },
     {
@@ -82,7 +87,8 @@
       "studyType": "Personal Coaching",
       "startDate": "2013-06-01",
       "endDate": "2014-06-01",
-      "gpa": "Professional one-on-one coaching programme",
+      "gpa": "",
+      "summary": "Professional one-on-one coaching programme",
       "courses": []
     },
     {
@@ -91,7 +97,8 @@
       "studyType": "Personal COaching",
       "startDate": "2012-06-01",
       "endDate": "2013-06-01",
-      "gpa": "Professional one-on-one coaching programme",
+      "gpa": "",
+      "summary": "Professional one-on-one coaching programme",
       "courses": []
     },
     {
@@ -100,7 +107,8 @@
       "studyType": "",
       "startDate": "2008-08-01",
       "endDate": "2008-08-31",
-      "gpa": "C++ specifics for embedded systems with very limited resources",
+      "gpa": "",
+      "summary": "C++ specifics for embedded systems with very limited resources",
       "courses": []
     }
   ],
@@ -151,12 +159,25 @@
     }
   ],
   "interests": [
+        {
+      "name": "Home Automation",
+      "keywords": [
+        "433MHz",
+        "Z-Wave",
+        "Freeboard.io",
+        "Telldus",
+        "Mathworks Thingspeak"
+      ],
+      "summary": "Using home automation to monitor and control the family's country house"
+    },
     {
       "name": "Food and Drink",
       "keywords": [
         "Wine Collecting",
-        "Fine dinig / cooking"
-      ]
+        "Fine dinig / cooking",
+        "Baking"
+      ],
+      "summary": "Collecting fine wines and enjoying good food, home or away"
     }
   ],
   "references": [
