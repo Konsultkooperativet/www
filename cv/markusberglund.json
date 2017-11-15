@@ -47,13 +47,29 @@
       "company": "CronLab Ltd",
       "position": "Chief Technology Officer",
       "website": "http://www.cronlab.com",
-      "startDate": "2010-01-01",
+      "startDate": "2011-01-01",
       "endDate": "2015-03-31",
-      "keywords": ["Entrepreneurship", "Project Management", "Linux", "Clustering", "PHP", "Bash", "Continuous Integration"],
-      "summary": "Co-Founder of CronLab in 2009. I managed the technical development within the company. I recruited the development team in our Gothenburg office. Our software is used in products sold all over the world, e.g. the Kurio Android tablet designed specifically for kids.",
+      "keywords": ["Entrepreneurship", "Project Management", "Linux", "Clustering", "PHP", "Bash", "Continuous Integration", "Android", "Squid"],
+      "summary": "Markus was in charge of development for CronLab Ltd’s web filtering services, which was used by companies and schools troughout Europé. The system was also built into other manufacturers’ products, e.g., the Android tablet Kurio, targeted to children, where CronLab’s filtering services limits web access.",
       "highlights": [
         "The filtering service has over 1,000,000 users worldwide"
       ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    },
+    {
+      "company": "CronLab Ltd",
+      "position": "Chief Technology Officer",
+      "website": "http://www.cronlab.com",
+      "startDate": "2010-09-01",
+      "endDate": "2015-03-31",
+      "keywords": ["Entrepreneurship", "Project Management", "Linux", "Clustering", "PHP", "Bash", "Continuous Integration", "SMTP"],
+      "summary": "Markus was in charge of developing an Anti-Spam service which was sold in about 15 countries in Europe. The service had an advanced configuration and management interface, both for end users and for resellers and distributors.",
+      "highlights": [],
       "location": {
 			"city": "Gothenburg",
 			"countryCode": "",
@@ -68,7 +84,7 @@
       "startDate": "2007-09-01",
       "endDate": "2010-08-31",
 		"keywords": ["3GPP", "BTS System", "Baseband", "C/C++", "Software Architecture", "Software Ingration", "ClearCase"],
-      "summary": "DSP Software designer and architect, developing the next generation of Radio Base Station software for the 3G network.",
+      "summary": "Markus worked with signal processing in the baseband parts of Ericsson’s 3G base station software. The work involved implementing the baseband application on a new architecture based on C++.",
       "highlights": [
         "Designed and implemented one of the key memory allocators for the baseband chips",
         "Managed the integration of the different software modules"
@@ -87,7 +103,11 @@
       "startDate": "2006-11-01",
       "endDate": "2007-08-31",
       "keywords": ["3GPP", "Baseband", "C", "ClearCase", "Bug Fixing", "Testing"],
-      "summary": "Worked within Ericsson's 3G base station L1 software, fixing bugs and implementing features.",
+      "summary": "Markus worked with debugging and corrections of live base stations for
+Ericsson’s customers. The work included testing, simulations, developing
+new test cases and test methods.
+The work required a lot of creative debugging since information in trouble
+reports from customers usually were insufficient.",
       "highlights": [],
       "location": {
 			"city": "Karlstad",
