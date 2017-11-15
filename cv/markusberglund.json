@@ -103,12 +103,38 @@
       "startDate": "2006-11-01",
       "endDate": "2007-08-31",
       "keywords": ["3GPP", "Baseband", "C", "ClearCase", "Bug Fixing", "Testing"],
-      "summary": "Markus worked with debugging and corrections of live base stations for
-Ericsson’s customers. The work included testing, simulations, developing
-new test cases and test methods.
-The work required a lot of creative debugging since information in trouble
-reports from customers usually were insufficient.",
+      "summary": "Markus worked with debugging and corrections of live base stations for Ericsson’s customers. The work included testing, simulations, developing new test cases and test methods. The work required a lot of creative debugging since information in trouble reports from customers usually were insufficient.",
       "highlights": [],
+      "location": {
+			"city": "Karlstad",
+			"countryCode": "",
+			"region": ""
+		}
+	 } ,
+    {
+      "company": "Precise Biometrics Solutions AB",
+      "position": "Development Engineer",
+      "website": "",
+      "startDate": "2005-11-01",
+      "endDate": "2006-10-31",
+      "keywords": ["JAVA", "Smartcards", "Biometrics"],
+      "summary": "Developed new functionality in Precise Biometrics JAVA-card smart cards.",
+      "highlights": [],
+      "location": {
+			"city": "Karlstad",
+			"countryCode": "",
+			"region": ""
+		}
+	 } ,
+    {
+      "company": "WRC Swedish Rally",
+      "position": "Development Engineer",
+      "website": "",
+      "startDate": "2005-11-01",
+      "endDate": "2006-10-31",
+      "keywords": ["FPGA", "Verilog", "JAVA"],
+      "summary": "The Swedish Rally organization wanted to create arenas along the rally course in Sweden. One of these arenas was Colin’s Crest in Värmland. Markus together with a few more engineers created a system to measure speed and jump length for the cars, this was accomplished with the use of photocells and an FPGA.",
+      "highlights": ["http://www.aftonbladet.se/sportbladet/motor/article10756593.ab"],
       "location": {
 			"city": "Karlstad",
 			"countryCode": "",
