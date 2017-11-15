@@ -200,7 +200,7 @@
       "startDate": "1999-09-01",
       "endDate": "2003-06-30",
       "gpa": "",
-      "summary": "FInished first in my class, 6 months ahead of time",
+      "summary": "Markus graduated first in his class, 6 months ahead of time",
       "courses": [],
       "location": {
 			"city": "Lund",
@@ -338,6 +338,15 @@
         "Mathworks Thingspeak"
       ],
       "summary": "Using home automation to monitor and control the family's country house"
+    },
+    {
+      "name": "Politics and Society",
+      "keywords": [
+        "Finance",
+        "Politics",
+        "News"
+      ],
+      "summary": "Enjoy participating in debates on economy, politics and our society."
     },
     {
       "name": "Food and Drink",
