@@ -176,7 +176,7 @@
   "skills": [
     {
       "name": "Programming",
-      "level": "Master",
+      "level": "",
       "keywords": [
         "C/C++",
         "Matlab",
@@ -189,7 +189,7 @@
     },
     {
       "name": "Management",
-      "level": "Master",
+      "level": "",
       "keywords": [
         "Project Management",
         "Team Leader",
