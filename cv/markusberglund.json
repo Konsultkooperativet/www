@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Markus Berglund",
-    "label": "",
+    "label": "Konsultkooperativet",
     "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/3/005/08b/07b/338e471.jpg",
-    "email": "markus@berglund.mx",
+    "email": "mb@konsult.coop",
     "phone": "0735-214942",
     "website": "",
-    "summary": "Markus is a technical consultant with experience within a broad range of technologies and businesses. Markus is a certified (PMP) project manager, having lead research projects for next generation mobile networks, as well as product development within internet safety and security.  Markus has excellent communications skills, and often takes a leading role in teams. Comfortable in working on many platforms, in agile teams, and in international organizations. Very well structured and organized.",
+    "summary": "Markus is a technical consultant with experience within a broad range of technologies and businesses. Markus is a certified (PMP) project manager, having lead research projects for next generation mobile networks, as well as product development within internet safety and security.  Markus has excellent communications skills, and often takes a leading role in teams. Markus also has experience in office and staff management, having recruited both development engineers and sales executives. Comfortable in working on many platforms, in agile teams, and in international organizations. Very well structured and organized.",
     "location": {
       "address": "Doktor Lindhs gata 4",
       "postalCode": "41325",
@@ -33,7 +33,7 @@
       "startDate": "2015-04-01",
       "endDate": "2017-04-30",
       "keywords": ["3GPP", "Telecom", "BTS System", "Project Management", "5G", "Research", "Matlab"],
-      "summary": "Technical project manager for a team of researchers researching technologies for the next generation mobile systems, focusing on the implementation of Massive MIMO antenna systems. Project included circa 20 highly skilled PhD's and MSc's, and resulted in several patent applications.",
+      "summary": "Technical project manager for a team of researchers researching technologies for the next generation mobile systems, focusing on the implementation of Massive MIMO antenna systems. Project included circa 20 highly skilled PhD's and MSc's, and resulted in several patent applications. ",
       "highlights": [
         "5G Research project with regular contacts with HQ in Shanghai, China"
       ],
@@ -47,12 +47,13 @@
       "company": "CronLab Ltd",
       "position": "Chief Technology Officer",
       "website": "http://www.cronlab.com",
-      "startDate": "2011-01-01",
+      "startDate": "2011-07-01",
       "endDate": "2015-03-31",
       "keywords": ["Entrepreneurship", "Project Management", "Linux", "Clustering", "PHP", "Bash", "Continuous Integration", "Android", "Squid"],
-      "summary": "Markus was in charge of development for CronLab Ltd’s web filtering services, which was used by companies and schools troughout Europe. The system was also built into other manufacturers’ products, e.g., the Android tablet Kurio, targeted to children, where CronLab’s filtering services limits web access.",
+      "summary": "Markus was in charge of development for CronLab Ltd’s web filtering services, which was used by companies and schools troughout Europe. The system was also built into other manufacturers’ products, e.g., the Android tablet Kurio, targeted to children, where CronLab’s filtering services limits web access. Markus was also managing all aspects of the Swedish subsidiary, being the only Director located in Sweden.",
       "highlights": [
-        "The filtering service has over 1,000,000 users worldwide"
+        "The filtering service currently has over 1,000,000 users worldwide",
+        "Office manager, recruited and managed developers and sales staff"
       ],
       "location": {
 			"city": "Gothenburg",
@@ -65,8 +66,8 @@
       "company": "CronLab Ltd",
       "position": "Chief Technology Officer",
       "website": "http://www.cronlab.com",
-      "startDate": "2010-09-01",
-      "endDate": "2015-03-31",
+      "startDate": "2009-11-01",
+      "endDate": "2011-06-30",
       "keywords": ["Entrepreneurship", "Project Management", "Linux", "Clustering", "PHP", "Bash", "Continuous Integration", "SMTP"],
       "summary": "Markus was in charge of developing an Anti-Spam service which was sold in about 15 countries in Europe. The service had an advanced configuration and management interface, both for end users and for resellers and distributors.",
       "highlights": [],
@@ -200,7 +201,7 @@
       "startDate": "1999-09-01",
       "endDate": "2003-06-30",
       "gpa": "",
-      "summary": "Markus graduated first in his class, 6 months ahead of time",
+      "summary": "Markus graduated first in his class, 6 months ahead of time. The Master Thesis was a prototype for publishing digital camera photos to a cloud service. It was made as a product evaluation for AXIS Communications in Lund.",
       "courses": [],
       "location": {
 			"city": "Lund",
@@ -216,7 +217,7 @@
       "startDate": "2013-06-01",
       "endDate": "2014-06-01",
       "gpa": "",
-      "summary": "Professional one-on-one coaching programme",
+      "summary": "Professional one-on-one coaching programme, focusing on successful leadership principles. Increase co-workers motivation and efficiency by improving leadership skills.",
       "courses": [],
       "location": {
 			"city": "Gothenburg",
@@ -228,11 +229,11 @@
     {
       "institution": "Think do and grow",
       "area": "Focused Leadership",
-      "studyType": "Personal COaching",
+      "studyType": "Personal Coaching",
       "startDate": "2012-06-01",
       "endDate": "2013-06-01",
       "gpa": "",
-      "summary": "Professional one-on-one coaching programme",
+      "summary": "Professional one-on-one coaching programme, focusing on personal development and behavioral science.",
       "courses": [],
       "location": {
 			"city": "Gothenburg",
@@ -273,24 +274,12 @@
       "level": "",
       "keywords": [
         "Project Management",
-        "Team Leader",
-        "Agile",
         "Structured",
+        "Team Leader",
+        "Agile",        "PMI-PMP",
+        "Office and staff Management",
         "Organized",
-        "PMI-PMP"
-      ]
-    },
-    {
-      "name": "Programming",
-      "level": "",
-      "keywords": [
-        "C/C++",
-        "Matlab",
-        "PHP",
-        "Java",
-        "Bash",
-        "Perl",
-        "Enbedded Systems"
+        "Recruiting"
       ]
     },
     {
@@ -302,8 +291,27 @@
         "WCDMA",
         "LTE",
         "5G",
-        "Channel Modeling"
+        "Channel Modeling",
+		  "Simulations",
+		  "METIS",
+		  "BTS System"
       ]
+    },
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": [
+        "C/C++",
+        "Matlab",
+        "PHP",
+        "Java",
+        "Bash",
+        "Android",
+        "Perl",
+        "Enbedded Systems",
+        "Make",
+        "Contiuous integration"
+		]
     },
     {
       "name": "Internet / Web",
@@ -311,9 +319,11 @@
       "keywords": [
 		  "SMTP",
         "Networking",
-        "Load balancing",
         "Clustering",
-        "HTML / CSS / AJAX"
+        "Load balancing",
+        "HTML", 
+        "CSS", 
+        "AJAX"
       ]
     }
   ],
@@ -352,7 +362,8 @@
       "name": "Food and Drink",
       "keywords": [
         "Wine Collecting",
-        "Fine dinig / cooking",
+        "Fine dinig",
+        "cooking",
         "Baking"
       ],
       "summary": "Collecting fine wines and enjoying good food, home or away"
@@ -360,8 +371,13 @@
   ],
   "references": [
     {
-      "name": "Michael Wallenius",
+      "name": "Michael Wallenius, CEO CronLab Ltd",
       "reference": "Markus is an extremely sharp and intelligent person with a broad competence ranging from technology to starting a business. On the social side he shares his elegant humor to all around him when there is time for fun. As an entrepreneurial CTO he has been one of the best I've ever met."
+    },
+    {
+      "name": "",
+      "reference": "Further references on request."
     }
+
   ]
 }
