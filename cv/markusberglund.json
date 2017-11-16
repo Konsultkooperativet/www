@@ -33,7 +33,7 @@
       "startDate": "2015-04-01",
       "endDate": "2017-04-30",
       "keywords": ["3GPP", "Telecom", "BTS System", "Project Management", "5G", "Research", "Matlab"],
-      "summary": "Technical project manager for a team of researchers researching technologies for the next generation mobile systems, focusing on Massive MIMO antenna systems. Project included 25 highly skilled PhD's and MSc's, and resulted in several patent applications.",
+      "summary": "Technical project manager for a team of researchers researching technologies for the next generation mobile systems, focusing on the implementation of Massive MIMO antenna systems. Project included circa 20 highly skilled PhD's and MSc's, and resulted in several patent applications.",
       "highlights": [
         "5G Research project with regular contacts with HQ in Shanghai, China"
       ],
@@ -50,7 +50,7 @@
       "startDate": "2011-01-01",
       "endDate": "2015-03-31",
       "keywords": ["Entrepreneurship", "Project Management", "Linux", "Clustering", "PHP", "Bash", "Continuous Integration", "Android", "Squid"],
-      "summary": "Markus was in charge of development for CronLab Ltd’s web filtering services, which was used by companies and schools troughout Europé. The system was also built into other manufacturers’ products, e.g., the Android tablet Kurio, targeted to children, where CronLab’s filtering services limits web access.",
+      "summary": "Markus was in charge of development for CronLab Ltd’s web filtering services, which was used by companies and schools troughout Europe. The system was also built into other manufacturers’ products, e.g., the Android tablet Kurio, targeted to children, where CronLab’s filtering services limits web access.",
       "highlights": [
         "The filtering service has over 1,000,000 users worldwide"
       ],
@@ -84,7 +84,7 @@
       "startDate": "2007-09-01",
       "endDate": "2010-08-31",
 		"keywords": ["3GPP", "BTS System", "Baseband", "C/C++", "Software Architecture", "Software Ingration", "ClearCase"],
-      "summary": "Markus worked with signal processing in the baseband parts of Ericsson’s 3G base station software. The work involved implementing the baseband application on a new architecture based on C++.",
+      "summary": "Markus worked with signal processing in the baseband parts of Ericsson’s WCDMA base station software. The work involved implementing the baseband application on a new architecture based on C++.",
       "highlights": [
         "Designed and implemented one of the key memory allocators for the baseband chips",
         "Managed the integration of the different software modules"
@@ -165,7 +165,7 @@
       "startDate": "2003-11-01",
       "endDate": "2005-10-31",
       "keywords": ["HW Prototyping", "C/C++", "JAVA", "Matlab", "PCB"],
-      "summary": "Markus developed a communications system for implants based on ultra sound. The work included hardware and software, and realistic experiments. A communications protocol was developed with error correction and high security.",
+      "summary": "Markus developed a communications system for implants based on ultra sound. The work included hardware and software, and realistic experiments. A communications protocol was developed with error correction and high safety and security.",
       "highlights": [],
       "location": {
 			"city": "Lund",
@@ -181,7 +181,7 @@
       "startDate": "2003-11-01",
       "endDate": "2005-10-31",
       "keywords": ["HW Prototyping", "C/C++", "JAVA", "Matlab", "PCB"],
-      "summary": "Genovis among other things manufactures microscopic ferro particles which are used in biotech research to e.g. change genetic information in cells. Markus helped Genovis to develop different tools to measure the particles sizes. Both by developing RF electronics to create high frequency magnetic fields and measure the induced energy, but also by developing simple systems to automate some lab tasks made by their staff.",
+      "summary": "Genovis among other things manufactures microscopic ferro particles which are used in biotech research to e.g. change genetic information in cells. Markus helped Genovis to develop different tools to measure the particle's sizes. Both by developing RF electronics to create high frequency magnetic fields and measure the induced energy, but also by developing simple systems to automate some lab tasks made by their staff.",
       "highlights": [],
       "location": {
 			"city": "Lund",
@@ -263,7 +263,7 @@
       "title": "Project Manager Professional",
       "date": "2017-08-01",
       "awarder": "Project Management Institute",
-      "summary": "Certified project manager professional by the Project Management Institute"
+      "summary": "Certified Project Manager Professional by the Project Management Institute"
     }
   ],
   "publications": [],
