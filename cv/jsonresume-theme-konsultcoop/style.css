@@ -591,8 +591,11 @@ ul.courses li:hover {
     #resume {
         //width: 80%;
         margin: 0 auto;
-        font-size: 13px;
     }
+    
+    .html {
+        font-size: 13px;
+	}
 }
 
 
