@@ -589,7 +589,7 @@ ul.courses li:hover {
 
 @media screen and (min-width: 602px) {
     #resume {
-        width: 80%;
+        //width: 80%;
         margin: 0 auto;
     }
 }
