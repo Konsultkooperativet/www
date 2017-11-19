@@ -13,6 +13,7 @@ do
 	echo "Processing $f file.."; 
 
 	NAME=`echo "$f" | cut -d'.' -f1`
+	NAME=`echo "$NAME" | cut -d'/' -f2`
 
 	cp $f resume.json
 	resume export --theme konsultcoop $NAME.html
