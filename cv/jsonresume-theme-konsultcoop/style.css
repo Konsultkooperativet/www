@@ -604,8 +604,8 @@ ul.courses li:hover {
         margin-left: 1.5em;
     }
     #resume {
-        width: 820px;
-        margin: 2rem auto;      
+        //width: 820px;
+        //margin: 2rem auto;      
     }
     .section>section>header .space-left {
         opacity: 1;
