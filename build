@@ -3,7 +3,8 @@ set -x
 cd cv
 
 npm install -g resume-cli
-#npm install -g jsonresume-theme-stackoverflow
+npm install handlebars
+npm install moment
 
 cd jsonresume-theme-konsultcoop
 npm install -d
