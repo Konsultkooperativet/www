@@ -1,9 +1,9 @@
 cd cv
 npm install -g resume-cli
-npm install -g jsonresume-theme-stackoverflow
-npm install -g jsonresume-theme-elegant
+#npm install -g jsonresume-theme-stackoverflow
+npm install ./jsonresume-theme-konsultcoop
 
-for f in *.json; 
+for f in consultants/*.json; 
 do 
 	echo "Processing $f file.."; 
 

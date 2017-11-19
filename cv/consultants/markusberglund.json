@@ -1,0 +1,383 @@
+{
+  "basics": {
+    "name": "Markus Berglund",
+    "label": "Konsultkooperativet",
+    "picture": "data:image/jpeg;base64,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",
+    "email": "mb@konsult.coop",
+    "phone": "0735-214942",
+    "website": "",
+    "summary": "Markus is a technical consultant with experience within a broad range of technologies and businesses. Markus is a certified (PMP) project manager, having lead research projects for next generation mobile networks, as well as product development within internet safety and security.  Markus has excellent communications skills, and often takes a leading role in teams. Markus also has experience in office and staff management, having recruited both development engineers and sales executives. Comfortable in working on many platforms, in agile teams, and in international organizations. Very well structured and organized.",
+    "location": {
+      "address": "Doktor Lindhs gata 4",
+      "postalCode": "41325",
+      "city": "Göteborg",
+      "countryCode": "",
+      "region": ""
+    },
+    "birth": {
+		"place": "Munkfors",
+  		"state": "Sweden",
+  		"date": "1979-11-29"
+	 },
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "Markus Berglund",
+      "url": "https://www.linkedin.com/in/markusberglundmx/"
+    }]
+  },
+  "work": [
+    {
+      "company": "Huawei Technologies Sweden AB",
+      "position": "Technical Project Manager",
+      "website": "",
+      "startDate": "2015-04-01",
+      "endDate": "2017-04-30",
+      "keywords": ["3GPP", "Telecom", "BTS System", "Project Management", "5G", "Research", "Matlab"],
+      "summary": "Technical project manager for a team of researchers researching technologies for the next generation mobile systems, focusing on the implementation of Massive MIMO antenna systems. Project included circa 20 highly skilled PhD's and MSc's, and resulted in several patent applications. ",
+      "highlights": [
+        "5G Research project with regular contacts with HQ in Shanghai, China"
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		} 
+    },
+    {
+      "company": "CronLab Ltd",
+      "position": "Chief Technology Officer",
+      "website": "http://www.cronlab.com",
+      "startDate": "2011-07-01",
+      "endDate": "2015-03-31",
+      "keywords": ["Entrepreneurship", "Project Management", "Linux", "Clustering", "PHP", "Bash", "Continuous Integration", "Android", "Squid"],
+      "summary": "Markus was in charge of development for CronLab Ltd’s web filtering services, which was used by companies and schools troughout Europe. The system was also built into other manufacturers’ products, e.g., the Android tablet Kurio, targeted to children, where CronLab’s filtering services limits web access. Markus was also managing all aspects of the Swedish subsidiary, being the only Director located in Sweden.",
+      "highlights": [
+        "The filtering service currently has over 1,000,000 users worldwide",
+        "Office manager, recruited and managed developers and sales staff"
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    },
+    {
+      "company": "CronLab Ltd",
+      "position": "Chief Technology Officer",
+      "website": "http://www.cronlab.com",
+      "startDate": "2009-11-01",
+      "endDate": "2011-06-30",
+      "keywords": ["Entrepreneurship", "Project Management", "Linux", "Clustering", "PHP", "Bash", "Continuous Integration", "SMTP"],
+      "summary": "Markus was in charge of developing an Anti-Spam service which was sold in about 15 countries in Europe. The service had an advanced configuration and management interface, both for end users and for resellers and distributors.",
+      "highlights": [],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    },
+    {
+      "company": "Ericsson",
+      "position": "Enbedded Software Engineer",
+      "website": "",
+      "startDate": "2007-09-01",
+      "endDate": "2010-08-31",
+		"keywords": ["3GPP", "BTS System", "Baseband", "C/C++", "Software Architecture", "Software Ingration", "ClearCase"],
+      "summary": "Markus worked with signal processing in the baseband parts of Ericsson’s WCDMA base station software. The work involved implementing the baseband application on a new architecture based on C++.",
+      "highlights": [
+        "Designed and implemented one of the key memory allocators for the baseband chips",
+        "Managed the integration of the different software modules"
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    },
+    {
+      "company": "TietoEnator",
+      "position": "Embedded Software Engineer",
+      "website": "",
+      "startDate": "2006-11-01",
+      "endDate": "2007-08-31",
+      "keywords": ["3GPP", "Baseband", "C", "ClearCase", "Bug Fixing", "Testing"],
+      "summary": "Markus worked with debugging and corrections of live base stations for Ericsson’s customers. The work included testing, simulations, developing new test cases and test methods. The work required a lot of creative debugging since information in trouble reports from customers usually were insufficient.",
+      "highlights": [],
+      "location": {
+			"city": "Karlstad",
+			"countryCode": "",
+			"region": ""
+		}
+	 } ,
+    {
+      "company": "Precise Biometrics Solutions AB",
+      "position": "Development Engineer",
+      "website": "",
+      "startDate": "2005-11-01",
+      "endDate": "2006-10-31",
+      "keywords": ["JAVA", "Smartcards", "Biometrics"],
+      "summary": "Developed new functionality in Precise Biometrics JAVA-card smart cards.",
+      "highlights": [],
+      "location": {
+			"city": "Karlstad",
+			"countryCode": "",
+			"region": ""
+		}
+	 } ,
+    {
+      "company": "WRC Swedish Rally",
+      "position": "Development Engineer",
+      "website": "",
+      "startDate": "2005-11-01",
+      "endDate": "2006-10-31",
+      "keywords": ["FPGA", "Verilog", "JAVA"],
+      "summary": "The Swedish Rally organization wanted to create arenas along the rally course in Sweden. One of these arenas was Colin’s Crest in Värmland. Markus together with a few more engineers created a system to measure speed and jump length for the cars, this was accomplished with the use of photocells and an FPGA.",
+      "highlights": ["<a href='http://goo.gl/WJDj6f'>Article in Aftonbladet</a>"],
+      "location": {
+			"city": "Karlstad",
+			"countryCode": "",
+			"region": ""
+		} 
+
+	 } ,
+    {
+      "company": "Bioett",
+      "position": "Development Engineer",
+      "website": "",
+      "startDate": "2003-11-01",
+      "endDate": "2005-10-31",
+      "keywords": ["FPGA", "Verilog", "AXIS/ETRAX"],
+      "summary": "Developed software for an FPGA which enabled reading of biological RFID tags which were affected by temperature load. These tags were then used within logistics in the food industry.",
+      "highlights": [],
+      "location": {
+			"city": "Lund",
+			"countryCode": "",
+			"region": ""
+		} 
+
+	 } ,
+    {
+      "company": "Medical devices company",
+      "position": "Development Engineer",
+      "website": "",
+      "startDate": "2003-11-01",
+      "endDate": "2005-10-31",
+      "keywords": ["HW Prototyping", "C/C++", "JAVA", "Matlab", "PCB"],
+      "summary": "Markus developed a communications system for implants based on ultra sound. The work included hardware and software, and realistic experiments. A communications protocol was developed with error correction and high safety and security.",
+      "highlights": [],
+      "location": {
+			"city": "Lund",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    } ,
+    {
+      "company": "Genovis",
+      "position": "Development Engineer",
+      "website": "",
+      "startDate": "2003-11-01",
+      "endDate": "2005-10-31",
+      "keywords": ["HW Prototyping", "C/C++", "JAVA", "Matlab", "PCB"],
+      "summary": "Genovis among other things manufactures microscopic ferro particles which are used in biotech research to e.g. change genetic information in cells. Markus helped Genovis to develop different tools to measure the particle's sizes. Both by developing RF electronics to create high frequency magnetic fields and measure the induced energy, but also by developing simple systems to automate some lab tasks made by their staff.",
+      "highlights": [],
+      "location": {
+			"city": "Lund",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Lund Institute of Technology",
+      "area": "Computer Science",
+      "studyType": "Master of Science and Engineering",
+      "startDate": "1999-09-01",
+      "endDate": "2003-06-30",
+      "gpa": "",
+      "summary": "Markus graduated first in his class, 6 months ahead of time. The Master Thesis was a prototype for publishing digital camera photos to a cloud service. It was made as a product evaluation for AXIS Communications in Lund.",
+      "courses": [],
+      "location": {
+			"city": "Lund",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    },
+    {
+      "institution": "Think do and grow",
+      "area": "Management in Focus",
+      "studyType": "Personal Coaching",
+      "startDate": "2013-06-01",
+      "endDate": "2014-06-01",
+      "gpa": "",
+      "summary": "Professional one-on-one coaching programme, focusing on successful leadership principles. Increase co-workers motivation and efficiency by improving leadership skills.",
+      "courses": [],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    },
+    {
+      "institution": "Think do and grow",
+      "area": "Focused Leadership",
+      "studyType": "Personal Coaching",
+      "startDate": "2012-06-01",
+      "endDate": "2013-06-01",
+      "gpa": "",
+      "summary": "Professional one-on-one coaching programme, focusing on personal development and behavioral science.",
+      "courses": [],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    },
+    {
+      "institution": "Nohau",
+      "area": "C++ for embedded systems",
+      "studyType": "",
+      "startDate": "2008-08-01",
+      "endDate": "2008-08-31",
+      "gpa": "",
+      "summary": "C++ specifics for embedded systems with very limited resources",
+      "courses": [],
+      "location": {
+			"city": "Jönköping",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    }
+  ],
+  "awards": [
+    {
+      "title": "Project Manager Professional",
+      "date": "2017-08-01",
+      "awarder": "Project Management Institute",
+      "summary": "Certified Project Manager Professional by the Project Management Institute"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Management",
+      "level": "",
+      "keywords": [
+        "Project Management",
+        "Structured",
+        "Team Leader",
+        "Agile",        "PMI-PMP",
+        "Office and staff Management",
+        "Organized",
+        "Recruiting"
+      ]
+    },
+    {
+      "name": "Telecom",
+      "level": "",
+      "keywords": [
+		  "Massive MIMIO",
+        "3GPP",
+        "WCDMA",
+        "LTE",
+        "5G",
+        "Channel Modeling",
+		  "Simulations",
+		  "METIS",
+		  "BTS System"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": [
+        "C/C++",
+        "Matlab",
+        "PHP",
+        "Java",
+        "Bash",
+        "Android",
+        "Perl",
+        "Enbedded Systems",
+        "Make",
+        "Contiuous integration"
+		]
+    },
+    {
+      "name": "Internet / Web",
+      "level": "",
+      "keywords": [
+		  "SMTP",
+        "Networking",
+        "Clustering",
+        "Load balancing",
+        "HTML", 
+        "CSS", 
+        "AJAX"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Swedish",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [
+        {
+      "name": "Home Automation",
+      "keywords": [
+        "433MHz",
+        "Z-Wave",
+        "Freeboard.io",
+        "Telldus",
+        "Mathworks Thingspeak"
+      ],
+      "summary": "Using home automation to monitor and control the family's country house"
+    },
+    {
+      "name": "Politics and Society",
+      "keywords": [
+        "Finance",
+        "Politics",
+        "News"
+      ],
+      "summary": "Enjoy participating in debates on economy, politics and our society."
+    },
+    {
+      "name": "Food and Drink",
+      "keywords": [
+        "Wine Collecting",
+        "Fine dinig",
+        "cooking",
+        "Baking"
+      ],
+      "summary": "Collecting fine wines and enjoying good food, home or away"
+    }
+  ],
+  "references": [
+    {
+      "name": "Michael Wallenius, CEO CronLab Ltd",
+      "reference": "Markus is an extremely sharp and intelligent person with a broad competence ranging from technology to starting a business. On the social side he shares his elegant humor to all around him when there is time for fun. As an entrepreneurial CTO he has been one of the best I've ever met."
+    },
+    {
+      "name": "",
+      "reference": "Further references on request."
+    }
+
+  ]
+}
