@@ -8,12 +8,14 @@ npm install -g moment
 
 npm install ./jsonresume-theme-konsultcoop
 
-for f in consultants/*.json; 
+for f in *.json; 
 do 
 	echo "Processing $f file.."; 
 
-	cp consultants/$f resume.json
-	resume export --theme konsultcoop $f.html
-	cp $f.html ../public/cv/$f.html
+	NAME=`echo "$f" | cut -d'.' -f1`
+
+	cp $f resume.json
+	resume export --theme konsultcoop $NAME.html
+	cp $NAME.html ../public/cv/$NAME.html
 done
 
