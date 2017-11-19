@@ -6,9 +6,9 @@ npm install -g resume-cli
 npm install -g handlebars
 npm install -g moment
 
-npm install ./jsonresume-theme-konsultcoop
+npm install -g ./jsonresume-theme-konsultcoop
 
-for f in *.json; 
+for f in consultants/*.json; 
 do 
 	echo "Processing $f file.."; 
 
