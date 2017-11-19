@@ -6,9 +6,7 @@ npm install -g resume-cli
 npm install -g handlebars
 npm install -g moment
 
-cd jsonresume-theme-konsultcoop
-npm install -d
-cd ..
+npm install ./jsonresume-theme-konsultcoop
 
 for f in consultants/*.json; 
 do 
