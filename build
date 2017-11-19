@@ -4,7 +4,10 @@ cd cv
 
 npm install -g resume-cli
 #npm install -g jsonresume-theme-stackoverflow
-npm install ./jsonresume-theme-konsultcoop
+
+cd jsonresume-theme-konsultcoop
+npm install -d
+cd ..
 
 for f in consultants/*.json; 
 do 
