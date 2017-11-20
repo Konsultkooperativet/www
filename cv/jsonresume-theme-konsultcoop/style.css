@@ -360,7 +360,6 @@ h2.section-title {
 .title,
 .language {
     font-weight: 600;
-    font-size: 1.4rem;
 }
 
 .company::before,
@@ -598,10 +597,6 @@ ul.courses li:hover {
         //width: 80%;
         margin: 0 auto;
     }
-    
-    .html {
-        font-size: 13px;
-	}
 }
 
 
