@@ -151,6 +151,7 @@ html {
 p {
     display: block;
     margin-bottom: 1.3em;
+    font-size: 0.90rem;
 }
 
 a {
@@ -355,6 +356,7 @@ h2.section-title {
 .language,
 .name {
     font-weight: 600;
+    font-size: 1.4rem;
 }
 
 .company::before,
@@ -389,7 +391,7 @@ ul.courses li {
     display: inline-block;
     margin: 2px 2px 2px 0;
     padding: 4px 5px 5px;
-    font-size: .9rem;
+    font-size: .75rem;
     line-height: 1;
     text-transform: lowercase;
     color: #3e6d8e;
@@ -404,7 +406,7 @@ ul.courses li:hover {
 }
 
 .item {
-    padding: .5em 0;
+/*    padding: .5em 0;*/
 }
 
 .gpa {
