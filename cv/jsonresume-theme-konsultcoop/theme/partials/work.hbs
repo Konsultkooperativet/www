@@ -10,6 +10,11 @@
   <section id="work">
     {{#each resume.work}}
     <section class="work-item">
+			{{#if @first}}
+			{{#else}}
+            <hr class="divider">
+			{{#end}}
+			
 			{{#if company}}
 
       {{#if summary}}
