@@ -349,12 +349,16 @@ h2.section-title {
     display: inline;
 }
 
+.name {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
 .position,
 .studyType,
 .area,
 .title,
-.language,
-.name {
+.language {
     font-weight: 600;
     font-size: 1.4rem;
 }
