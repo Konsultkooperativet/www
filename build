@@ -28,9 +28,9 @@ cd public
 
 for i in $(find . -name '*.html'); do # This breaks if filenames have whitespaces!
 	echo "Parsing CSS for $i\n"
-	sed 's/\<\!---CSS--\>/$COMMON_CSS/g' $i > $i.html
+	sed "s/\<\!---CSS--\>/$COMMON_CSS/g" $i > $i.html
 	NEW_CSS=`uncss $i.html`
-	sed 's/\<\!---CSS--\>/$NEW_CSS/g' $i > $i.html
+	sed "s/\<\!---CSS--\>/$NEW_CSS/g" $i > $i.html
 	rm $i
 	mv $i.html $i
 done
