@@ -24,10 +24,10 @@ cd ..
 
 COMMON_CSS=`cat css/common.html`
 
-for i in $(find -name \*.txt); do # This breaks if filenames have whitespaces!
+for i in $(find -name \*.html); do # This breaks if filenames have whitespaces!
 	perl -pie 's/\<\!---CSS--\>/$COMMON_CSS/g' $1 > $1.html
 	NEW_CSS=`uncss $1.html`
-	sed 's/\<\!---CSS--\>/$NEW_CSS/g' $1 > $1.html
+	perl -pie 's/\<\!---CSS--\>/$NEW_CSS/g' $1 > $1.html
 	rm $1
 	mv $1.html $1
 done
