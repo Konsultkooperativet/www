@@ -1,0 +1,16 @@
+{
+  "name": "jsonresume-theme-konsultcoop",
+  "version": "1.4.0",
+  "description": "Stack Overflow theme for JSON Resume",
+  "author": "Francesco Esposito <http://fran.cesco.io>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/www/jsonresume-theme-stackoverflow"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "handlebars": "^4.0.10",
+    "moment": "^2.18.1"
+  }
+}

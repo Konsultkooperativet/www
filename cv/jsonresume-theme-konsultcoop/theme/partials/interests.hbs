@@ -1,0 +1,34 @@
+{{#if resume.interests.length}}
+<section class="section margin1">
+	<header>
+	     <hr class="divider">
+        <h2 class="text-center text-lg text-uppercase my-0">
+        	<strong>Interests</strong>
+        </h2>
+        <hr class="divider">
+	</header>
+  <section id="interests">
+    {{#each resume.interests}}
+    <div class="item">
+      {{#if name}}
+      <h3 class="name">
+        {{name}}
+      </h3>
+      {{/if}}
+      {{#if keywords.length}}
+      <ul class="keywords">
+        {{#each keywords}}
+        <li>{{.}}</li>
+        {{/each}}
+      </ul>
+      {{/if}}
+      {{#if summary}}
+      <div class="summary">
+        <p>{{paragraphSplit summary}}</p>
+      </div>
+      {{/if}}
+    </div>
+    {{/each}}
+  </section>
+</section>
+{{/if}}

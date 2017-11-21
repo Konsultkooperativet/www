@@ -1,0 +1,53 @@
+{{#if resume.awards.length}}
+<section class="section">
+	<header>
+	     <hr class="divider">
+        <h2 class="text-center text-lg text-uppercase my-0">
+        	<strong>Awards and Certifications</strong>
+        </h2>
+        <hr class="divider">
+	</header>
+  <section id="awards">
+    {{#each resume.awards}}
+    <section class="award-item">
+      {{#if summary}}
+        {{#if @first}}
+        <input id="award-item-{{@index}}" type="checkbox" class="toggle-item" checked="checked" />
+        {{else}}
+        <input id="award-item-{{@index}}" type="checkbox" class="toggle-item" />
+        {{/if}}
+        <label for="award-item-{{@index}}"></label>
+      {{/if}}
+
+      <header>
+        <div class="header-left">
+          {{#if title}}
+          <div class="title">
+            {{title}}
+          </div>
+          {{/if}}
+          {{#if awarder}}
+          <div class="awarder">
+            {{awarder}}
+          </div>
+          {{/if}}
+        </div>
+        {{#if date}}
+        <div class="date">
+          {{Y date}}
+        </div>
+        {{/if}}
+      </header>
+      
+      <div class="item">
+        {{#if summary}}
+        <div class="summary">
+          <p>{{paragraphSplit summary}}</p>
+        </div>
+        {{/if}}
+      </div>
+    </section>
+    {{/each}}
+  </section>
+</section>
+{{/if}}

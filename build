@@ -1,14 +1,22 @@
-cd cv
-npm install -g resume-cli
-npm install -g jsonresume-theme-stackoverflow
-npm install -g jsonresume-theme-elegant
+set -x
 
-for f in *.json; 
+cd cv
+
+npm install -g resume-cli
+npm install -g handlebars
+npm install -g moment
+
+npm install -g ./jsonresume-theme-konsultcoop
+
+for f in consultants/*.json; 
 do 
 	echo "Processing $f file.."; 
 
+	NAME=`echo "$f" | cut -d'.' -f1`
+	NAME=`echo "$NAME" | cut -d'/' -f2`
+
 	cp $f resume.json
-	resume export --theme stackoverflow $f.html
-	cp $f.html ../public/cv/$f.html
+	resume export --theme konsultcoop $NAME.html
+	cp $NAME.html ../public/cv/$NAME.html
 done
 
