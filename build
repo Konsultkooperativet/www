@@ -26,7 +26,7 @@ COMMON_CSS=`cat css/common.html`
 
 cd public
 
-for i in $(find -name \'*.html\'); do # This breaks if filenames have whitespaces!
+for i in $(find -name \*.html); do # This breaks if filenames have whitespaces!
 	echo "Parsing CSS for $1\n"
 	sed 's/\<\!---CSS--\>/$COMMON_CSS/g' $1 > $1.html
 	NEW_CSS=`uncss $1.html`
