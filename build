@@ -32,7 +32,7 @@ for i in $(find . -name '*.html'); do # This breaks if filenames have whitespace
 	cat $i.html
 	uncss $i.html > $i.html.css
 	NEW_CSS=`cat $i.html.css`
-	perl -p0e "s|\<\!---CSS-->|$NEW_CSS|g" $i > $i.html
+	perl -p0e "s|\<\!---CSS-->|\<script\>$NEW_CSS\<\/script\>|g" $i > $i.html
 	rm $i.html.css
 	rm $i
 	mv $i.html $i
