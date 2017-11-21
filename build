@@ -5,6 +5,7 @@ cd cv
 npm install -g resume-cli
 npm install -g handlebars
 npm install -g moment
+npm install -g uncss
 
 npm install -g ./jsonresume-theme-konsultcoop
 
@@ -19,4 +20,14 @@ do
 	resume export --theme konsultcoop $NAME.html
 	cp $NAME.html ../public/cv/$NAME.html
 done
+cd ..
 
+COMMON_CSS=`cat css/common.html`
+
+for i in $(find -name \*.txt); do # This breaks if filenames have whitespaces!
+	perl -pie 's/\<\!---CSS--\>/$COMMON_CSS/g' $1 > $1.html
+	NEW_CSS=`uncss $1.html`
+	perl -pie 's/\<\!---CSS--\>/$NEW_CSS/g' $1 > $1.html
+	rm $1
+	mv $1.html $1
+done
