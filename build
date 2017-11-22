@@ -22,8 +22,6 @@ do
 done
 cd ..
 
-COMMON_CSS=`cat css/common.html`
-
 cd public
 
 for i in $(find . -name '*.html'); do # This breaks if filenames have whitespaces!
