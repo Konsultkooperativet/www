@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /css/
+Disallow: /css/fonts/
 Disallow: /img/
 Disallow: /vendor/

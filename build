@@ -34,3 +34,7 @@ for i in $(find . -name '*.html'); do # This breaks if filenames have whitespace
 	rm $i
 	mv $i.crit $i
 done
+
+npm install -g sitemap-static
+
+sitemap-static --prefix=http://konsult.coop/ . > sitemap.xml
