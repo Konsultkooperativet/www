@@ -5,7 +5,7 @@ cd cv
 npm install -g resume-cli
 npm install -g handlebars
 npm install -g moment
-npm install -g uncss
+npm install -g critical
 
 npm install -g ./jsonresume-theme-konsultcoop
 
@@ -28,12 +28,9 @@ cd public
 
 for i in $(find . -name '*.html'); do # This breaks if filenames have whitespaces!
 	echo "Parsing CSS for $i\n"
-	perl -p0e "s|<\!---CSS-->|$COMMON_CSS|g" $i > $i.html	
-	cat $i.html
-	uncss $i.html > $i.html.css
-	NEW_CSS=`cat $i.html.css`
-	perl -p0e "s|\<\!---CSS-->|\<style\>$NEW_CSS\<\/style\>|g" $i > $i.html
-	rm $i.html.css
+
+	cat $i | critical --base test/fixture --inline > $i.crit	
+	
 	rm $i
-	mv $i.html $i
+	mv $i.crit $i
 done
