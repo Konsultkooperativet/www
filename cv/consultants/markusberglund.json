@@ -264,7 +264,12 @@
       "title": "Project Manager Professional",
       "date": "2017-08-01",
       "awarder": "Project Management Institute",
-      "summary": "Certified Project Manager Professional by the Project Management Institute"
+      "summary": "Certified Project Manager Professional by the Project Management Institute",
+      "location": {
+			"city": " ",
+			"countryCode": "",
+			"region": ""
+		} 
     }
   ],
   "publications": [],
