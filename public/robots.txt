@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /css/
+Disallow: /css/fonts/
+Disallow: /img/
+Disallow: /vendor/
+
+Sitemap: http://konsultkooperativet.se/sitemap.xml

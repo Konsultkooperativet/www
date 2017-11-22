@@ -5,6 +5,7 @@ cd cv
 npm install -g resume-cli
 npm install -g handlebars
 npm install -g moment
+npm install -g critical
 
 npm install -g ./jsonresume-theme-konsultcoop
 
@@ -19,4 +20,21 @@ do
 	resume export --theme konsultcoop $NAME.html
 	cp $NAME.html ../public/cv/$NAME.html
 done
+cd ..
 
+COMMON_CSS=`cat css/common.html`
+
+cd public
+
+for i in $(find . -name '*.html'); do # This breaks if filenames have whitespaces!
+	echo "Parsing CSS for $i\n"
+
+	cat $i | critical --base ./ --inline > $i.crit	
+	
+	rm $i
+	mv $i.crit $i
+done
+
+npm install -g sitemap-static
+
+sitemap-static --prefix=http://konsult.coop/ . > sitemap.xml
