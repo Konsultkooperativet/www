@@ -4,6 +4,10 @@
    	"Om": "About",
    	"Kontakt": "Contact"
 	},
+	"lang": {
+		"changeLang" : "<a href='../'><span class='flag-icon flag-icon-se'></span> Svenska</a>"
+	},
+
 	"h": {
 		"Entreprenörer" : "Entrepreneurs",
 		"Entrsub" : "Creativity, curiosity and appetite for exploration characterizes our consultants",

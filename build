@@ -33,11 +33,11 @@ for i in $(find . -name '*.html'); do # This breaks if filenames have whitespace
 	mv $i.crit $i
 done
 
-npm install -g i18n-static
+npm install -g static-i18n
 
 cd ..
 
-i18n-static -l sv -i sv -i en public
+static-i18n -l sv -i sv -i en public
 
 mv i18n/*.html public/
 mv i18n/en public/

@@ -4,6 +4,10 @@
 		"Om": "Om",
 		"Kontakt": "Kontakt"
 	},
+	"lang": {
+		"changeLang" : "<a href='en/'><span class='flag-icon flag-icon-gb'></span> English</a>"
+	},
+	
 	"h": {
 		"Entreprenörer" : "Entreprenörer",
 		"Entrsub" : "Kreativitet, nyfikenhet och upptäckarlust präglar våra konsulter",
