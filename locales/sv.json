@@ -17,7 +17,13 @@
 		"Frihsub" : "Konsulter med egna företag väljer sina uppdrag",
 		"Välkommentill" : "Välkommen till",
 		"Svförsta" : "Sveriges <strong>första kooperativ*</strong> för egenföretagande konsulter!",
-		"Svförstasub1" : "Konsultkooperativet är ett ärligt, demokratiskt och öppet kooperativ för frilansande teknik- och managementkonsulter. Vi välkomnar alla konsulter som på riktigt vill ha möjlighet att påverka, som är trötta på konsultmäklare som skär emellan, och på andra medarbetsägda bolag, där alla inte får vara med på samma villkor. Konsultkooperativet har inte några storägare, eller orättvisa villkor - kolla gärna våra stadgar!"
-		  }
+		"Svförstasub1" : "Konsultkooperativet är ett ärligt, demokratiskt och öppet kooperativ för frilansande teknik- och managementkonsulter. Vi välkomnar alla konsulter som på riktigt vill ha möjlighet att påverka, som är trötta på konsultmäklare som skär emellan, och på andra medarbetsägda bolag, där alla inte får vara med på samma villkor. Konsultkooperativet har inte några storägare, eller orättvisa villkor - kolla gärna våra stadgar!",
+		"Why" : "Varför <strong>kooperativ</strong> och inte Aktiebolag?",
+		"Whysub" : "Konsultkooperativet är en ekonomisk förening, organisationsformen valdes då den gör det enklast att säkerställa rättvisa, demokrati och transparens. I en ekonomisk förening har alla medlemmar en röst var. En medlem kan alltså aldrig tillskansa sig mer makt över föreningen än någon annan.",
+		"ICAref" : "* Enligt definitionen av Internationella Kooperativa Alliansen (<a href=\"http://ica.coop\">ICA</a>)",
+		"vinst" : "Vad händer med föreningens <strong>vinst</strong>?",
+		"vinstsub" : "Konsultkooperativet mäklar uppdrag åt sina medlemsföretag. För denna service drar föreningen en serviceavgift beräknad på fakturerad tid. Det överskott som föreningen genererar betalas tillbaka som återbäring till medlemmarna utifrån den omsättning medlemmarna har haft i föreningen. För att ha rätt till återbäring ska man ha varit medlem i minst ett år, samt ha valt att betala in en insats till föreningen. Efter återbäring är målsättningen att den faktiska serviceavgiften ska vara under 6%.",
+		"vinstsub2" : "Enligt föreningens stadgar skall föreningen inte göra någon vinst, allt överskott ges som återbäring till medlemmarna."
+	}
 
 }
