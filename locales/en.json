@@ -1,0 +1,20 @@
+{
+	"menu": {
+   	"Hem": "Home",
+   	"Om": "About",
+   	"Kontakt": "Contact"
+	},
+	"h": {
+		"Entreprenörer" : "Entrepreneurs",
+		"Entrsub" : "Creativity, curiosity and appetite for exploration characterizes our consultants",
+		"Göteborg" : "Göteborg",
+		"Götesub" : "Currently we only exist on Sweden's west coast",
+		"Frihet" : "Liberty",
+		"Frihsub" : "Self-employed consultants chooses their assignments",
+		"Välkommentill" : "Welcome to",
+		"Svförsta" : "Sweden's <strong>first cooperative*</strong> for self-employed consultants!",
+		"Svförstasub1" : "Konsultkooperativet is an honest, democratic and open cooperative for freelancing technology and management consultants. We welcome all consultants who wants real power to change, who are tired of brokers who charges too much, and of partnership companies, where all are not treated equal. Konsultkooperativet does not have and large owners, or unfair terms - you are welcome to check our by-laws!"
+		}
+
+	
+}

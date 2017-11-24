@@ -33,6 +33,17 @@ for i in $(find . -name '*.html'); do # This breaks if filenames have whitespace
 	mv $i.crit $i
 done
 
+npm install -g i18n-static
+
+cd ..
+
+static-i18n -l sv -i sv -i en public
+
+mv i18n/*.html public/
+mv i18n/en public/
+
 npm install -g sitemap-static
 
 sitemap-static --prefix=http://konsult.coop/ . > sitemap.xml
+
+
