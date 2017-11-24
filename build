@@ -22,6 +22,11 @@ do
 done
 cd ..
 
+static-i18n -l sv -i sv -i en public
+
+mv i18n/*.html public/
+mv i18n/en public/
+
 cd public
 
 for i in $(find . -name '*.html'); do # This breaks if filenames have whitespaces!
@@ -36,11 +41,6 @@ done
 npm install -g static-i18n
 
 cd ..
-
-static-i18n -l sv -i sv -i en public
-
-mv i18n/*.html public/
-mv i18n/en public/
 
 npm install -g sitemap-static
 
