@@ -106,7 +106,7 @@ hr.divider {
     background-repeat: no-repeat;
     position: relative;
     display: inline-block;
-    width: 2.33333333em;
+    width: 1.33333333em;
     line-height: 1em;
   }
 }
@@ -114,7 +114,7 @@ hr.divider {
 @media (max-width: 991px) {
   .topcorner{
     position:fixed;
-    bottom:0px;
+    bottom: 0px;
     right: 0px;
     padding-left: 8px;
     padding-right: 8px;
