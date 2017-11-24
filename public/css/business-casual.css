@@ -91,6 +91,21 @@ hr.divider {
   background-image: url(../img/se.svg);
 }
 
+@media (min-width: 992px) {
+  .topcorner{
+    position:fixed;
+    top:10px;
+    right: 10px;
+  }
+  }
+@media (max-width: 991px) {
+  .topcorner{
+    position:fixed;
+    bottom:10px;
+    right: 10px;
+  }
+  }
+
 /* FONTS from https://google-webfonts-helper.herokuapp.com/fonts/open-sans?subsets=latin*/
 /* open-sans-300 - latin */
 @font-face {
