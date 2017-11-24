@@ -5,7 +5,7 @@
 		"Kontakt": "Kontakt"
 	},
 	"lang": {
-		"changeLang" : "<a href='en/'><span class='flag-icon flag-icon-gb'></span><div class='langtext'> English</div></a>"
+		"changeLang" : "<a href='en/'><span class='flag-icon flag-icon-gb'></span><div class='langtext'>&nbsp;English</div></a>"
 	},
 	
 	"h": {

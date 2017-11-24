@@ -98,7 +98,7 @@ hr.divider {
     right: 10px;
   }
   .langtext{
-    visibility: true;
+    visibility: visible;
   }
 }
 
@@ -113,7 +113,7 @@ hr.divider {
     padding-top: 2px;
   }
   .langtext{
-    visibility: false;
+    visibility: hidden;
   }
 }
 
