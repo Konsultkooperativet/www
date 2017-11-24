@@ -5,7 +5,7 @@
    	"Kontakt": "Contact"
 	},
 	"lang": {
-		"changeLang" : "<a href='../'><span class='flag-icon flag-icon-se'></span>&nbsp;Svenska</a>"
+		"changeLang" : "<a href='../' class='text-white'><span class='flag-icon flag-icon-se'></span></a>"
 	},
 
 	"h": {

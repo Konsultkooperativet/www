@@ -100,6 +100,15 @@ hr.divider {
   .langtext{
     visibility: visible;
   }
+  .flag-icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 2.33333333em;
+    line-height: 1em;
+  }
 }
 
 @media (max-width: 991px) {
@@ -114,6 +123,15 @@ hr.divider {
   }
   .langtext{
     visibility: hidden;
+  }
+  .flag-icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.33333333em;
+    line-height: 1em;
   }
 }
 
