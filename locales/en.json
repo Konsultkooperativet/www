@@ -1,0 +1,40 @@
+{
+	"menu": {
+   	"Hem": "Home",
+   	"Om": "About",
+   	"Kontakt": "Contact"
+	},
+	"lang": {
+		"changeLang" : "<a href='../' class='text-white'><span class='flag-icon flag-icon-se'></span></a>"
+	},
+
+	"h": {
+		"Entreprenörer" : "Entrepreneurs",
+		"Entrsub" : "Creativity, curiosity and appetite for exploration characterizes our consultants",
+		"Göteborg" : "Göteborg",
+		"Götesub" : "Currently we only exist on Sweden's west coast",
+		"Frihet" : "Liberty",
+		"Frihsub" : "Self-employed consultants chooses their assignments",
+		"Välkommentill" : "Welcome to",
+		"Svförsta" : "Sweden's <strong>first cooperative*</strong> for self-employed consultants",
+		"Svförstasub1" : "Konsultkooperativet is an honest, democratic and open cooperative for freelancing technology and management consultants. We welcome all consultants who want real power to change, who are tired of brokers who charges too much, and of partnership companies, where all are not treated equal. Konsultkooperativet does not have any majority owners, or unfair terms - you are welcome to check our by-laws!",
+		"Svförstasub2" : "Sounds interesting? <a href=\"mailto:ansok@konsult.coop\">Contact us</a> to apply for membership.",
+		"Why" : "Why <strong>cooperative</strong> instead of a limited company?",
+		"Whysub" : "Konsultkooperativet is an \"ekonomisk förening\", this type of organisation was chosen since it makes it simple to secure equality, democracy and transparency. In an \"ekonomisk förening\" every memeber has one vote each. A member can never get more power over the organisation than anyone else.",
+		"ICAref" : "* According to the definition by the International Cooperative Alliance (<a href=\"http://ica.coop\">ICA</a>)",
+		"vinst" : "What happens with the organisation's <strong>profit</strong>?",
+		"vinstsub" : "Konsultkooperativet brokes assignments to its member companies. For this service the organisation charges a commision fee based on invoiced hours. The profit the organisation makes is paid back to the member companies pro rata the member's revenue through the organisation. To qualify for pay back of commision fees, the member must have been a member for at least one year, and also have paid a stake to the organisation. After the pay back, the goal for the organisation is to have a commisson level of less than 6%.",
+		"vinstsub2" : "According to the organisation's by-laws, the organisation should make zero profit.",
+		"om" : "About <strong>Konsultkooperativet</strong>",
+		"om1" : "Konsultkooperativet was foundedn in 2017 by two IT consultants, Markus and Johan, to create a common organisation to consult through. The goal was to create an organisation that was fair, equal, democratic, and that supplies the need of freelancing technology consultants with services such as administration, customer relations and sales support.",
+		"om2" : "The organisation does not have a goal to make profit - so it was not founded to give capital gains to the founders. The founders only profit from the organisation by doing things together - which grows network, and business.",
+		"om3" : "The organisations by-law says that it should not make any profit - that means that commision fees will always be minimized. The by-laws also stipulates how large the spending in the budget may be - this will make sure the commission fee will on average not exceed 6%.",
+		"om4" : "Sounds interesting? In that case, you are welcome to apply for membership <a href=\"mailto:ansok@konsult.coop\">here</a>!",
+		"our" : "Our <strong>Consultants</strong>",
+		"du" : "YOU?<small class=\"text-muted\">Apply</small>"
+		
+		
+	}
+
+	
+}

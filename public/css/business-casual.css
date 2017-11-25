@@ -65,6 +65,69 @@ hr.divider {
   pointer-events: auto;
 }
 
+.flag-icon-background {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+.flag-icon {
+  background-size: contain;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 1.33333333em;
+  line-height: 1em;
+}
+.flag-icon:before {
+  content: "\00a0";
+}
+
+.flag-icon-gb {
+  background-image: url(../img/gb.svg);
+}
+
+.flag-icon-se {
+  background-image: url(../img/se.svg);
+}
+
+@media (min-width: 992px) {
+  .topcorner{
+    position:fixed;
+    top:10px;
+    right: 10px;
+  }
+  .flag-icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.33333333em;
+    line-height: 1em;
+  }
+}
+
+@media (max-width: 991px) {
+  .topcorner{
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+  }
+  .flag-icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.33333333em;
+    line-height: 1em;
+  }
+}
 
 /* FONTS from https://google-webfonts-helper.herokuapp.com/fonts/open-sans?subsets=latin*/
 /* open-sans-300 - latin */
