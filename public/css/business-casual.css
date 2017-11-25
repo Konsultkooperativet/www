@@ -97,9 +97,6 @@ hr.divider {
     top:10px;
     right: 10px;
   }
-  .langtext{
-    visibility: visible;
-  }
   .flag-icon {
     background-size: contain;
     background-position: 50%;
@@ -120,9 +117,6 @@ hr.divider {
     padding-right: 8px;
     padding-bottom: 2px;
     padding-top: 2px;
-  }
-  .langtext{
-    visibility: hidden;
   }
   .flag-icon {
     background-size: contain;
