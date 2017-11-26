@@ -6,7 +6,7 @@
     "email": "mb@konsult.coop",
     "phone": "0735-214942",
     "website": "",
-    "summary": "Markus is a technical consultant with experience within a broad range of technologies and businesses. Markus is a certified (PMP) project manager, having lead research projects for next generation mobile networks, as well as product development within internet safety and security.  Markus has excellent communications skills, and often takes a leading role in teams. Markus also has experience in office and staff management, having recruited both development engineers and sales executives. Comfortable in working on many platforms, in agile teams, and in international organizations. Very well structured and organized.",
+    "summary": "Markus is a technical consultant with experience within a broad range of technologies and businesses. Markus is a certified (PMP) project manager, having lead research projects for next generation mobile networks, as well as product development within internet safety and security.  Markus has excellent communications skills, and often takes a leading role in teams. Markus also has experience in office and staff management, having recruited both development engineers and sales executives. Comfortable in working on many platforms, in agile teams, and in international organisations. Very well structured and organised.",
     "location": {
       "address": "Doktor Lindhs gata 4",
       "postalCode": "41325",
@@ -26,6 +26,21 @@
     }]
   },
   "work": [
+    {
+      "company": "Konsultkooperativet",
+      "position": "Co-Founder of Sweden's first cooperative for self-employed consultants",
+      "website": "http://konsult.coop",
+      "startDate": "2017-11-20",
+      "endDate": "",
+      "keywords": ["Entrepreneurship"],
+      "summary": "Konsultkooperativet is an honest, democratic and open cooperative for freelancing technology and management consultants. We welcome all consultants who want real power to change, who are tired of brokers who charges too much, and of partnership companies, where all are not treated equal. Konsultkooperativet does not have any majority owners, or unfair terms.",
+      "highlights": [],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		  } 
+    },
     {
       "company": "Huawei Technologies Sweden AB",
       "position": "Technical Project Manager",
@@ -134,7 +149,7 @@
       "startDate": "2005-11-01",
       "endDate": "2006-10-31",
       "keywords": ["FPGA", "Verilog", "JAVA"],
-      "summary": "The Swedish Rally organization wanted to create arenas along the rally course in Sweden. One of these arenas was Colin’s Crest in Värmland. Markus together with a few more engineers created a system to measure speed and jump length for the cars, this was accomplished with the use of photocells and an FPGA.",
+      "summary": "The Swedish Rally organisation wanted to create arenas along the rally course in Sweden. One of these arenas was Colin’s Crest in Värmland. Markus together with a few more engineers created a system to measure speed and jump length for the cars, this was accomplished with the use of photocells and an FPGA.",
       "highlights": ["<a href='http://goo.gl/WJDj6f'>Article in Aftonbladet</a>"],
       "location": {
 			"city": "Karlstad",
@@ -281,7 +296,8 @@
         "Project Management",
         "Structured",
         "Team Leader",
-        "Agile",        "PMI-PMP",
+        "Agile",
+        "PMI-PMP",
         "Office and staff Management",
         "Organized",
         "Recruiting"
