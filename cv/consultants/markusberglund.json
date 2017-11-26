@@ -27,6 +27,21 @@
   },
   "work": [
     {
+      "company": "Konsultkooperativet",
+      "position": "Co-Founder of Sweden's first cooperative for self-employed consultants",
+      "website": "http://konsult.coop",
+      "startDate": "2017-11-20",
+      "endDate": "",
+      "keywords": ["Entrepreneurship"],
+      "summary": "Konsultkooperativet is an honest, democratic and open cooperative for freelancing technology and management consultants. We welcome all consultants who want real power to change, who are tired of brokers who charges too much, and of partnership companies, where all are not treated equal. Konsultkooperativet does not have any majority owners, or unfair terms.",
+      "highlights": [],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		  } 
+    },
+    {
       "company": "Huawei Technologies Sweden AB",
       "position": "Technical Project Manager",
       "website": "",
@@ -281,7 +296,8 @@
         "Project Management",
         "Structured",
         "Team Leader",
-        "Agile",        "PMI-PMP",
+        "Agile",
+        "PMI-PMP",
         "Office and staff Management",
         "Organized",
         "Recruiting"
