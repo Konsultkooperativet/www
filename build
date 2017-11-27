@@ -46,6 +46,6 @@ cd ..
 
 npm install -g sitemap-static
 
-sitemap-static --prefix=http://konsult.coop/ . > sitemap.xml
+sitemap-static --prefix=https://www.konsult.coop/ . > sitemap.xml
 
 
