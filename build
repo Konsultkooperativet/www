@@ -23,6 +23,12 @@ do
 done
 cd ..
 
+cd public
+npm install -g sitemap-static
+
+sitemap-static --prefix=https://konsult.coop/ . > sitemap.xml
+cd ..
+
 npm install -g static-i18n
 static-i18n -l sv -i sv -i en public
 
@@ -41,9 +47,5 @@ for i in $(find . -name '*.html'); do # This breaks if filenames have whitespace
 done
 
 
-
-npm install -g sitemap-static
-
-sitemap-static --prefix=https://konsult.coop/ . > sitemap.xml
 
 
