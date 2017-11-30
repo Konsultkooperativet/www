@@ -24,9 +24,48 @@ done
 cd ..
 
 cd public
-npm install -g sitemap-static
 
-sitemap-static --pretty --prefix=https://konsult.coop/ . > sitemap.xml
+echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"
+  xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">
+" > sitemap.xml;
+
+for i in $(find . -name '*.html'); do # This breaks if filenames have whitespaces!
+	echo "Generating Sitemap for $i\n"
+
+	NAME=`echo "$i" | cut -d'.' -f2`
+
+	echo "is $NAME equal to index?\n"
+	
+	if [ "$NAME" == "/index"]
+	then
+		echo "YES!\n"
+		$NAME = "/";
+	fi
+
+	echo "
+ <url>
+    <loc>https://konsult.coop$NAME</loc>
+    <xhtml:link 
+                 rel=\"alternate\"
+                 hreflang=\"en\"
+                 href=\"https://konsult.coop/en$NAME\"
+                 />
+    <xhtml:link 
+                 rel=\"alternate\"
+                 hreflang=\"sv\"
+                 href=\"https://konsult.coop$NAME\"
+                 />
+</url>" >> sitemap.xml;
+done
+echo "</urlset>
+" >> sitemap.xml;
+
+#npm install -g sitemap-static
+
+#sitemap-static --pretty --prefix=https://konsult.coop/ . > sitemap.xml
+
+
 cd ..
 
 npm install -g static-i18n
