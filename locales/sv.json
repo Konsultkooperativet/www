@@ -2,7 +2,9 @@
 	"menu": {
 		"Hem": "Hem",
 		"Om": "Om",
-		"Kontakt": "Kontakt"
+		"Kontakt": "Kontakt",
+		"Social" : "Social"
+		
 	},
 	"lang": {
 		"changeLang" : "<a href='en/' class='text-white'><span class='flag-icon flag-icon-gb'></span></a>"
