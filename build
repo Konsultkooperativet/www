@@ -37,7 +37,7 @@ for i in $(find . -name '*.html'); do # This breaks if filenames have whitespace
 
 	echo "is $NAME equal to index?\n"
 	
-	if [ "$NAME" == "index"]
+	if [ "$NAME" == "/index"]
 	then
 		echo "YES!\n"
 		$NAME = "/";
