@@ -33,7 +33,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 for i in $(find . -name '*.html'); do # This breaks if filenames have whitespaces!
 	echo "Generating Sitemap for $i\n"
 
-	NAME=`echo "$f" | cut -d'.' -f1`
+	NAME=`echo "$i" | cut -d'.' -f1`
 	
 	if [ "$NAME" == "index"]
 	then
