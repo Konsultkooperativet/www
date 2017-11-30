@@ -53,6 +53,7 @@ done
 
 #sitemap-static --pretty --prefix=https://konsult.coop/ . > sitemap.xml
 
+
 cd ..
 
 npm install -g static-i18n
