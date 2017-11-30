@@ -40,21 +40,21 @@ for i in $(find . -name '*.html'); do # This breaks if filenames have whitespace
 	if [ "$NAME" == "index"]
 	then
 		echo "YES!\n"
-		$NAME = "";
+		$NAME = "/";
 	fi
 
 	echo "
  <url>
-    <loc>https://konsult.coop/$NAME</loc>
+    <loc>https://konsult.coop$NAME</loc>
     <xhtml:link 
                  rel=\"alternate\"
                  hreflang=\"en\"
-                 href=\"https://konsult.coop/en/$NAME\"
+                 href=\"https://konsult.coop/en$NAME\"
                  />
     <xhtml:link 
                  rel=\"alternate\"
                  hreflang=\"sv\"
-                 href=\"https://konsult.coop/$NAME\"
+                 href=\"https://konsult.coop$NAME\"
                  />
 </url>" >> sitemap.xml;
 done
