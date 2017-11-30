@@ -49,7 +49,6 @@ for i in $(find . -name '*.html'); do # This breaks if filenames have whitespace
 </url>" >> sitemap.xml;
 done
 echo "</urlset>
-</xml>
 " >> sitemap.xml;
 
 #npm install -g sitemap-static
