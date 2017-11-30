@@ -33,18 +33,25 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 for i in $(find . -name '*.html'); do # This breaks if filenames have whitespaces!
 	echo "Generating Sitemap for $i\n"
 
+	NAME=`echo "$f" | cut -d'.' -f1`
+	
+	if [ "$NAME" == "index"]
+	then
+		$NAME = "";
+	fi
+
 	echo "
  <url>
-    <loc>https://konsult.coop/$i</loc>
+    <loc>https://konsult.coop/$NAME</loc>
     <xhtml:link 
                  rel=\"alternate\"
                  hreflang=\"en\"
-                 href=\"https://konsult.coop/en/$i\"
+                 href=\"https://konsult.coop/en/$NAME\"
                  />
     <xhtml:link 
                  rel=\"alternate\"
                  hreflang=\"sv\"
-                 href=\"https://konsult.coop/$i\"
+                 href=\"https://konsult.coop/$NAME\"
                  />
 </url>" >> sitemap.xml;
 done
