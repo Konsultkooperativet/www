@@ -2,7 +2,8 @@
 	"menu": {
    	"Hem": "Home",
    	"Om": "About",
-   	"Kontakt": "Contact"
+	   "Kontakt": "Contact",
+	   "Social" : "Social"
 	},
 	"lang": {
 		"changeLang" : "<a href='../' class='text-white'><span class='flag-icon flag-icon-se'></span></a>"
