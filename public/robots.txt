@@ -4,4 +4,4 @@ Disallow: /css/fonts/
 Disallow: /img/
 Disallow: /vendor/
 
-Sitemap: http://konsultkooperativet.se/sitemap.xml
+Sitemap: https://konsult.coop/sitemap.xml
