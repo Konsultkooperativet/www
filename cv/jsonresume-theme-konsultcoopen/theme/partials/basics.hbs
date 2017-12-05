@@ -12,7 +12,29 @@
 			<h2 class="label">{{label}}</h2>
 		</div>
 		{{/if}} 
-		
+	
+	<script type="application/ld+json">
+		{{#location}}
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "{{address}}",
+        "postalCode": "{{postalCode}}",
+        "streetAddress": "{{address}}"
+      },
+		{{/location}} 
+      "email": "mailto:{{email}}",
+      "image": "{{picture}}",
+      "jobTitle": "{{label}}",
+      "name": "{{name}}",
+      "memberOf": "Konsultkooperativet",
+      "telephone": "{{phone}}",
+      "url": "https://konsult.coop/en/"
+    }
+    </script>
+
 		{{#location}}
 		<span class="location">
 			{{#if address}}
