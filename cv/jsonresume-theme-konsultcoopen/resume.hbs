@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109704992-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109704992-1');
+  </script>
+  <meta charset="utf-8">
+  <meta name="description" content="{{#resume.basics}}{{summary}}{{/resume.basics}}">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>{{#resume.basics}}{{name}}{{/resume.basics}}, Konsultkooperativet</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+  {{{css}}}
+  </style>
+
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/business-casual.css" rel="stylesheet">
+
+	<script src="https://use.fontawesome.com/39efd6f705.js"></script>
+
+  
+  </head>
+  <body>
+  
+    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Konsultkooperativet</div>
+    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block"><strong>Fria</strong> teknik- och management<wbr>konsulter</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Konsult.coop</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="../index">Hem
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="../about">Om</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="../contact">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <div class="container" id="resume">
+  <div class="bg-faded p-4 my-4">
+
+    {{> basics }}
+    {{> skills }}
+    {{> work }}
+    {{> projects }}
+    {{> volunteer }}
+    {{> education }}
+    {{> awards }}
+    {{> publications }}
+    {{> languages }}
+    {{> interests }}
+    {{> references }}
+	</div>
+	
+
+    <footer class="bg-faded text-center py-5">
+      <div class="container">
+        <p class="m-0">Copyright &copy; Konsultkooperativet 2017</p>
+        <p class="m-0"><a href="https://www.facebook.com/konsult.coop/"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/konsultkooperativet/"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/konsult_coop"><i class="fa fa-twitter"></i></a></p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>

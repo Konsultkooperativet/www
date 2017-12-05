@@ -1,28 +1,6 @@
 #!/bin/sh
 set -x
 
-cd cv
-
-npm install -g resume-cli
-npm install -g handlebars
-npm install -g moment
-npm install -g critical
-
-npm install -g ./jsonresume-theme-konsultcoop
-
-for f in consultants/*.json; 
-do 
-	echo "Processing $f file.."; 
-
-	NAME=`echo "$f" | cut -d'.' -f1`
-	NAME=`echo "$NAME" | cut -d'/' -f2`
-
-	cp $f resume.json
-	resume export --theme konsultcoop $NAME.html
-	cp $NAME.html ../public/cv/$NAME.html
-done
-cd ..
-
 cd public
 
 echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
@@ -61,10 +39,6 @@ done
 echo "</urlset>
 " >> sitemap.xml;
 
-#npm install -g sitemap-static
-
-#sitemap-static --pretty --prefix=https://konsult.coop/ . > sitemap.xml
-
 
 cd ..
 
@@ -73,6 +47,32 @@ static-i18n -l sv -i sv -i en public
 
 mv i18n/*.html public/
 mv i18n/en public/
+
+cd cv
+
+npm install -g resume-cli
+npm install -g handlebars
+npm install -g moment
+npm install -g critical
+
+npm install -g ./jsonresume-theme-konsultcoop
+npm install -g ./jsonresume-theme-konsultcoopen
+
+for f in consultants/*.json; 
+do 
+	echo "Processing $f file.."; 
+
+	NAME=`echo "$f" | cut -d'.' -f1`
+	NAME=`echo "$NAME" | cut -d'/' -f2`
+
+	cp $f resume.json
+	resume export --theme konsultcoop $NAME.html
+	cp $NAME.html ../public/cv/$NAME.html
+
+	resume export --theme konsultcoop $NAME.html
+	cp $NAME.html ../public/en/cv/$NAME.html
+done
+cd ..
 
 cd public
 
