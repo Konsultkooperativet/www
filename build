@@ -58,6 +58,8 @@ npm install -g critical
 npm install -g ./jsonresume-theme-konsultcoop
 npm install -g ./jsonresume-theme-konsultcoopen
 
+mkdir ../public/en/cv/
+
 for f in consultants/*.json; 
 do 
 	echo "Processing $f file.."; 
