@@ -1,7 +1,3 @@
 User-agent: *
-Disallow: /css/
-Disallow: /css/fonts/
-Disallow: /img/
-Disallow: /vendor/
 
 Sitemap: https://konsult.coop/sitemap.xml
