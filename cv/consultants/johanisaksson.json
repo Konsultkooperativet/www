@@ -69,12 +69,12 @@
       "highlights": []
     },
     {
-      "company": "Seapilot",
-      "position": "konsult",
-      "website": "http://seapilot.com",
-      "startDate": "2014-08-01",
-      "endDate": "2015-09-01",
-      "summary": "Portering av känd navigationsapp till Windows Phone 8.1 universal.",
+      "company": "InnovDr",
+      "position": "CTO",
+      "website": "https://aidr.com",
+      "startDate": "2016-03-01",
+      "endDate": "",
+      "summary": "Grundare och CTO med ansvar för utveckling och drift av InnovDr:s tekniska system, däribland www.urinkollen.se och www.aird.com.",
       "highlights": []
     },
     {
@@ -96,6 +96,15 @@
       "highlights": []
     },
     {
+      "company": "Seapilot",
+      "position": "konsult",
+      "website": "http://seapilot.com",
+      "startDate": "2014-08-01",
+      "endDate": "2015-09-01",
+      "summary": "Portering av känd navigationsapp till Windows Phone 8.1 universal.",
+      "highlights": []
+    },
+    {
       "company": "Chalmers SAFER",
       "position": "Arkitekt och utvecklare",
       "website": "",
@@ -111,6 +120,15 @@
       "startDate": "2012",
       "endDate": "2013",
       "summary": "Utveckling av Android-app för kommunikation med hårdvara via Bluetooth från HTML5/Javascript.",
+      "highlights": []
+    },
+    {
+      "company": "AccelerandE",
+      "position": "Grundare",
+      "website": "http://accelerande.com",
+      "startDate": "2012-04-01",
+      "endDate": "",
+      "summary": "Delägare",
       "highlights": []
     },
     {
@@ -327,24 +345,6 @@
       "startDate": "1986-06-01",
       "endDate": "1990-09-01",
       "summary": "Programmerade utvärderingsprogram (datakommunikation, lagring och presentation av mätdata) för DOS/PC.",
-      "highlights": []
-    },
-    {
-      "company": "AccelerandE",
-      "position": "Grundare",
-      "website": "http://accelerande.com",
-      "startDate": "2012-04-01",
-      "endDate": "",
-      "summary": "Delägare",
-      "highlights": []
-    },
-    {
-      "company": "InnovDr",
-      "position": "CTO",
-      "website": "https://aidr.com",
-      "startDate": "2016-03-01",
-      "endDate": "",
-      "summary": "Grundare och CTO med ansvar för utveckling och drift av InnovDr:s tekniska system, däribland www.urinkollen.se och www.aird.com.",
       "highlights": []
     }
   ],
