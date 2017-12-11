@@ -3,7 +3,7 @@
     "name": "Johan Isaksson",
     "label": "Programmer",
     "picture": "https://konsult.coop/img/johanisaksson.jpg",
-    "email": "johan@konsultkooperativet.se",
+    "email": "ji@konsult.coop",
     "phone": "0709-369520",
     "website": "http://izaxon.se",
     "summary": "Senior applikationsarkitekt, programmerare och projektledare. Johan har arbetat med utveckling av mjukvaruprodukter, programmering och projektledning i över 30 år. Hans specialkompetens är produktutveckling, helst svåra projekt som är en utmaning.",
@@ -67,47 +67,314 @@
       "endDate": "2017-03-01",
       "summary": "Teknisk expert inom mobilapputveckling hos App Center of Excellence på SKF. Uppdrag att skapa App Governance-dokumentation för utveckling och förvaltning av appar på SKF. Roll som mobilarkitekt med erfarenhet av teknologi, utveckling och mobila appar. Arbetat med Github, Bitbucket, SAP, Citrix Netscaler, Amazon Web Services (AWS), Office365, PowerBI, PowerApps, BuddyBuild, Visual Studio Team Services (VSTS), Akamai, Ionic, app analytics, legal, design guidelines, säkerhet och mobil strategi.",
       "highlights": []
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
+      "company": "InnovDr",
+      "position": "CTO",
+      "website": "https://aidr.com",
+      "startDate": "2016-03-01",
+      "endDate": "",
+      "summary": "Grundare och CTO med ansvar för utveckling och drift av InnovDr:s tekniska system, däribland www.urinkollen.se och www.aird.com.",
+      "highlights": []
+    },
+    {
+      "company": "Benify",
+      "position": "Senior utvecklare",
+      "website": "http://benify.com",
+      "startDate": "2015-10-01",
+      "endDate": "2016-06-01",
+      "summary": "Utvecklare/kompetensförstärkning i uppstartsprojekt hos Benify.",
+      "highlights": []
+    },
+    {
+      "company": "Skandiabanken",
+      "position": "Windows Phone-expert",
+      "website": "",
+      "startDate": "2015-01-01",
+      "endDate": "2015-05-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Seapilot",
+      "position": "konsult",
+      "website": "http://seapilot.com",
+      "startDate": "2014-08-01",
+      "endDate": "2015-09-01",
+      "summary": "Portering av känd navigationsapp till Windows Phone 8.1 universal.",
+      "highlights": []
+    },
+    {
+      "company": "Chalmers SAFER",
+      "position": "Arkitekt och utvecklare",
+      "website": "",
+      "startDate": "2013",
+      "endDate": "2013",
+      "summary": "Arkitekt och utvecklare av internetportal för uppladdning, analys och visualisering (grafer) av stora datafiler. Eftersom portalen finns på webben så blir det enkelt för forskare och studenter att arbeta, rita och dela insamlad data var de än är.",
+      "highlights": []
+    },
+    {
+      "company": "Telefrang AB",
+      "position": "HW-utvecklare ",
+      "website": "",
+      "startDate": "2012",
+      "endDate": "2013",
+      "summary": "Utveckling av Android-app för kommunikation med hårdvara via Bluetooth från HTML5/Javascript.",
+      "highlights": []
+    },
+    {
+      "company": "AccelerandE",
+      "position": "Grundare",
+      "website": "http://accelerande.com",
+      "startDate": "2012-04-01",
+      "endDate": "",
+      "summary": "Delägare",
+      "highlights": []
+    },
+    {
+      "company": "MoMA Mobile AB",
+      "position": "CTO",
+      "website": "",
+      "startDate": "2012",
+      "endDate": "2013",
+      "summary": "Utveckling av versions- och tjänstebaserat system som backend för agil utveckling av mobilsajt/apps-utveckling.",
+      "highlights": []
+    },
+    {
+      "company": "Acapela Group AB",
+      "position": "Produktägare",
+      "website": "http://acapela-group.com",
+      "startDate": "2009",
+      "endDate": "2012",
+      "summary": "Produktägare och utvecklare Acapela Kiosk (ett system för taltidningsproduktion).",
+      "highlights": []
+    },
+    {
+      "company": "Volvo 3P",
+      "position": "Embedded-utvecklare",
+      "website": "",
+      "startDate": "2009",
+      "endDate": "2010",
+      "summary": "Utveckling av programvara i vagnsdatorn för lastvagnar. Erfarenhet av VECU3 och Autosar/VMCU.",
+      "highlights": []
+    },
+    {
+      "company": "Daddy AB",
+      "position": "Utvecklare",
+      "website": "",
+      "startDate": "2008",
+      "endDate": "",
+      "summary": "Utveckling av databaskoppling och statistik för en webbapplikation.",
+      "highlights": []
+    },
+    {
+      "company": "Humphree Sweden AB",
+      "position": "Embedded-utvecklare",
+      "website": "",
+      "startDate": "2008",
+      "endDate": "2009",
+      "summary": "Utveckling av RCS (Ride-Control-System) för båtstyrning (Linux och Windows XP Embedded) och dess kringprogramvara. Installation, utveckling och leverans av speciallösning för lyxyacht.",
+      "highlights": []
+    },
+    {
+      "company": "Franghem Elektronik AB",
+      "position": "Embedded-utvecklare",
+      "website": "",
+      "startDate": "2006",
+      "endDate": "2007",
+      "summary": "Vidareutveckling av ett embeddedsystem i Linux för båtstyrning.",
+      "highlights": []
+    },
+    {
+      "company": "Volvo Teknisk Utveckling",
+      "position": "Utvecklare",
+      "website": "",
+      "startDate": "2006",
+      "endDate": "",
+      "summary": "Utveckling av nästa generations embedded-system för Volvo Dynafleet.",
+      "highlights": []
+    },
+    {
+      "company": "Mediearkivet & SvD",
+      "position": "Utvecklare",
+      "website": "",
+      "startDate": "2005",
+      "endDate": "",
+      "summary": "Utveckling av Izaxon Taltidningssystemet. Deltagare i taltidningsprojekt med Acapela Group, SvD, Voice AB och Mediearkivet.",
+      "highlights": []
+    },
+    {
+      "company": "Danaher Motion AB",
+      "position": "Embeddedprogrammering",
+      "website": "",
+      "startDate": "2004",
+      "endDate": "2005",
+      "summary": "Embeddedprogrammering och utveckling av programmeringsverktyg för förarlösa truckar.",
+      "highlights": []
+    },
+    {
+      "company": "Swedsleep/HIC AB",
+      "position": "Utvecklare",
+      "website": "",
+      "startDate": "2004",
+      "endDate": "2009",
+      "summary": "Utveckling av algoritmer och system för sömn- och snarkanalys. Utveckling av snarkdetektion för forskningsändamål och kommersiell användning (”snarksängen”). Leverans av snarksäng med embedded-enhet för snarkanalys till Hilding.",
+      "highlights": []
+    },
+    {
+      "company": "Infolet AB",
+      "position": "VD & grundare",
+      "website": "",
+      "startDate": "2004",
+      "endDate": "2007",
+      "summary": "Utveckling och företagsledning för produkten InfoletNews® i eget bolag tillsammans med säljare och marknadsförare.",
+      "highlights": []
+    },
+    {
+      "company": "Autoliv Development AB",
+      "position": "Utvecklare",
+      "website": "",
+      "startDate": "2004",
+      "endDate": "2006",
+      "summary": "Underhåll och utveckling av ett avancerat realtidssystem för mätning av CAN-data, IR, video, GPS mm i en forskningsbil på Autoliv.",
+      "highlights": []
+    },
+    {
+      "company": "Volvo AB",
+      "position": "Systemintegration",
+      "website": "",
+      "startDate": "2004",
+      "endDate": "",
+      "summary": "Konsultation och anpassning av InfoletNews® för omvärldsbevakning inom miljöområdet på Volvos huvudkontor.",
+      "highlights": []
+    },
+    {
+      "company": "Göteborg Energi AB",
+      "position": "Leverantör & systemintegratör",
+      "website": "",
+      "startDate": "2003",
+      "endDate": "",
+      "summary": "Leverans och vidareutveckling av Izaxon Home till visningslägenheten Optibo.",
+      "highlights": []
+    },
+    {
+      "company": "Voice Professional AB",
+      "position": "Leverantör & utvecklare",
+      "website": "",
+      "startDate": "2003",
+      "endDate": "2008",
+      "summary": "Hjälpapplikationer för talsyntes och inläsning av talböcker.",
+      "highlights": []
+    },
+    {
+      "company": "singularity.se",
+      "position": "Leverantör & utvecklare",
+      "website": "",
+      "startDate": "2002-08-01",
+      "endDate": "2002-11-01",
+      "summary": "Utveckling och anpassning av BugDB för försvarets flygcentrum.",
+      "highlights": []
+    },
+    {
+      "company": "FMV",
+      "position": "Systemintegration & utveckling",
+      "website": "",
+      "startDate": "2001-09-01",
+      "endDate": "2002-03-01",
+      "summary": "Ansvarade för ett utvecklingsprojekt på FFV där man kopplade ihop vanliga spel för stridsflygning med riktiga simuleringsystem inom flygvapnet via DIS (Distributer Interactive Simulation).",
+      "highlights": []
+    },
+    {
+      "company": "Frontyard AB / eHem AB",
+      "position": "Grundare & utvecklingschef",
+      "website": "",
+      "startDate": "1999-02-01",
+      "endDate": "2001-08-01",
+      "summary": "Grundade eHem AB, utvecklare och systemleverantör intelligenta hem.",
+      "highlights": []
+    },
+    {
+      "company": "Summus Ltd",
+      "position": "Forskningsutvecklare och produktutvecklingschef",
+      "website": "",
+      "startDate": "1997-02-01",
+      "endDate": "1999-02-01",
+      "summary": "Implementerade video-codec och startade produktutvecklingsgrupp på Summus, Ltd. i South Carolina, USA.",
+      "highlights": []
+    },
+    {
+      "company": "Clarus AB",
+      "position": "Utvecklare och produktchef",
+      "website": "",
+      "startDate": "1994-11-01",
+      "endDate": "1997-02-01",
+      "summary": "Ledde VR (Virtual Reality) på PC och skapade produkten EON.",
+      "highlights": []
+    },
+    {
+      "company": "Astra AB",
+      "position": "Programmerare",
+      "website": "",
+      "startDate": "1994-06-01",
+      "endDate": "1994-11-01",
+      "summary": "Specifikation, design, och implementation av en OLE-applikation för flödesdesign av medicinska tester av läkemedel på Astra.",
+      "highlights": []
+    },
+    {
+      "company": "Tudor AB",
+      "position": "Utvecklare",
+      "website": "",
+      "startDate": "1992-09-01",
+      "endDate": "1994-10-01",
+      "summary": "Skapade ett system för produktionsplanering, säljplanering och analys åt Tudor AB (ca 1 manårs jobb). Systemet användes i Danmark, Finland, Norge och Sverige.",
+      "highlights": []
+    },
+    {
+      "company": "Microsoft Corporation",
+      "position": "Localizer",
+      "website": "https://microsoft.com",
+      "startDate": "1991-08-01",
+      "endDate": "1992-08-01",
+      "summary": "Koordinerade och översatte Schedule+, MacMail, PC Mail, LAN Manager etc. hos Microsoft Corporation i Dublin, Irland och (3 mån) i Redmond, USA.",
+      "highlights": []
+    },
+    {
+      "company": "Intab AB",
+      "position": "Programmerare",
+      "website": "",
+      "startDate": "1986-06-01",
+      "endDate": "1990-09-01",
+      "summary": "Programmerade utvärderingsprogram (datakommunikation, lagring och presentation av mätdata) för DOS/PC.",
+      "highlights": []
     }
   ],
+  "volunteer": [],
   "education": [
     {
       "institution": "Chalmers Tekniska Högskola ",
       "area": "Datateknik och matematik",
       "studyType": "Civilingenjör",
-      "startDate": "1989",
-      "endDate": "1993",
+      "startDate": "1989-08-01",
+      "endDate": "1993-04-01",
       "gpa": "",
-      "courses": []
+      "courses": [
+        "Machine Learning, Stanford University (Coursera)",
+        "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
+        "Convolutional Neural Networks",
+        "Structuring Machine Learning Projects",
+        "Neural Networks and Deep Learning",
+        ""
+      ]
     }
   ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
+  "awards": [],
   "publications": [
     {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "name": "Job Shop Schedule Optimisation",
+      "publisher": "Self published",
+      "releaseDate": "2010-09-15",
+      "website": "https://www.amazon.com/Shop-Schedule-Optimisation-Johan-Isaksson-ebook/dp/B00439GJHW/ref=sr_1_2?s=books&ie=UTF8&qid=1512927722&sr=8-2&keywords=johan+isaksson",
+      "summary": "MSc thesis => This work describes the implementation of a job shop schedule optimisation program. A genetic algorithm is used for the optimisation and it uses a job shop simulation program for schedule evaluation."
     }
   ],
   "skills": [
@@ -116,7 +383,7 @@
       "level": "",
       "keywords": [
         "Bild- och videokomprimering",
-        "Simuleringssystem",
+        "Parallella simuleringssystem",
         "Matlab, Python"
       ]
     },
@@ -144,9 +411,16 @@
       ]
     },
     {
-      "name": "",
+      "name": "Machine Learning",
       "level": "",
-      "keywords": []
+      "keywords": [
+        "Keras",
+        "Tensorflow",
+        "Matlab",
+        "Python/Jupyter",
+        "Azure Machine Learning Studio",
+        ""
+      ]
     }
   ],
   "languages": [
