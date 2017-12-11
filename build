@@ -36,8 +36,6 @@ for i in $(find . -name '*.html'); do # This breaks if filenames have whitespace
                  />
 </url>" >> sitemap.xml;
 done
-echo "</urlset>
-" >> sitemap.xml;
 
 
 cd ..
@@ -73,10 +71,28 @@ do
 
 	resume export --theme konsultcoopen $NAME.html
 	cp $NAME.html ../public/en/cv/$NAME.html
+
+	echo "
+ <url>
+    <loc>https://konsult.coop/cv/$NAME</loc>
+    <xhtml:link 
+                 rel=\"alternate\"
+                 hreflang=\"en\"
+                 href=\"https://konsult.coop/en/cv/$NAME\"
+                 />
+    <xhtml:link 
+                 rel=\"alternate\"
+                 hreflang=\"sv\"
+                 href=\"https://konsult.coop/cv/$NAME\"
+                 />
+</url>" >> ../public/sitemap.xml;
 done
 cd ..
 
 cd public
+
+echo "</urlset>
+" >> sitemap.xml;
 
 #for i in $(find . -name '*.html'); do # This breaks if filenames have whitespaces!
 #	echo "Parsing CSS for $i\n"
