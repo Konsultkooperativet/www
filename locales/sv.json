@@ -32,7 +32,9 @@
 		"om3" : "Föreningens stadgar föreskriver bland annat att föreningen inte ska göra någon vinst - det innebär att det mellanskär (serviceavgift) som föreningen tar ut, alltid kommer att minimeras. Det är även reglerat hur stor budgetomslutning föreningen får ha - detta kommer göra att serviceavgiften i snitt ej ska överstiga 6%.",
 		"om4" : "Låter det intressant? Du är i så fall välkommen att ansöka om medlemskap <a href=\"mailto:ansok@konsult.coop\">här</a>!",
 		"our" : "Våra <strong>Konsulter</strong>",
-		"du" : "DU?<small class=\"text-muted\">Ansök</small>"
+		"du" : "DU?<small class=\"text-muted\">Ansök</small>",
+		"maklare" : "",
+		"maklaresub" : ""
 	}
 
 }
