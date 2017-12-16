@@ -33,8 +33,8 @@
 		"om4" : "Låter det intressant? Du är i så fall välkommen att ansöka om medlemskap <a href=\"mailto:ansok@konsult.coop\">här</a>!",
 		"our" : "Våra <strong>Konsulter</strong>",
 		"du" : "DU?<small class=\"text-muted\">Ansök</small>",
-		"maklare" : "",
-		"maklaresub" : ""
+		"maklare" : "Kooperativ konsult<strong>mäklare</strong>",
+		"maklaresub" : "Konsultkooperativet kan ses som en konsultmäklare utan vinstintresse. Föreningens huvuduppgift är att tillse att alla medlemmar har konsultuppdrag, genom att förmedla konsultuppdrag som en konsultmäklare. Kooperativet verkar för att teckna avtal direkt med kunder, utan extern konsultmäklare som mellanhand, i de fall det är möjligt. I andra fall använder föreningen externa konsultmäklare."
 	}
 
 }
