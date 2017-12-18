@@ -93,14 +93,14 @@ cd public
 echo "</urlset>
 " >> sitemap.xml;
 
-#for i in $(find . -name '*.html'); do # This breaks if filenames have whitespaces!
-#	echo "Parsing CSS for $i\n"
-#
-#	cat $i | critical --minify true --base ./ --inline > $i.crit	
-#	
-#	rm $i
-#	mv $i.crit $i
-#done
+for i in $(find . -name '*.html'); do # This breaks if filenames have whitespaces!
+	echo "Parsing CSS for $i\n"
+
+	cat $i | critical --minify true --base ./ --inline > $i.crit	
+	
+	rm $i
+	mv $i.crit $i
+done
 
 
 
