@@ -24,7 +24,7 @@
 		"Whysub" : "Konsultkooperativet är en ekonomisk förening, organisationsformen valdes då den gör det enklast att säkerställa rättvisa, demokrati och transparens. I en ekonomisk förening har alla medlemmar en röst var. En medlem kan alltså aldrig tillskansa sig mer makt över föreningen än någon annan.",
 		"ICAref" : "* Enligt definitionen av Internationella Kooperativa Alliansen (<a href=\"http://ica.coop\">ICA</a>)",
 		"vinst" : "Vad händer med föreningens <strong>vinst</strong>?",
-		"vinstsub" : "Konsultkooperativet mäklar uppdrag åt sina medlemsföretag. För denna service drar föreningen en serviceavgift beräknad på fakturerad tid. Det överskott som föreningen genererar betalas tillbaka som återbäring till medlemmarna utifrån den omsättning medlemmarna har haft i föreningen. För att ha rätt till återbäring ska man ha varit medlem i minst ett år, samt ha valt att betala in en insats till föreningen. Efter återbäring är målsättningen att den faktiska serviceavgiften ska vara under 6%.",
+		"vinstsub" : "Kooperativet agerar konsultmäklare och mäklar konsultuppdrag åt sina medlemsföretag. För denna service drar föreningen en serviceavgift beräknad på fakturerad kostnad. Det överskott som föreningen genererar betalas tillbaka som återbäring till medlemmarna utifrån den omsättning medlemmarna har haft i föreningen. För att ha rätt till återbäring ska man ha varit medlem i minst ett år, samt ha valt att betala in en insats till föreningen. Efter återbäring är målsättningen att den faktiska serviceavgiften ska vara under 6%.",
 		"vinstsub2" : "Enligt föreningens stadgar skall föreningen inte göra någon vinst, allt överskott ges som återbäring till medlemmarna.",
 		"om" : "Om <strong>Konsult<wbr>kooperativet</strong>",
 		"om1" : "Konsultkooperativet bildades 2017 av två IT-konsulter, Markus och Johan, för att skapa en gemensam verksamhet att bedriva konsulttjänster i. Målet med grundandet var att skapa ett bolag som är rättvist, demokratiskt och som tillgodoser de behov frilansande teknikkonsulter har, framförallt inom gemensam administration, kundkontakter och säljstöd.",
@@ -34,6 +34,6 @@
 		"our" : "Våra <strong>Konsulter</strong>",
 		"du" : "DU?<small class=\"text-muted\">Ansök</small>",
 		"maklare" : "Kooperativ <strong>konsultmäklare</strong>",
-		"maklaresub" : "Konsultkooperativet kan ses som en konsultmäklare utan vinstintresse. Föreningens huvuduppgift är att tillse att alla medlemmar har konsultuppdrag, genom att förmedla konsultuppdrag som en konsultmäklare. Kooperativet verkar för att teckna avtal direkt med kunder, utan extern konsultmäklare som mellanhand, i de fall det är möjligt. I andra fall använder föreningen externa konsultmäklare."
+		"maklaresub" : "Konsultkooperativet kan ses som en konsultmäklare utan vinstintresse. Föreningens medlemmar är alla underkonsulter i egna bolag. Föreningens huvuduppgift är att tillse att alla underkonsulter har konsultuppdrag. Kooperativet verkar för att teckna avtal direkt med kunder, utan extern konsultmäklare som mellanhand. Målsättningen är att föreningens underkonsulter (medlemmar) inte ska behöva anlita externa konsultmäklare."
 	}
 }
