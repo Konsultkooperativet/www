@@ -129,6 +129,26 @@ hr.divider {
   }
 }
 
+.search-result .thumbnail { border-radius: 0 !important; vertical-align: middle; }
+.search-result:first-child { margin-top: 0 !important; }
+.search-result { margin-top: 20px; }
+.search-result .col-md-2 { border-right: 1px dotted #ccc; min-height: 140px; }
+.search-result ul { padding-left: 0 !important; list-style: none;  }
+.search-result ul li {line-height: 30px; }
+.search-result ul li i { padding-right: 5px; }
+.search-result .col-md-7 { position: relative; }
+.search-result h3 { margin-top: 0 !important; margin-bottom: 10px !important; }
+.search-result h3 > a, .search-result i { color: #248dc1 !important; }
+.search-result span.plus { position: absolute; right: 0; top: 126px; }
+.search-result span.plus a { background-color: #248dc1; padding: 5px 5px 3px 5px; }
+.search-result span.plus a:hover { background-color: #414141; }
+.search-result span.plus a i { color: #fff !important; }
+.search-result span.border { display: block; width: 97%; margin: 0 15px; border-bottom: 1px dotted #ccc; }
+.search-result span.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
 /* FONTS from https://google-webfonts-helper.herokuapp.com/fonts/open-sans?subsets=latin*/
 /* open-sans-300 - latin */
 @font-face {
