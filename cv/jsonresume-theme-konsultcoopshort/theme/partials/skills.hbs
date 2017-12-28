@@ -1,0 +1,37 @@
+{{#if resume.skills.length}}
+<section class="section margin1">
+	<header>
+	     <hr class="divider">
+        <h2 class="text-center text-lg text-uppercase my-0">
+        	<strong>Färdigheter</strong>
+        </h2>
+        <hr class="divider">
+	</header>
+	<section id="skills">
+
+	
+		{{#each resume.skills}}
+		<div class="item">
+			{{#if name}}
+			<h3 class="name">
+				{{name}}
+			</h3>
+			{{/if}} {{#if level}}
+			<div class="level {{toLowerCase level}}">
+				<em>{{level}}</em>
+				<div class="bar"></div>
+			</div>
+			{{/if}} 
+			{{#if keywords.length}}
+			<ul class="keywords">
+				{{#each keywords}}
+				<li>{{.}}</li>
+				{{/each}}
+			</ul>
+			{{/if}}
+		</div>
+		{{/each}}
+
+	</section>
+</section>
+{{/if}}

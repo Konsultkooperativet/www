@@ -1,0 +1,46 @@
+{{#resume.basics}}, Konsultkooperativet</title>
+
+        <section class="col-xs-12 col-sm-12 col-md-12">
+            <article class="search-result row rounded alert alert-info">
+              <div class="col-xs-12 col-sm-12 col-md-2">
+                <span class="helper"></span><a href="cv/markusberglund" title="{{name}}"><img  class="thumbnail" width="100%" src="{{picture}}" alt="{{name}}" /></a>
+              </div>
+              <div class="container col-xs-12 col-sm-12 col-md-10 excerpet">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12 excerpet">
+                      <h3><a href="cv/markusberglund" title="" class="alert-link">{{name}}</a></h3>
+                      <p><strong>{{label}}</strong></p>
+                  </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-3">
+                    <ul class="meta-search">
+                      <li><i class="fa fa-envelope"></i><span><small>{{email}}</small></span></li>
+                      <li><i class="fa fa-phone"></i><span><small>{{phone}}</small></span></li>
+{{#if profiles.length}}
+			{{#each profiles}}
+        <li>
+				{{#if network}}
+					<i class="fa fa-{{spaceToDash network}} {{spaceToDash network}}"></i>
+					{{#if url}}
+					<span><small>
+						<a target="_blank" href="{{url}}">{{username}}</a>
+					</small></span>
+					{{else}}
+					<span>{{username}}</span>
+					{{/if}}
+				</div>
+				{{/if}}
+			</li>
+			{{/each}}
+{{/if}}
+                    </ul>
+                  </div>
+              <div class="col-xs-12 col-sm-12 col-md-9 excerpet">
+                <p class="presentation small">{{summary}}</p>						
+              </div>
+            </div>
+          </div>
+            </article>
+          </section>
+{{/resume.basics}}
