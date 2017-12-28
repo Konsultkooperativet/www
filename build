@@ -60,7 +60,7 @@ npm install -g ./jsonresume-theme-konsultcoopshort
 mkdir ../public/en/cv/
 mkdir ../cv-short
 
-echo "{}
+echo "{
 \"Profiles\" : { 
 " > ../cv-short/profiles.json;
 
@@ -102,6 +102,7 @@ do
 done
 echo "
 \"dummy\" : {\"file\" : \"dummy\" }
+}
 }
 " >> ../cv-short/profiles.json;
 
