@@ -60,8 +60,7 @@ npm install -g ./jsonresume-theme-konsultcoopshort
 mkdir ../public/en/cv/
 mkdir ../cv-short
 
-echo "{
-\"Profiles\" : { 
+echo "[
 " > ../cv-short/profiles.json;
 
 for f in consultants/*.json; 
@@ -80,9 +79,7 @@ do
 	resume export --theme konsultcoopen $NAME.html
 	cp $NAME.html ../public/en/cv/$NAME.html
 
-	echo "\"$NAME\" : { 
-    \"file\" : \"$NAME.html\"
-  },
+	echo "{\"file\" : \"$NAME.html\"},
  " >> ../cv-short/profiles.json;
 
 	echo "
@@ -100,10 +97,8 @@ do
                  />
 </url>" >> ../public/sitemap.xml;
 done
-echo "
-\"dummy\" : {\"file\" : \"dummy\" }
-}
-}
+	echo "{\"file\" : \"404\"}
+]
 " >> ../cv-short/profiles.json;
 
 cd ..

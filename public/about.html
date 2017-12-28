@@ -203,9 +203,9 @@
       $(document).ready(function () 
       {
         $.getJSON( "cv-short/profiles.json", function( data ) {
-          $.each(data["profiles"], function(name, arr) {
+          $.each(data, function(i, item) {
             $.ajax({ type: "GET",   
-            url: "cv-short/" + arr["filename"],   
+            url: "cv-short/" + item["filename"],   
             success : function(text)
             {
               $('#profiles').prepend('<div>'+text+'</div>');
