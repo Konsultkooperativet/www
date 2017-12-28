@@ -206,7 +206,13 @@
       {
         $.get("cv-short/", function(data) 
         {
-            $("#profiles").append(data);
+          $.ajax({ type: "GET",   
+            url: data,   
+            success : function(text)
+            {
+              $('#profiles').prepend('<div>'+text+'</div>');
+            }
+          });
         });
       });
     </script> 
