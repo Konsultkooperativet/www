@@ -205,7 +205,7 @@
         $.getJSON( "cv-short/profiles.json", function( data ) {
           $.each(data, function(i, item) {
             $.ajax({ type: "GET",   
-            url: "cv-short/" + item.filename,   
+            url: "cv-short/" + item.file,   
             success : function(text)
             {
               $('#profiles').prepend('<div>'+text+'</div>');
