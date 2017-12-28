@@ -70,7 +70,7 @@ do
 	resume export --theme konsultcoop $NAME.html
 	cp $NAME.html ../public/cv/$NAME.html
 	resume export --theme konsultcoopshort $NAME.html
-	cp $NAME.html ../public/cv/$NAME-short.html
+	cp $NAME.html ../public/cv/$NAME-short.txt
 
 	resume export --theme konsultcoopen $NAME.html
 	cp $NAME.html ../public/en/cv/$NAME.html
