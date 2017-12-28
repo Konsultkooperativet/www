@@ -58,6 +58,7 @@ npm install -g ./jsonresume-theme-konsultcoopen
 npm install -g ./jsonresume-theme-konsultcoopshort
 
 mkdir ../public/en/cv/
+mkdir ../cv-short
 
 for f in consultants/*.json; 
 do 
@@ -106,6 +107,6 @@ for i in $(find . -name '*.html'); do # This breaks if filenames have whitespace
 	mv $i.crit $i
 done
 
-mv ../cv-short/* cv/
+mv ../cv-short .
 
 
