@@ -204,10 +204,10 @@
     <script type="text/javascript"> 
       $(document).ready(function () 
       {
-        $.get("cv-short/", function(data) 
-        {
-          $.ajax({ type: "GET",   
-            url: data,   
+        $.getJSON( "cv-short/profiles.json", function( data ) {
+          $.each(data["profiles"], function(name, arr) {
+            $.ajax({ type: "GET",   
+            url: "cv-short/" + arr["filename"],   
             success : function(text)
             {
               $('#profiles').prepend('<div>'+text+'</div>');
@@ -215,6 +215,7 @@
           });
         });
       });
+    });
     </script> 
 
 
