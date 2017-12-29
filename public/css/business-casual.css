@@ -129,7 +129,7 @@ hr.divider {
   }
 }
 
-.search-result .alert {padding-left: 0.75rem; padding-right: 0.75rem}
+.search-result .alert {padding-left: 0; padding-right: 0}
 .search-result .thumbnail { border-radius: 0 !important; vertical-align: middle;}
 .search-result:first-child { margin-top: 0 !important; }
 .search-result { margin-top: 20px; }
