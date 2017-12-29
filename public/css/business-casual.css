@@ -138,7 +138,7 @@ hr.divider {
 .search-result ul li i { padding-right: 5px; }
 .search-result p.presentation {text-overflow: ellipsis;overflow: auto; height:125px; white-space: normal;}
 .search-result .col-md-7 { position: relative; }
-.search-result h3 { margin-top: 10px !important; margin-bottom: 10px !important; }
+/*.search-result h3 { margin-top: 10px !important; margin-bottom: 10px !important; }*/
 .search-result h3 > a, .search-result i { color: #248dc1 !important; }
 .search-result span.plus { position: absolute; right: 0; top: 126px; }
 .search-result span.plus a { background-color: #248dc1; padding: 5px 5px 3px 5px; }
