@@ -3,7 +3,8 @@
    	"Hem": "Home",
    	"Om": "About",
 	   "Kontakt": "Contact",
-	   "Social" : "Social"
+	   "Social" : "Social",
+	   "Consultants" : "Our Consultants"
 	},
 	"lang": {
 		"changeLang" : "<a href='../' class='text-white'><span class='flag-icon flag-icon-se'></span></a>"
