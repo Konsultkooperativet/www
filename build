@@ -59,6 +59,7 @@ npm install -g ./jsonresume-theme-konsultcoopshort
 
 mkdir ../public/en/cv/
 mkdir ../cv-short
+mkdir ../cv-short-en
 
 echo "[
 " > ../cv-short/profiles.json;
@@ -78,6 +79,8 @@ do
 
 	resume export --theme konsultcoopen $NAME.html
 	cp $NAME.html ../public/en/cv/$NAME.html
+	resume export --theme konsultcoopshort $NAME.html
+	cp $NAME.html ../cv-short-en/$NAME.html
 
 	echo "{\"file\" : \"$NAME.html\"},
  " >> ../cv-short/profiles.json;
@@ -118,5 +121,6 @@ for i in $(find . -name '*.html'); do # This breaks if filenames have whitespace
 done
 
 mv ../cv-short .
+mv ../cv-short-en en/
 
 
