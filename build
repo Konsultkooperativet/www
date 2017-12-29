@@ -121,6 +121,6 @@ for i in $(find . -name '*.html'); do # This breaks if filenames have whitespace
 done
 
 mv ../cv-short .
-mv ../cv-short-en en/
+mv ../cv-short-en en/cv-short
 
 
