@@ -139,11 +139,14 @@
       {
         $.getJSON( "cv-short/profiles.json", function( data ) {
           $.each(data, function(i, item) {
-            $.ajax({ type: "GET",   
-            url: "cv-short/" + item.file,   
-            success : function(text)
+            if(item.file != '404')
             {
-              $('#profiles').prepend('<div>'+text+'</div>');
+              $.ajax({ type: "GET",   
+              url: "cv-short/" + item.file,   
+              success : function(text)
+              {
+                $('#profiles').prepend('<div>'+text+'</div>');
+              }
             }
           });
         });
