@@ -55,7 +55,14 @@ npm install -g critical
 npm install -g ./jsonresume-theme-konsultcoop
 npm install -g ./jsonresume-theme-konsultcoopen
 
+npm install -g ./jsonresume-theme-konsultcoopshort
+
 mkdir ../public/en/cv/
+mkdir ../cv-short
+mkdir ../cv-short-en
+
+echo "[
+" > ../cv-short/profiles.json;
 
 for f in consultants/*.json; 
 do 
@@ -67,9 +74,16 @@ do
 	cp $f resume.json
 	resume export --theme konsultcoop $NAME.html
 	cp $NAME.html ../public/cv/$NAME.html
+	resume export --theme konsultcoopshort $NAME.html
+	cp $NAME.html ../cv-short/$NAME.html
 
 	resume export --theme konsultcoopen $NAME.html
 	cp $NAME.html ../public/en/cv/$NAME.html
+	resume export --theme konsultcoopshort $NAME.html
+	cp $NAME.html ../cv-short-en/$NAME.html
+
+	echo "{\"file\" : \"$NAME.html\"},
+ " >> ../cv-short/profiles.json;
 
 	echo "
  <url>
@@ -86,6 +100,10 @@ do
                  />
 </url>" >> ../public/sitemap.xml;
 done
+	echo "{\"file\" : \"404\"}
+]
+" >> ../cv-short/profiles.json;
+
 cd ..
 
 cd public
@@ -102,6 +120,7 @@ for i in $(find . -name '*.html'); do # This breaks if filenames have whitespace
 	mv $i.crit $i
 done
 
-
+mv ../cv-short .
+mv ../cv-short-en en/cv-short
 
 

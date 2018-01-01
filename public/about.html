@@ -65,6 +65,9 @@
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="index" data-t>menu.Hem</a>
             </li>
+            <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="consultants" data-t>menu.Consultants</a>
+            </li>
             <li class="nav-item active px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="about" data-t>menu.Om</a>
             </li>
@@ -94,49 +97,6 @@
           </div>
         </div>
       </div>
-      <div class="bg-faded p-4 my-4">
-        <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0" data-t>h.our</h2>
-        <hr class="divider">
-        <div class="row">
-          <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card h-100">
-              <a href="cv/markusberglund">
-              <img class="card-img-top" src="img/markusberglund.jpg" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">Markus Berglund
-                  <small class="text-muted"></small>
-                </h4>
-              </div>
-          </a>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4 mb-md-0">
-            <div class="card h-100">
-            <a href="cv/johanisaksson">
-              <img class="card-img-top" src="img/johanisaksson.jpg" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0">Johan Isaksson
-                  <small class="text-muted"></small>
-                </h4>
-              </div>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card h-100">
-              <a href="mailto:ansok@konsult.coop">
-              <img class="card-img-top" src="https://placehold.it/400x600" alt="">
-              <div class="card-body text-center">
-                <h4 class="card-title m-0" data-t>h.du</h4>
-              </div>
-              </a>
-            </div>
-          </div>       
-        </div>
-      </div>
-
     </div>
     <!-- /.container -->
 
@@ -150,6 +110,23 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript"> 
+      $(document).ready(function () 
+      {
+        $.getJSON( "cv-short/profiles.json", function( data ) {
+          $.each(data, function(i, item) {
+            $.ajax({ type: "GET",   
+            url: "cv-short/" + item.file,   
+            success : function(text)
+            {
+              $('#profiles').prepend('<div>'+text+'</div>');
+            }
+          });
+        });
+      });
+    });
+    </script> 
+
 
   </body>
 
