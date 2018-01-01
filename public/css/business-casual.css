@@ -134,7 +134,7 @@ hr.divider {
 .search-result:first-child { margin-top: 0 !important; }
 .search-result { margin-top: 20px; }
 .search-result .col-md-2 { border-right: 1px dotted #ccc; min-height: 140px; }
-.search-result ul { padding-left: 0 !important; list-style: none;  }
+.search-result ul { padding-left: 0 !important; list-style: none; margin-bottom:0.15rem}
 .search-result ul li {line-height: 25px; }
 .search-result ul li i { padding-right: 5px; }
 .search-result p.presentation {text-overflow: ellipsis;overflow: auto; height:125px; white-space: normal;}
@@ -143,6 +143,7 @@ hr.divider {
 .search-result h3 > a, .search-result i { color: #248dc1 !important; margin-bottom: 0}
 .search-result h3 { margin-bottom: 0}
 .search-result p { margin-bottom: 0.1rem}
+.search-result img { margin-bottom: 1rem; margin-top: 1rem}
 .search-result span.plus { position: absolute; right: 0; top: 126px; }
 .search-result span.plus a { background-color: #248dc1; padding: 5px 5px 3px 5px; }
 .search-result span.plus a:hover { background-color: #414141; }
