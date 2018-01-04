@@ -85,19 +85,34 @@
     <div class="container">
 
       <div class="bg-faded p-4 my-4">
-        <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0" data-t>h.om</h2>
-        <hr class="divider">
-        <div class="row">
-          <div class="col-lg-12">
-            <p data-t>h.om1</p>
-            <p data-t>h.om2</p>
-            <p data-t>h.om3</p>
-            <p data-t>h.om4</p>
+          <hr class="divider">
+          <h2 class="text-center text-lg text-uppercase my-0" data-t><strong>Frilansande</strong> IT-konsulter</h2>
+          <hr class="divider">
+          <div class="row">
+            <div class="col-lg-12">
+              <p data-t>Både Markus och Johan har lång erfarehet av att vara IT-konsulter, som programmerare, systemutvecklare, arkitekter och projektledare. Båda har arbetat både som anställd i vanliga konsultbolag, genom medarbetarägda konsultbolag, samt som frilansande konsulter, antingen genom klassiska konsultmäklare, eller direkt mot egna kunder.</p>
+              <p data-t>Denna breda erfarenhet av att jobba på olika konstellationer har givit god insikt i för- och nackdelar med de olika uppläggen. Som frilansande konsult har man stor frihet att styra över sina uppdrag, men man har inte samma naturliga nätverk. I ett medarbetarägt bolag kan man ofta vara frilansande, men samtidigt del av någonting större. Nackdelen brukar dock vara att alla inte äger på samma vilkor. Grundare och tidiga ägare besitter ofta stor makt i bolagen.</p>
+              <p data-t>Det var dessa erfarenheter som gjorde att Konsultkooperativet grundades hösten 2017. Mycket energi och arbete har lagts ner för att skapa en grund till ett bolag som ska ha alla fördelar från de olika uppläggen, men inga utav nackdelarna.</p>
+            </div>
           </div>
         </div>
+
+        <div class="bg-faded p-4 my-4">
+            <hr class="divider">
+            <h2 class="text-center text-lg text-uppercase my-0" data-t>h.om</h2>
+            <hr class="divider">
+            <div class="row">
+              <div class="col-lg-12">
+                <p data-t>h.om1</p>
+                <p data-t>h.om2</p>
+                <p data-t>h.om3</p>
+                <p data-t>h.om4</p>
+              </div>
+            </div>
+          </div>
+    
+      
       </div>
-    </div>
     <!-- /.container -->
 
     <footer class="bg-faded text-center py-5">
@@ -110,23 +125,6 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript"> 
-      $(document).ready(function () 
-      {
-        $.getJSON( "cv-short/profiles.json", function( data ) {
-          $.each(data, function(i, item) {
-            $.ajax({ type: "GET",   
-            url: "cv-short/" + item.file,   
-            success : function(text)
-            {
-              $('#profiles').prepend('<div>'+text+'</div>');
-            }
-          });
-        });
-      });
-    });
-    </script> 
-
 
   </body>
 
