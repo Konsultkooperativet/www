@@ -7,6 +7,19 @@
 		"Consultants" : "Våra konsulter"
 		
 	},
+	"meta": {
+		"Hem": "Kooperativt konsultbolag och konsultmäklare för frilansande konsulter i enmansbolag. Medlemsägt utan vinstintresse.",
+		"HemTitle" : "Konsultkooperativet - medlemsägt konsultbolag i Göteborg",
+		"Om": "Målet med grundandet var att skapa ett bolag som är rättvist, demokratiskt och som tillgodoser de behov frilansande teknikkonsulter har.",
+		"OmTitle" : "Konsultkooperativet - Konsultbolaget utan vinstintresse",
+		"Kontakt": "Förening för konsulter inom teknik och management, som frilansar i enmansbolag. Kontakta oss för att ansöka om medlemsskap.",
+		"KontaktTitle" : "Konsultkooperativet - Välkommen att kontakta oss om medlemsskap",
+		"Social" : "Nyheter och socialt flöde från Facebook, LinkedIn och Twitter för Konsultkooperativet",
+		"SocialTitle" : "Våra flöden i social medier",
+		"Consultants" : "Här finns alla våra konsulters konsultprofiler.",
+		"ConsultantsTitle" : "Konsultkooperativet - Våra konsultprofiler"
+		
+	},
 	"lang": {
 		"changeLang" : "<a href='en/' class='text-white'><span class='flag-icon flag-icon-gb'></span></a>"
 	},

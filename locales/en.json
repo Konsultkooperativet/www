@@ -6,6 +6,21 @@
 	   "Social" : "Social",
 	   "Consultants" : "Our Consultants"
 	},
+	"meta": {
+		"Hem": "Cooperative consultant company and broker for freelancing cosultants. Owned and controlled equally by its members.",
+		"HemTitle" : "Konsultkooperativet - member owned consulting company in Gothenburg",
+		"Om": "The goal with the founding was to create an organisation that is fair, democratic, and that fulfills the needs of freelancing it consultants.",
+		"OmTitle" : "Konsultkooperativet - The consulting company without profit interest",
+		"Kontakt": "Organisation for freelancing consultants. Contact us to apply for membership.",
+		"KontaktTitle" : "Konsultkooperativet - Welcome to contact us to apply for membership",
+		"Social" : "News and social feed from Facebbook, LinkedIn and Twitter from Konsultkooperativet",
+		"SocialTitle" : "Our feeds from social media",
+		"Consultants" : "Here are all consultants' profiles.",
+		"ConsultantsTitle" : "Konsultkooperativet - Our consultants' profiles"
+
+		
+	},
+
 	"lang": {
 		"changeLang" : "<a href='../' class='text-white'><span class='flag-icon flag-icon-se'></span></a>"
 	},
