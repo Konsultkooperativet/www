@@ -7,6 +7,14 @@
 		"Consultants" : "Våra konsulter"
 		
 	},
+	"meta": {
+		"Hem": "Hem",
+		"Om": "Målet med grundandet var att skapa ett bolag som är rättvist, demokratiskt och som tillgodoser de behov frilansande teknikkonsulter har.",
+		"Kontakt": "Kontakt",
+		"Social" : "Socialt",
+		"Consultants" : "Våra konsulter"
+		
+	},
 	"lang": {
 		"changeLang" : "<a href='en/' class='text-white'><span class='flag-icon flag-icon-gb'></span></a>"
 	},
