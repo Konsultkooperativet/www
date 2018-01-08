@@ -6,6 +6,16 @@
 	   "Social" : "Social",
 	   "Consultants" : "Our Consultants"
 	},
+	"meta": {
+		"Hem": "Hem",
+		"Om": "The goal with the founding was to create an organisation that is fair, democratic, and that fulfills the needs of freelancing it consultants.",
+		"OmTitle" : "Konsultkooperativet - The consulting company without profit interest",
+		"Kontakt": "Kontakt",
+		"Social" : "Socialt",
+		"Consultants" : "Våra konsulter"
+		
+	},
+
 	"lang": {
 		"changeLang" : "<a href='../' class='text-white'><span class='flag-icon flag-icon-se'></span></a>"
 	},
