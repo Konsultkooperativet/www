@@ -8,8 +8,10 @@
 		
 	},
 	"meta": {
-		"Hem": "Hem",
+		"Hem": "Kooperativt konsultbolag och konsultmäklare för frilansande konsulter i enmansbolag. Medlemsägt utan vinstintresse.",
+		"HemTitle" : "Konsultkooperativet - medlemsägt konsultbolag i Göteborg",
 		"Om": "Målet med grundandet var att skapa ett bolag som är rättvist, demokratiskt och som tillgodoser de behov frilansande teknikkonsulter har.",
+		"OmTitle" : "Konsultkooperativet - Konsultbolaget utan vinstintresse",
 		"Kontakt": "Kontakt",
 		"Social" : "Socialt",
 		"Consultants" : "Våra konsulter"
