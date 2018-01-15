@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Nytt konsultbolag i Göteborg"
-date:   2018-01-15 14:00:00 +0100
+date:   2018-01-15 13:00:00 +0100
 categories: konsultbolag nyhet
 author: mb
 ---
