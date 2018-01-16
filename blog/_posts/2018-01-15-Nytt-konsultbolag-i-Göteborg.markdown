@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Nytt konsultbolag i Göteborg"
+title:  "Nystartat kooperativt konsultbolag i Göteborg"
 date:   2018-01-15 13:00:00 +0100
 categories: konsultbolag nyhet
 author: mb
