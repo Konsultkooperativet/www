@@ -4,7 +4,7 @@ title:  "Nystartat kooperativt konsultbolag i Göteborg"
 date:   2018-01-15 13:00:00 +0100
 categories: konsultbolag nyhet
 author: mb
-thumbnail: https://resources.mynewsdesk.com/image/upload/c_limit,dpr_1.25,f_auto,h_700,q_auto,w_690/reqncnpwkfeinwkd0dnf.jpg
+teaser: https://resources.mynewsdesk.com/image/upload/c_limit,dpr_1.25,f_auto,h_700,q_auto,w_690/reqncnpwkfeinwkd0dnf.jpg
 ---
 <figure class="one">
     <img src="https://resources.mynewsdesk.com/image/upload/c_limit,dpr_1.25,f_auto,h_700,q_auto,w_690/reqncnpwkfeinwkd0dnf.jpg">
