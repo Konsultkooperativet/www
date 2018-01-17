@@ -6,7 +6,7 @@ cd public
 echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\"
   xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">
-" > sitemap.xml;
+" > sitemap1.xml;
 
 for i in $(find . -name '*.html'); do # This breaks if filenames have whitespaces!
 	echo "Generating Sitemap for $i\n"
@@ -33,7 +33,7 @@ for i in $(find . -name '*.html'); do # This breaks if filenames have whitespace
                  hreflang=\"sv\"
                  href=\"https://konsult.coop$NAME\"
                  />
-</url>" >> sitemap.xml;
+</url>" >> sitemap1.xml;
 done
 
 
@@ -98,7 +98,7 @@ do
                  hreflang=\"sv\"
                  href=\"https://konsult.coop/cv/$NAME\"
                  />
-</url>" >> ../public/sitemap.xml;
+</url>" >> ../public/sitemap1.xml;
 done
 	echo "{\"file\" : \"404\"}
 ]
@@ -109,7 +109,7 @@ cd ..
 cd public
 
 echo "</urlset>
-" >> sitemap.xml;
+" >> sitemap1.xml;
 
 for i in $(find . -name '*.html'); do # This breaks if filenames have whitespaces!
 	echo "Parsing CSS for $i\n"
