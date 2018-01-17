@@ -7,7 +7,6 @@ author: mb
 excerpt: "Nu öppnar Konsultkooperativet portarna i Göteborg! En ny sorts konsultbolag utan vinstintresse för frilansande teknik- och managementkonsulter.[Läs mer på vår hemsida](https://konsult.coop), eller i [vår pressrelease](https://www.mynewsdesk.com/se/konsultkooperativet/pressreleases/nytt-kooperativt-konsultbolag-etablerar-sig-i-goeteborg-2374436)."
 header:
   teaser: "assets/images/reqncnpwkfeinwkd0dnf.jpg"
-  image: "assets/images/reqncnpwkfeinwkd0dnf.jpg"
 ---
 <figure class="one">
     <img src="/blog/assets/images/reqncnpwkfeinwkd0dnf.jpg">
