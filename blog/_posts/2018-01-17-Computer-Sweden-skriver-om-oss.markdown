@@ -9,3 +9,5 @@ header:
   feature: "assets/images/1793364734.jpg"
 ---
 Computer Sweden har valt att uppmärksamma vårt initiativ! [Läs artikeln här](https://computersweden.idg.se/2.2683/1.696092/it-konsulter-kooperativ).
+
+[Även IT branschen](https://itbranschen.idg.se/2018/01/16/kooperativt-it-konsultbolag-satsar-i-goteborg/) har publicerat vår pressrelease.
