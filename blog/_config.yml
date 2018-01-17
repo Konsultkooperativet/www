@@ -15,7 +15,7 @@ title                    : "En blogg om frilansande teknik- och managementkonsul
 title_separator          : "-"
 name                     : "Konsultkooperativet"
 description              : "Konsultkooperativets företagsblogg"
-url                      : "https://mberglund20180115-blog.konsult.coop"
+url                      : "https://mberglund20180115-blog.konsult.coop/"
 baseurl                  : "blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/500x300.png"
@@ -232,7 +232,6 @@ jekyll-archives:
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
-
 
 # HTML Compression
 # - http://jch.penibelst.de/
