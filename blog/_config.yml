@@ -87,7 +87,7 @@ analytics:
 # Site Author
 author:
   name             : "Konsultkooperativet"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "https://konsult.coop/img/coop_orange-300x300.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Medlemsägt konsultbolag i Göteborg"
   location         : "Göteborg"
   email            : "konsult@konsult.coop"
