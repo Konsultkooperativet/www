@@ -126,8 +126,7 @@ mv ../cv-short-en en/cv-short
 cd ..
 cd blog
 
-JEKYLL_ENV=production
-jekyll build --verbose
+JEKYLL_ENV=production jekyll build --verbose
 
 mv _site ../public/blog
 
