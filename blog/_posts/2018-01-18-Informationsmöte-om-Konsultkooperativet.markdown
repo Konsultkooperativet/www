@@ -18,14 +18,14 @@ Konsultkooperativet vill växa, och tycker du att detta konceptet låter intress
 ## Anmäl dig här
 
 Fyll i formuläret nedan för att anmäla dig!
-<form name=event20180221 netlify>
-|Namn:  |<input type=text name=name>|
-|Epost: |<input type=text name=epost>|
-|LinkedIn profil: |<input type=text name=linkedin>|
-|Mobil: |<input type=text name=telefon>|
+<form name="event20180221" netlify>
+|Namn:  |<input type="text" name="name">|
+|Epost: |<input type="text" name="epost">|
+|LinkedIn profil: |<input type="text" name="linkedin">|
+|Mobil: |<input type="text" name="telefon">|
 
 <p class="hidden">
-    <label>Don’t fill this out: <input name="bot-field"></label>
+<label>Don’t fill this out: <input name="bot-field"></label>
 </p>
 
 <button type="submit">Anmäl</button>
