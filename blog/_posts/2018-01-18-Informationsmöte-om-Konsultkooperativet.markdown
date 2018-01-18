@@ -14,7 +14,8 @@ Tycker du att detta konceptet låter intressant, kom på informationsmöte den 2
 
 ## Anmäl dig här
 
-Fyll i formuläret nedan för att anmäla dig!
+Fyll i formuläret nedan för att anmäla dig! Begränsat antal platser - först till kvarn!
+
 <form name="event20180221" netlify>
 Namn:
 <input type="text" name="name">
