@@ -11,10 +11,10 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "sv-SE"
-title                    : "En blogg om frilansande teknik- och managementkonsulter"
+title                    : "Konsultkooperativets blogg"
 title_separator          : "-"
 name                     : "Konsultkooperativet"
-description              : "Konsultkooperativets företagsblogg"
+description              : "En blogg om frilansande konsulter, konsultnätverk, nyheter, företagande och entreprenörsskap"
 url                      : "https://konsult.coop"
 baseurl                  : "blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -24,7 +24,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : "konsultcoop" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "konsult-coop" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
