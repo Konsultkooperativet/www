@@ -24,6 +24,10 @@ Fyll i formuläret nedan för att anmäla dig!
 |LinkedIn profil: |<input type=text name=linkedin>|
 |Mobil: |<input type=text name=telefon>|
 
+<p class="hidden">
+    <label>Don’t fill this out: <input name="bot-field"></label>
+</p>
+
 <button type="submit">Anmäl</button>
 
 </form>
