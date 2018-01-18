@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Computer Sweden skriver om oss"
+title:  "Lokal för nätverkande konsulter"
 date:   2018-01-18 10:00:00 +0100
 categories: konsultbolag konsultnätverk
 author: mb
