@@ -23,4 +23,7 @@ Fyll i formuläret nedan för att anmäla dig!
 |Epost: |<input type=text name=epost>|
 |LinkedIn profil: |<input type=text name=linkedin>|
 |Mobil: |<input type=text name=telefon>|
+
+<button type="submit">Anmäl</button>
+
 </form>
