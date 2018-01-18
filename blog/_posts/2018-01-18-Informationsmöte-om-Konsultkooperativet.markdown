@@ -19,11 +19,11 @@ Fyll i formuläret nedan för att anmäla dig!
 Namn:
 <input type="text" name="name">
 Epost:
-<input type="text" name="email">
+<input type="email" name="email">
 LinkedIn profil (https://linkedin.com/in/...):
-<input type="text" name="linkedin">
+<input type="text" name="linkedin" value="https://linkedin.com/in/">
 Mobil:
-<input type="text" name="telefon">
+<input type="tel" name="telefon">
 
 <p class="hidden">
 <label>Don’t fill this out: <input name="bot-field"></label>
