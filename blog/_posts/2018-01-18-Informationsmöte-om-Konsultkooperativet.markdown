@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Informationsmöte för intresserade"
+title:  "Vill du veta mer om Konsultkooperativet? Sveriges första kooperativa konsultbolag."
 date:   2018-01-18 10:00:00 +0100
 categories: konsultbolag konsultnätverk event
 author: mb
