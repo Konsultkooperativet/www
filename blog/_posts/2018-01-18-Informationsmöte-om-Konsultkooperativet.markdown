@@ -23,7 +23,7 @@ Epost:
 LinkedIn profil (https://linkedin.com/in/...):
 <input type="text" name="linkedin">
 Mobil:
-<input type="text" name="telefon">                           |
+<input type="text" name="telefon">
 
 <p class="hidden">
 <label>Don’t fill this out: <input name="bot-field"></label>
