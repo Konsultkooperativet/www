@@ -18,7 +18,7 @@ Konsultkooperativet vill växa, och tycker du att detta konceptet låter intress
 ## Anmäl dig här
 
 Fyll i formuläret nedan för att anmäla dig!
-<form netlify>
+<form name=event20180221 netlify>
 |Namn:  |<input type=text name=name>|
 |Epost: |<input type=text name=epost>|
 |LinkedIn profil: |<input type=text name=linkedin>|
