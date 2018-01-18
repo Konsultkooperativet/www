@@ -4,7 +4,7 @@ title:  "Vill du veta mer om Konsultkooperativet? Sveriges första kooperativa k
 date:   2018-01-18 10:00:00 +0100
 categories: konsultbolag konsultnätverk event
 author: mb
-excerpt: ""
+excerpt: "Tycker du att Konsultkooperativets koncept låter intressant? Kom på informationsmöte den 21 februari!"
 header:
   teaser: "assets/images/KG4_04-2.jpg"
 ---
