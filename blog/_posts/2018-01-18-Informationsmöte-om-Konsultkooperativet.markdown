@@ -17,11 +17,11 @@ Konsultkooperativet vill växa, och tycker du att detta konceptet låter intress
 Fyll i formuläret nedan för att anmäla dig!
 <form name="event20180221" netlify>
 Namn:
-<input type="text" name="name">                              |
+<input type="text" name="name">
 Epost:
-<input type="text" name="email">                             |
+<input type="text" name="email">
 LinkedIn profil (https://linkedin.com/in/...):
-<input type="text" name="linkedin">  |
+<input type="text" name="linkedin">
 Mobil:
 <input type="text" name="telefon">                           |
 
