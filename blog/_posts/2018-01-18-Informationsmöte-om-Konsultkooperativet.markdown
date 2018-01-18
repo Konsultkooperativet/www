@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Informationsmöte för intresserade"
-date:   2018-01-24 10:00:00 +0100
+date:   2018-01-18 10:00:00 +0100
 categories: konsultbolag konsultnätverk event
 author: mb
 excerpt: ""
