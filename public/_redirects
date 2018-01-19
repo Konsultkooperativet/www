@@ -12,11 +12,11 @@ https://konsultkooperativet.org/* https://konsult.coop/:splat 301!
 https://www.konsultkooperativet.org/* https://konsult.coop/:splat 301!
 
 # Redirect with a 301
-/index          /               301
-/index/         /               301
-/social/        /social         301
-/about/         /about          301
-/consultants/   /consultants    301
+/index          /               301!
+/index/         /               301!
+/social/        /social         301!
+/about/         /about          301!
+/consultants/   /consultants    301!
 
 /en/index          /en/               301
 /en/index/         /en/               301
