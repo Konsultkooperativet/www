@@ -3,7 +3,7 @@ layout: single
 title:  "Linda Vitell - Göteborgs bästa projektledare går med i Konsultkooperativet"
 date:   2018-01-20 10:00:00 +0100
 categories: konsultbolag konsult
-author: lv
+author: coop
 excerpt: "Konsultkooperatiet kan stolt presentera vår senaste medlem - Linda Vitell!"
 #header:
 #  teaser: "assets/images/.jpg"

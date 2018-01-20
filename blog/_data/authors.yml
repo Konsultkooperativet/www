@@ -5,7 +5,6 @@ mb:
   bio: "Projektledare och systemarkitekt"
   avatar: "../img/markusberglund.jpg"
   linkedin: "markusberglundmx"
-
 coop:
   name: "Konsultkooperativet"
   uri: "https://konsult.coop/"
@@ -13,11 +12,10 @@ coop:
   bio: "Fria teknik- och managementkonsulter"
   avatar: "../img/coop_orange-300x126.png.jpg"
   linkedin: "../company/konsultkooperativet"
-
 lv:
   name: "Linda Vitell"
-  uri: "https://konsult.coop/en/cv/markusberglund"
-  email: "mb@konsult.coop"
-  bio: "Projektledare och systemarkitekt"
-  avatar: "../img/markusberglund.jpg"
-  linkedin: "markusberglundmx"
+  uri: "https://konsult.coop/en/cv/lindavitell"
+  email: "lv@konsult.coop"
+  bio: ""
+  avatar: "../img/lindavitell.jpg"
+  linkedin: "linda-vitell-8244092"
