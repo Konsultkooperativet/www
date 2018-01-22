@@ -36,8 +36,8 @@ Mobil:
 </form>
 
 ## Mer information
-Har du frågor får gärna ställa dem nedan, eller mail till [konsult@konsult.coop](mailto:konsult@konsult.coop).
+Har du frågor får gärna ställa dem nedan i kommentarsfältet, eller via mail till [konsult@konsult.coop](mailto:konsult@konsult.coop).
 
-Några dagar innan informatinsmötet skickar vi ut mer information om lokal och adress till alla anmälda.
+Några dagar innan informationsmötet skickar vi ut mer information om lokal och adress till alla anmälda.
 
 Vi ses!
