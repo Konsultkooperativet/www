@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Vill du veta mer om Konsultkooperativet? Sveriges första kooperativa konsultbolag."
-date:   2018-01-18 10:00:00 +0100
+date:   2018-01-22 19:00:00 +0100
 categories: konsultbolag konsultnätverk event
 author: mb
 excerpt: "Tycker du att Konsultkooperativets koncept låter intressant? Kom på informationsmöte den 21 februari!"
@@ -35,3 +35,9 @@ Mobil:
 <button type="submit">Anmäl</button>
 </form>
 
+## Mer information
+Har du frågor får gärna ställa dem nedan, eller mail till [konsult@konsult.coop](mailto:konsult@konsult.coop).
+
+Några dagar innan informatinsmötet skickar vi ut mer information om lokal och adress till alla anmälda.
+
+Vi ses!
