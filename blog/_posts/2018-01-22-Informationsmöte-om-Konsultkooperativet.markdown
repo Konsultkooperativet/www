@@ -19,13 +19,13 @@ Tycker du att detta konceptet låter intressant, kom på **informationsmöte den
 Fyll i formuläret nedan för att anmäla dig! **Begränsat antal platser - först till kvarn!**
 
 <form name="event20180221" netlify>
-**Namn:**
+Namn:
 <input type="text" name="name">
-**Epost:**
+Epost:
 <input type="email" name="email">
-**LinkedIn profil:**
+LinkedIn profil:
 <input type="text" name="linkedin" value="https://linkedin.com/in/">
-**Mobil:**
+Mobil:
 <input type="tel" name="telefon">
 
 <p class="hidden">
