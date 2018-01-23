@@ -4,7 +4,6 @@ title:  "Konsultkooperativet omnämnt i sveriges populäraste nyhetsbrev för ko
 date:   2018-01-23 10:00:00 +0100
 categories: konsultbolag konsultnätverk nyheter
 author: mb
-excerpt: "Tycker du att Konsultkooperativets koncept låter intressant? Kom på informationsmöte den 21 februari!"
 ---
 [Cinode](https://www.cinode.com/veckans-konsultnyheter/) valde att ta upp vår nyetablering i sitt senaste nyhetsbrev:
 
