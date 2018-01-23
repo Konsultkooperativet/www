@@ -10,7 +10,7 @@ header:
 ---
 
 
-<img src="https://konsult.coop/img/coop_orange-300x126.png" style="float: left; margin: 1em 1em 0 0;">[Konsultkooperativet](https://konsult.coop) är ett konsultbolag där alla konsulter gemensamt äger bolaget. Alla har lika stora andelar, och lika mycket att säga till om. Konsultkooperativet har inget vinstintresse, utan allt överskott går tillbaka som återbäring till konsulterna. Alla medlemmar hjälper varandra genom att dela med sig av sitt nätverk och kontakter, och på så sätt ökar [alla medlemmars](https://konsult.coop/consultants) möjlighet till spännande och utvecklande uppdrag.
+<img src="https://konsult.coop/img/coop_orange-300x126.png" style="float: left; margin: 1em 1em 0 0;">[Konsultkooperativet](https://konsult.coop) är ett konsultbolag där alla konsulter gemensamt äger bolaget. Alla har lika stora andelar, och lika mycket att säga till om. Konsultkooperativet har inget vinstintresse, utan allt överskott går tillbaka som återbäring till konsulterna. [Alla medlemmar](https://konsult.coop/consultants) hjälper varandra genom att dela med sig av sitt nätverk och kontakter, och på så sätt ökar  möjlighet till spännande och utvecklande uppdrag.
 
 Tycker du att det här konceptet låter intressant? Vill du tillhöra en större gemenskap och ta del av vad det utbytet kan ge? Tillsammans kan vi bland annat köpa säljinsatser, upphandla utbildningar och skriva ramavtal med nyckelkunder. Med Konsultkooperativet är man egen men inte ensam!
 
@@ -39,7 +39,5 @@ Mobil:
 
 ## Mer information
 Har du frågor får gärna ställa dem nedan i kommentarsfältet, eller via mail till [konsult@konsult.coop](mailto:konsult@konsult.coop).
-
-Några dagar innan informationsmötet skickar vi ut mer information om lokal och adress till alla anmälda.
 
 Vi ses!
