@@ -6,7 +6,7 @@ categories: konsultbolag konsultnätverk event
 author: mb
 excerpt: "Tycker du att Konsultkooperativets koncept låter intressant? Kom på informationsmöte den 21 februari!"
 header:
-  teaser: "assets/images/KG4_04-2.jpg"
+  teaser: "assets/images/umbrella-1588167_640.jpg"
 ---
 
 
