@@ -222,9 +222,8 @@
             {entries} </div>'
           ,ssl:true
           ,limit:3
+          ,success:$(".rss .carousel-item:first").addClass("active")
         })
-
-        $(".rss .carousel-item:first").addClass("active");
       })
     </script>
 
