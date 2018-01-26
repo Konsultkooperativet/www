@@ -220,12 +220,13 @@
         $("#rss-feeds").rss("https://konsult.coop/blog/feed.xml",
         {
           entryTemplate:'<div class="carousel-item"> \
-              <a href="{url}"> \
+            <img class="d-block img-fluid w-100" src="img/gothenburg.jpg" alt="Vi finns bara på Sveriges framsida (än så länge?)"> \
               <div class="carousel-caption d-none d-md-block bg-overlay"> \
+                <a href="{url}"> \
                 <h3 class="text-shadow" data-t>[{author}@{date}] {title}</h3> \
+                </a> \
                 <p class="text-shadow" data-t>{shortBodyPlain}</p> \
-              </div> \
-              </a>'
+              </div>'
         })
       })
     </script>
