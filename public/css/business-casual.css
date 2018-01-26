@@ -110,6 +110,7 @@ hr.divider {
 
 p.rss {
   margin-bottom: 0rem;
+  font-size: small;
 }
 @media (max-width: 991px) {
   .topcorner{
