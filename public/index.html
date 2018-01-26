@@ -213,12 +213,12 @@
       jQuery(function($) {
         $("#carouselRSSIndicators").rss("https://konsult.coop/blog/feed.xml",
         {
-          entryTemplate:'<div id="carousel-item" class="carousel-item"> \
+          entryTemplate:'<div class="carousel-item"> \
                 <a href="{url}"> \
                 <p class="text-center text-expanded d-none d-lg-block">{title}</p> \
                 </a> \
               </div>'
-          ,layoutTemplate:'<div id="item" class="carousel-inner" role="listbox" > \
+          ,layoutTemplate:'<div class="carousel-inner" role="listbox" > \
             {entries} </div>'
           ,ssl:true
           ,num:3
