@@ -222,10 +222,18 @@
             {entries} </div>'
           ,ssl:true
           ,limit:3
-        },
-        $(".rss .carousel-item:first").addClass("active"))
+          ,success: function() {
+            $(".rss .carousel-item:first")
+              .addClass("active")
+          }
+        })
+        
       })
-    </script>
+
+      $(".rss .carousel-item:first")
+              .addClass("active")
+
+      </script>
 
     <script src="js/rss.js"></script>
 
