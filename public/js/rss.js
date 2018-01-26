@@ -1,87 +1,10 @@
-var slideCount;
-var slideWidth;
-var slideHeight;
-var sliderUlWidth;
-
-$(function() {
-	getRssFeed("https://konsult.coop/blog/feed.xml", mapFeed);
-	
-	$('.left-arrow').on('click', function () {
-		moveLeft();
-	});
-
-	$('.right-arrow').on('click', function () {
-		moveRight();
-	});
-	
-	$(window).on('resize', function () {
-		returnCarouselList();
-	});
-});
-
-function moveLeft() {
-	$('.rsscarousel').animate({
-		left: + slideWidth
-	}, 200, function () {
-		$('.rsscarousel li:last-child').prependTo('.rsscarousel');
-		$('.rsscarousel').css('left', '');
-	});
-}
-
-function moveRight() {
-	$('.rsscarousel').animate({
-		left: - slideWidth
-	}, 200, function () {
-		$('.rsscarousel li:first-child').appendTo('.rsscarousel');
-		$('.rsscarousel').css('left', '');
-	});
-}
-
-function getRssFeed(url, callback) {
-	return feednami.loadGoogleFormat(encodeURI(url), callback);
-}
-
-function mapFeed(result) {
-	if (result.error) {
-      console.log(result.error)
-  } else {
-		createCarouselList(result.feed.entries.slice(0, 5));
-		createFeedList(result.feed.entries.slice(0, 20));
-  }
-}
-
-function createCarouselList(elements) {
-	var list = [];
-	$(elements).each(function(index, element) {
-        list.push("<div class=\"carousel-item\"> \
-        <img class=\"d-block img-fluid w-100\" src=\"img/gothenburg.jpg\" alt=\"Vi finns bara på Sveriges framsida (än så länge?)\"> \
-        <div class=\"carousel-caption d-none d-md-block bg-overlay\"> \
-          <h3 class=\"text-shadow\" data-t><a href='"+ element.link +"'>"+ element.title +"</a></h3> \
-          <p class=\"text-shadow\" data-t>"+ new Date(element.publishedDate).toLocaleDateString("pt-BR") +"</p> \
-        </div> \
-      </div> \
-    ");
-	});
-	
-	$(".rsscarousel").append(list);
-	
-}
-
-function createFeedList(elements) {
-	var list = [];
-	$(elements).each(function(index, element) {
-		list.push("<li><a href='"+ element.link +"'>"+ element.title +"</a></li>");
-	});
-	$(".list").append(list);
-	returnCarouselList();
-}
-
-function returnCarouselList() {
-	slideCount = $('.rsscarousel li').length;
-	slideWidth = $('.rsscarousel li').width();
-	slideHeight = $('.rsscarousel li').height();
-	sliderUlWidth = slideCount * slideWidth;
-	$('.slider').css({ width: slideWidth, height: slideHeight });
-	$('.rsscarousel').css({ width: sliderUlWidth, marginLeft: - slideWidth });
-	$('.rsscarousel li:last-child').prependTo('.rsscarousel');
-}
+(function(d){var e=function(a,b,c,f){this.target=a;this.url=b;this.html=[];this.effectQueue=[];this.options=d.extend({ssl:!1,host:"www.feedrapp.info",limit:null,key:null,layoutTemplate:"<ul>{entries}</ul>",entryTemplate:'<li><a href="{url}">[{author}@{date}] {title}</a><br/>{shortBodyPlain}</li>',tokens:{},outputMode:"json",dateFormat:"dddd MMM Do",effect:"show",offsetStart:!1,offsetEnd:!1,error:function(){console.log("jQuery RSS: url doesn't link to RSS-Feed")},onData:function(){},success:function(){}},
+c||{});this.options.ssl&&"www.feedrapp.info"===this.options.host&&(this.options.host="feedrapp.herokuapp.com");this.callback=f||this.options.success};e.htmlTags="doctype,html,head,title,base,link,meta,style,script,noscript,body,article,nav,aside,section,header,footer,h1-h6,hgroup,address,p,hr,pre,blockquote,ol,ul,li,dl,dt,dd,figure,figcaption,div,table,caption,thead,tbody,tfoot,tr,th,td,col,colgroup,form,fieldset,legend,label,input,button,select,datalist,optgroup,option,textarea,keygen,output,progress,meter,details,summary,command,menu,del,ins,img,iframe,embed,object,param,video,audio,source,canvas,track,map,area,a,em,strong,i,b,u,s,small,abbr,q,cite,dfn,sub,sup,time,code,kbd,samp,var,mark,bdi,bdo,ruby,rt,rp,span,br,wbr".split(",");
+e.prototype.load=function(a){var b="http"+(this.options.ssl?"s":"")+"://"+this.options.host+"?callback=?&q="+encodeURIComponent(this.url);this.options.offsetStart&&this.options.offsetEnd&&(this.options.limit=this.options.offsetEnd);null!==this.options.limit&&(b+="&num="+this.options.limit);null!==this.options.key&&(b+="&key="+this.options.key);d.getJSON(b,a)};e.prototype.render=function(){var a=this;this.load(function(b){try{a.feed=b.responseData.feed,a.entries=b.responseData.feed.entries}catch(c){return a.entries=
+[],a.feed=null,a.options.error.call(a)}b=a.generateHTMLForEntries();a.target.append(b.layout);0!==b.entries.length&&(d.isFunction(a.options.onData)&&a.options.onData.call(a),a.appendEntriesAndApplyEffects(d("entries",b.layout),b.entries));0<a.effectQueue.length?a.executeEffectQueue(a.callback):d.isFunction(a.callback)&&a.callback.call(a)})};e.prototype.appendEntriesAndApplyEffects=function(a,b){var c=this;d.each(b,function(b,e){var d=c.wrapContent(e);"show"===c.options.effect?a.before(d):(d.css({display:"none"}),
+a.before(d),c.applyEffect(d,c.options.effect))});a.remove()};e.prototype.generateHTMLForEntries=function(){var a=this,b={entries:[],layout:null};d(this.entries).each(function(){var c=a.options.offsetStart,f=a.options.offsetEnd;c&&f?index>=c&&index<=f&&a.isRelevant(this,b.entries)&&(c=a.evaluateStringForEntry(a.options.entryTemplate,this),b.entries.push(c)):a.isRelevant(this,b.entries)&&(c=a.evaluateStringForEntry(a.options.entryTemplate,this),b.entries.push(c))});b.layout=this.options.entryTemplate?
+this.wrapContent(this.options.layoutTemplate.replace("{entries}","<entries></entries>")):this.wrapContent("<div><entries></entries></div>");return b};e.prototype.wrapContent=function(a){return 0!==d.trim(a).indexOf("<")?d("<div>"+a+"</div>"):d(a)};e.prototype.applyEffect=function(a,b,c){switch(b){case "slide":a.slideDown("slow",c);break;case "slideFast":a.slideDown(c);break;case "slideSynced":this.effectQueue.push({element:a,effect:"slide"});break;case "slideFastSynced":this.effectQueue.push({element:a,
+effect:"slideFast"})}};e.prototype.executeEffectQueue=function(a){var b=this;this.effectQueue.reverse();var c=function(){var f=b.effectQueue.pop();f?b.applyEffect(f.element,f.effect,c):a&&a()};c()};e.prototype.evaluateStringForEntry=function(a,b){var c=a,f=this;d(a.match(/(\{.*?\})/g)).each(function(){var a=this.toString();c=c.replace(a,f.getValueForToken(a,b))});return c};e.prototype.isRelevant=function(a,b){var c=this.getTokenMap(a);return this.options.filter?this.options.filterLimit&&this.options.filterLimit===
+b.length?!1:this.options.filter(a,c):!0};e.prototype.getTokenMap=function(a){if(!this.feedTokens){var b=JSON.parse(JSON.stringify(this.feed));delete b.entries;this.feedTokens=b}this.formattedDate="undefined"!==typeof moment?moment(new Date(a.publishedDate)).format(this.options.dateFormat):this.options.dateFormatFunction?this.options.dateFormatFunction(a.publishedDate):a.publishedDate;return d.extend({feed:this.feedTokens,url:a.link,author:a.author,date:this.formattedDate,title:a.title,body:a.content,
+shortBody:a.contentSnippet,bodyPlain:function(a){for(var a=a.content.replace(/<script[\\r\\\s\S]*<\/script>/mgi,"").replace(/<\/?[^>]+>/gi,""),b=0;b<e.htmlTags.length;b++)a=a.replace(RegExp("<"+e.htmlTags[b],"gi"),"");return a}(a),shortBodyPlain:a.contentSnippet.replace(/<\/?[^>]+>/gi,""),index:d.inArray(a,this.entries),totalEntries:this.entries.length,teaserImage:function(a){try{return a.content.match(/(<img.*?>)/gi)[0]}catch(b){return""}}(a),teaserImageUrl:function(a){try{return a.content.match(/(<img.*?>)/gi)[0].match(/src="(.*?)"/)[1]}catch(b){return""}}(a)},
+this.options.tokens)};e.prototype.getValueForToken=function(a,b){var c=this.getTokenMap(b),d=a.replace(/[\{\}]/g,""),d=c[d];if("undefined"!==typeof d)return"function"===typeof d?d(b,c):d;throw Error("Unknown token: "+a+", url:"+this.url);};d.fn.rss=function(a,b,c){(new e(this,a,b,c)).render();return this}})(jQuery);

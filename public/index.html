@@ -90,6 +90,12 @@
       </div>
     </nav>
 
+
+  
+  <body>
+    <div id="rss-feeds"></div>
+  </body>
+  
     <div class="container">
 
       <div class="bg-faded p-4 my-4">
@@ -214,7 +220,22 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="https://storage.googleapis.com/feednami-static/js/feednami-client-v1.0.1.js"></script>
+    <script>
+      jQuery(function($) {
+        $("#rss-feeds").rss("https://konsult.coop/blog/feed.xml",
+        {
+          entryTemplate:'<div class="carousel-item active"> \
+              <a href="{url}"> \
+                {teaserImage} \
+              <div class="carousel-caption d-none d-md-block bg-overlay"> \
+                <h3 class="text-shadow" data-t>[{author}@{date}] {title}</h3> \
+                <p class="text-shadow" data-t>{shortBodyPlain}</p> \
+              </div> \
+              </a>'
+        })
+      })
+    </script>
+
     <script src="js/rss.js"></script>
 
     <script type="application/ld+json">
