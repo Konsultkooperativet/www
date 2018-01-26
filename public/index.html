@@ -94,7 +94,7 @@
 
       <div class="bg-faded p-4 my-4">
         <!-- RSS Carousel -->
-        <div id="carouselRSSIndicators" class="carousel slide" data-ride="rsscarousel">
+        <div id="carouselRSSIndicators" class="carousel slide" data-ride="carousel">
 
 
         </div>
@@ -213,12 +213,12 @@
       jQuery(function($) {
         $("#carouselRSSIndicators").rss("https://konsult.coop/blog/feed.xml",
         {
-          entryTemplate:'<div class="carousel-item"> \
+          entryTemplate:'<div id="carousel-item" class="carousel-item"> \
                 <a href="{url}"> \
                 <h2 class="tagline-lower text-center text-expanded d-none d-lg-block">{title}</h2> \
                 </a> \
               </div>'
-          ,layoutTemplate:'<div class="carousel-inner" role="listbox" > \
+          ,layoutTemplate:'<div id="item" class="carousel-inner" role="listbox" > \
             {entries} </div>'
           ,ssl:true
           ,num:3

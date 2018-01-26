@@ -9,4 +9,4 @@ b.length?!1:this.options.filter(a,c):!0};e.prototype.getTokenMap=function(a){if(
 shortBody:a.contentSnippet,bodyPlain:function(a){for(var a=a.content.replace(/<script[\\r\\\s\S]*<\/script>/mgi,"").replace(/<\/?[^>]+>/gi,""),b=0;b<e.htmlTags.length;b++)a=a.replace(RegExp("<"+e.htmlTags[b],"gi"),"");return a}(a),shortBodyPlain:a.contentSnippet.replace(/<\/?[^>]+>/gi,""),index:d.inArray(a,this.entries),totalEntries:this.entries.length,teaserImage:function(a){try{return a.content.match(/(<img.*?>)/gi)[0]}catch(b){return""}}(a),teaserImageUrl:function(a){try{return a.content.match(/(<img.*?>)/gi)[0].match(/src="(.*?)"/)[1]}catch(b){return""}}(a)},
 this.options.tokens)};e.prototype.getValueForToken=function(a,b){var c=this.getTokenMap(b),d=a.replace(/[\{\}]/g,""),d=c[d];if("undefined"!==typeof d)return"function"===typeof d?d(b,c):d;throw Error("Unknown token: "+a+", url:"+this.url);};d.fn.rss=function(a,b,c){(new e(this,a,b,c)).render();return this}})(jQuery);
 
-$(".carouselRSSIndicators .carousel-inner .carousel-item:first").addClass("active");
+$(".carouselRSSIndicators .item .carousel-item:first").addClass("active");
