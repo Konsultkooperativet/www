@@ -20,20 +20,20 @@ $(function() {
 });
 
 function moveLeft() {
-	$('.carousel').animate({
+	$('.rsscarousel').animate({
 		left: + slideWidth
 	}, 200, function () {
-		$('.carousel li:last-child').prependTo('.carousel');
-		$('.carousel').css('left', '');
+		$('.rsscarousel li:last-child').prependTo('.rsscarousel');
+		$('.rsscarousel').css('left', '');
 	});
 }
 
 function moveRight() {
-	$('.carousel').animate({
+	$('.rsscarousel').animate({
 		left: - slideWidth
 	}, 200, function () {
-		$('.carousel li:first-child').appendTo('.carousel');
-		$('.carousel').css('left', '');
+		$('.rsscarousel li:first-child').appendTo('.rsscarousel');
+		$('.rsscarousel').css('left', '');
 	});
 }
 
@@ -63,7 +63,7 @@ function createCarouselList(elements) {
     ");
 	});
 	
-	$(".carousel").append(list);
+	$(".rsscarousel").append(list);
 	
 }
 
@@ -77,11 +77,11 @@ function createFeedList(elements) {
 }
 
 function returnCarouselList() {
-	slideCount = $('.carousel li').length;
-	slideWidth = $('.carousel li').width();
-	slideHeight = $('.carousel li').height();
+	slideCount = $('.rsscarousel li').length;
+	slideWidth = $('.rsscarousel li').width();
+	slideHeight = $('.rsscarousel li').height();
 	sliderUlWidth = slideCount * slideWidth;
 	$('.slider').css({ width: slideWidth, height: slideHeight });
-	$('.carousel').css({ width: sliderUlWidth, marginLeft: - slideWidth });
-	$('.carousel li:last-child').prependTo('.carousel');
+	$('.rsscarousel').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+	$('.rsscarousel li:last-child').prependTo('.rsscarousel');
 }
