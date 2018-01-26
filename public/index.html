@@ -229,10 +229,11 @@
         {
           entryTemplate:'<div class="item"> \
                 <a href="{url}"> \
-                <h3 class="text-shadow">[{author}@{date}] {title}</h3> \
+                <h3 class="text-shadow">{title}</h3> \
                 </a> \
                 <p class="text-shadow">{shortBodyPlain}</p> \
               </div>'
+          ,layoutTemplate:"<div class='item'>{entries}</div>"
         })
       })
     </script>
