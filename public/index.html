@@ -94,7 +94,7 @@
 
       <div class="bg-faded p-4 my-4">
         <!-- RSS Carousel -->
-        <div id="carouselRSSIndicators" class="carousel slide" data-ride="rsscarousel" id="rss-feeds">
+        <div id="carouselRSSIndicators" class="carousel slide" data-ride="rsscarousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselRSSIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselRSSIndicators" data-slide-to="1"></li>
@@ -217,7 +217,7 @@
 
     <script>
       jQuery(function($) {
-        $("#rss-feeds").rss("https://konsult.coop/blog/feed.xml",
+        $("#carouselRSSIndicators").rss("https://konsult.coop/blog/feed.xml",
         {
           entryTemplate:'<div class="item"> \
                 <a href="{url}"> \
