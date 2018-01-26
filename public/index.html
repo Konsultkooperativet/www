@@ -94,13 +94,12 @@
 
       <div class="bg-faded p-4 my-4">
         <!-- RSS Carousel -->
-        <div id="carouselRSSIndicators" class="carousel slide" data-ride="rsscarousel">
+        <div id="carouselRSSIndicators" class="carousel slide" data-ride="rsscarousel" id="rss-feeds">
           <ol class="carousel-indicators">
             <li data-target="#carouselRSSIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselRSSIndicators" data-slide-to="1"></li>
             <li data-target="#carouselRSSIndicators" data-slide-to="2"></li>
           </ol>
-          <div class="carousel-inner" role="listbox" id="rss-feeds">
 
 
           </div>
@@ -226,7 +225,8 @@
                 </a> \
                 <p class="text-shadow">{shortBodyPlain}</p> \
               </div>'
-          ,layoutTemplate:'<a class="carousel-control-prev" href="#carouselRSSIndicators" role="button" data-slide="prev"> \
+          ,layoutTemplate:'<div class="carousel-inner" role="listbox" > \
+            <a class="carousel-control-prev" href="#carouselRSSIndicators" role="button" data-slide="prev"> \
               <span class="carousel-control-prev-icon" aria-hidden="true"></span> \
               <span class="sr-only">Previous</span> \
             </a> \
@@ -234,7 +234,7 @@
               <span class="carousel-control-next-icon" aria-hidden="true"></span> \
               <span class="sr-only">Next</span> \
             </a> \
-            {entries}'
+            {entries} </div>'
           ,ssl:true
           ,num:3
         })
