@@ -94,7 +94,7 @@
 
       <div class="bg-faded p-4 my-4">
         <!-- RSS Carousel -->
-        <div id="carouselRSSIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselRSSIndicators" class="rss carousel slide" data-ride="carousel">
 
 
         </div>
@@ -215,7 +215,7 @@
         {
           entryTemplate:'<div class="carousel-item"> \
                 <a href="{url}"> \
-                <p class="text-center text-expanded d-none d-lg-block">{title}</p> \
+                <p class="rss text-center text-expanded d-none d-lg-block">{title}</p> \
                 </a> \
               </div>'
           ,layoutTemplate:'<div class="carousel-inner" role="listbox" > \
@@ -225,7 +225,7 @@
         })
       })
 
-      $(".carouselRSSIndicators .carousel-item:first").addClass("active");
+      $(".rss .carousel-item:first").addClass("active");
     </script>
 
     <script src="js/rss.js"></script>

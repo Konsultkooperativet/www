@@ -108,6 +108,9 @@ hr.divider {
   }
 }
 
+p.rss {
+  margin-bottom: 0rem;
+}
 @media (max-width: 991px) {
   .topcorner{
     position:fixed;
