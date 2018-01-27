@@ -1,8 +1,8 @@
 ---
 layout: single
 title:  "Konsultuppdrag: Senior .NET-konsult sökes till uppdrag i Göteborg"
-date:   2018-01-18 10:00:00 +0100
-categories: konsuluppdrag .net
+date:   2018-01-27 18:00:00 +0100
+categories: konsultuppdrag .net
 author: mb
 excerpt: ""
 header:
