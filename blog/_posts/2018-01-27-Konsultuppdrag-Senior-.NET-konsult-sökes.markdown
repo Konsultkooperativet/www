@@ -4,7 +4,6 @@ title:  "Konsultuppdrag: Senior .NET-konsult sökes till uppdrag i Göteborg"
 date:   2018-01-27 18:00:00 +0100
 categories: konsultuppdrag dotnet
 author: mb
-excerpt: ""
 header:
   teaser: "assets/images/code-1839406_1280.jpg"
 ---
