@@ -77,7 +77,7 @@
               <a class="nav-link text-uppercase text-expanded" href="social" data-t>menu.Social</a>
             </li>
             <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="/blog/" data-t>Blog</a>
+              <a class="nav-link text-uppercase text-expanded" href="/blog/" data-t>Blogg</a>
             </li>
             <li class="nav-item px-lg-4">
               <a class="nav-link text-uppercase text-expanded" href="contact" data-t>menu.Kontakt</a>
@@ -91,6 +91,14 @@
     </nav>
 
     <div class="container">
+
+      <div class="rss bg-faded p-4 my-4">
+        <!-- RSS Carousel -->
+        <div id="carouselRSSIndicators" class="rss carousel slide" data-ride="carousel">
+
+
+        </div>
+      </div>
 
       <div class="bg-faded p-4 my-4">
         <!-- Image Carousel -->
@@ -199,6 +207,31 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+
+    <script>
+      jQuery(function($) {
+        $("#carouselRSSIndicators").rss("https://konsult.coop/blog/feed.xml",
+        {
+          entryTemplate:'<div class="carousel-item"> \
+                <a href="{url}"> \
+                <p class="rss text-center text-expanded">{title}</p> \
+                </a> \
+              </div>'
+          ,layoutTemplate:'<div class="carousel-inner" role="listbox" > \
+            {entries} </div>'
+          ,ssl:true
+          ,limit:3
+          ,success: function() {
+            $(".rss .carousel-item:first")
+              .addClass("active")
+          }
+        })
+        
+      })
+      </script>
+
+    <script src="js/rss.js"></script>
 
     <script type="application/ld+json">
       { "@context": "http://schema.org",

@@ -1,8 +1,8 @@
 main:
   - title: "konsult.coop"
     url: "https://konsult.coop"
-#  - title: "Quick-Start Guide"
-#    url: /docs/quick-start-guide/
+  - title: "Konsultuppdrag"
+    url: /blog/konsultuppdrag/
 #  - title: "Posts"
 #    url: /year-archive/
 #  - title: "Categories"

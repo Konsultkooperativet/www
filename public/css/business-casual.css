@@ -108,7 +108,21 @@ hr.divider {
   }
 }
 
+p.rss {
+  margin-bottom: 0rem;
+  font-size: small;
+}
 @media (max-width: 991px) {
+  div.rss {
+    padding-bottom: 5px!important;
+    padding-top: 5px!important;
+    padding-left: 5px!important;
+    padding-right: 5px!important;
+  }
+  p.rss {
+    font-size: x-small!important;
+    min-height: 2rem;
+  }
   .topcorner{
     position:fixed;
     bottom: 0px;
