@@ -8,7 +8,7 @@ comments: false
 header:
   teaser: "assets/images/code-1839406_1280.jpg"
 ---
-Ännu en förfrågan från kund i vårt nätverk. En drivande Visual Basic-utvecklare, på 100% med start omgående. Erfarenhet inom retial är meriterande.
+Ännu en förfrågan från kund i vårt nätverk. En drivande Visual Basic-utvecklare, på 100% med start omgående. Erfarenhet inom retail är meriterande.
 
 Är du intresserad av att bli presenterad för vår kund, och samtidigt ansöka om medlemskap i Konsultkooperativet, [hör av dig omgående](https://konsult.coop/contact)!
 
@@ -18,7 +18,7 @@ header:
   "@context" : "http://schema.org/",
   "@type" : "JobPosting",
   "title" : "Driven Visual Basic konsult sökes till uppdrag i Göteborg",
-  "description" : "<p>En drivande Visual Basic-utvecklare, på 100% med start omgående. Erfarenhet inom retial är meriterande.</p>
+  "description" : "<p>En drivande Visual Basic-utvecklare, på 100% med start omgående. Erfarenhet inom retail är meriterande.</p>
     <p>Är du intresserad av att bli presenterad för vår kund, och samtidigt ansöka om medlemskap i Konsultkooperativet, <a href='https://konsult.coop/contact'>hör av dig omgående</a>!</p>
     <p><a href='https://konsult.coop/blog/konsultuppdrag/'>Här kan du se alla konsultuppdrag.</a></p>",
   "identifier": {
