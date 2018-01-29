@@ -16,11 +16,11 @@ För att ta uppdrag genom kooperativet krävs att man som frilansande konsult ä
 
 {% for post in site.categories.konsultuppdrag %}
   {% if post.url %}
-    <a href="/blog{{ post.url }}">
-      <div class="archive__item-teaser">
-        <img src="{{ post.header.teaser }}">
-      </div>
+<a href="/blog{{ post.url }}">
+<div class="archive__item-teaser">
+<img src="{{ post.header.teaser }}">
+</div>
       {{ post.title }}
-    </a>
+</a>
   {% endif %}
 {% endfor %}
