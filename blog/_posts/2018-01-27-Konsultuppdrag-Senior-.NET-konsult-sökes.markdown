@@ -36,6 +36,8 @@ Vi har fått en förfrågan på ett konsultuppdrag för en senior .NET-konsult s
     "@type" : "Place",
     "address" : {
       "@type" : "PostalAddress",
+      "streetAddress" : "Kungsgatan 4",
+      "postalCode" : "411 19",
       "addressRegion": "NA",
       "addressLocality" : "Göteborg",
       "addressCountry": "SE"
