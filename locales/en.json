@@ -60,7 +60,19 @@
 		"maklaresub" : "Konsultkooperativet can be seen as a consultant broker not acting for profit. The cooperative's main target is to make sure all members have assignments, by acting as a broker. The cooperative aims at signing contracts directly with end customers, when possible without involvement of external brokers.",
 		"Benefits" : "Membership <strong>benefits</strong>",
 		"Benefits1" : "As a memebr of Konsultkooperativet you will get access to our network. The organisation also manages team building events and conferences as required by the memebers. The organisation also maanges invoicing and contracts for the assignments.",
-		"Benefits2" : "Konsultkooperativet also has common insurances and administrative systems. The insurance covers, e.g., liabilities for advices given by consultants."
+		"Benefits2" : "Konsultkooperativet also has common insurances and administrative systems. The insurance covers, e.g., liabilities for advices given by consultants.",
+
+		"membersH1" : "Konsultnätverk av erfarna management och IT-konsulter",
+		"membersT1" : "",
+		"membersH2" : "Administration, fakturering och kontrakt",
+		"membersT2" : "",
+		"membersH3" : "Varumärke och ramavtal",
+		"membersT3" : "",
+		"membersH4" : "Sociala event och gemenskap",
+		"membersT4" : "",
+		"membersH5" : "Ansvarsförsäkring för rådgivande konsulter",
+		"membersT5" : ""
+
 
 	}
 }
