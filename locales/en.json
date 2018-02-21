@@ -4,7 +4,9 @@
    	"Om": "About",
 	   "Kontakt": "Contact",
 	   "Social" : "Social",
-	   "Consultants" : "Our Consultants"
+	   "Consultants" : "Our Consultants",
+	   "Members"	: "Membership benefits"
+
 	},
 	"meta": {
 		"Hem": "Cooperative consultant company and broker for freelancing cosultants. Owned and controlled equally by its members.",
@@ -16,8 +18,8 @@
 		"Social" : "News and social feed from Facebbook, LinkedIn and Twitter from Konsultkooperativet",
 		"SocialTitle" : "Our feeds from social media",
 		"Consultants" : "Here are all consultants' profiles.",
-		"ConsultantsTitle" : "Konsultkooperativet - Our consultants' profiles"
-
+		"ConsultantsTitle" : "Konsultkooperativet - Our consultants' profiles",
+		"Member" : "Läs om fördelar att som underkonsult äga sin konsultmäklare - konsultnätverk, ansvarsförsäkringar, gemenskap och kompetensutbyte"
 		
 	},
 

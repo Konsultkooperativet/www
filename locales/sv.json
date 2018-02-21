@@ -4,7 +4,8 @@
 		"Om": "Om",
 		"Kontakt": "Kontakt",
 		"Social" : "Socialt",
-		"Consultants" : "Våra konsulter"
+		"Consultants" : "Våra konsulter",
+		"Members"	: "Medlemsförmåner"
 		
 	},
 	"meta": {
@@ -17,7 +18,8 @@
 		"Social" : "Nyheter och socialt flöde från Facebook, LinkedIn och Twitter för Konsultkooperativet",
 		"SocialTitle" : "Våra flöden i social medier",
 		"Consultants" : "Här finns alla våra konsulters konsultprofiler.",
-		"ConsultantsTitle" : "Konsultkooperativet - Våra konsultprofiler"
+		"ConsultantsTitle" : "Konsultkooperativet - Våra konsultprofiler",
+		"Member" : "Läs om fördelar att som underkonsult äga sin konsultmäklare - konsultnätverk, ansvarsförsäkringar, gemenskap och kompetensutbyte"
 		
 	},
 	"lang": {
