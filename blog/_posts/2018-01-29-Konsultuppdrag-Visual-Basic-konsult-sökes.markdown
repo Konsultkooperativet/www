@@ -10,7 +10,9 @@ header:
 ---
 Ännu en förfrågan från kund i vårt nätverk. En drivande Visual Basic-utvecklare, på 100% med start omgående. Erfarenhet inom retail är meriterande.
 
-Är du intresserad av att bli presenterad för vår kund, och samtidigt ansöka om medlemskap i Konsultkooperativet, [hör av dig omgående](https://konsult.coop/contact)!
+~~Är du intresserad av att bli presenterad för vår kund, och samtidigt ansöka om medlemskap i Konsultkooperativet, [hör av dig omgående](https://konsult.coop/contact)!~~
+
+Uppdraget är redan tillsatt.
 
 [Här kan du se alla konsultuppdrag.](/blog/konsultuppdrag/)
 
