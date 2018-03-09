@@ -4,7 +4,9 @@
    	"Om": "About",
 	   "Kontakt": "Contact",
 	   "Social" : "Social",
-	   "Consultants" : "Our Consultants"
+	   "Consultants" : "Our Consultants",
+	   "Members"	: "Membership benefits"
+
 	},
 	"meta": {
 		"Hem": "Cooperative consultant company and broker for freelancing cosultants. Owned and controlled equally by its members.",
@@ -16,8 +18,8 @@
 		"Social" : "News and social feed from Facebbook, LinkedIn and Twitter from Konsultkooperativet",
 		"SocialTitle" : "Our feeds from social media",
 		"Consultants" : "Here are all consultants' profiles.",
-		"ConsultantsTitle" : "Konsultkooperativet - Our consultants' profiles"
-
+		"ConsultantsTitle" : "Konsultkooperativet - Our consultants' profiles",
+		"Member" : "Läs om fördelar att som underkonsult äga sin konsultmäklare - konsultnätverk, ansvarsförsäkringar, gemenskap och kompetensutbyte"
 		
 	},
 
@@ -58,7 +60,20 @@
 		"maklaresub" : "Konsultkooperativet can be seen as a consultant broker not acting for profit. The cooperative's main target is to make sure all members have assignments, by acting as a broker. The cooperative aims at signing contracts directly with end customers, when possible without involvement of external brokers.",
 		"Benefits" : "Membership <strong>benefits</strong>",
 		"Benefits1" : "As a memebr of Konsultkooperativet you will get access to our network. The organisation also manages team building events and conferences as required by the memebers. The organisation also maanges invoicing and contracts for the assignments.",
-		"Benefits2" : "Konsultkooperativet also has common insurances and administrative systems. The insurance covers, e.g., liabilities for advices given by consultants."
+		"Benefits2" : "Konsultkooperativet also has common insurances and administrative systems. The insurance covers, e.g., liabilities for advices given by consultants. <a href='/en/members'>Read more on membership benefits here</a>.",
+
+		"membersH3" : "<strong>Konsultnätverk</strong> av erfarna management och IT-konsulter",
+		"membersT3" : "Medlemmar i Konsultkooperativet är skickliga konsulter med stor erfarenhet inom sina områden - det medför att de har goda relationer i det offentliga och privata näringslivet. Dessa relationer är det som i stor utsträckning skapar affärer. Det är mycket enklare för en kund att starta en diskussion med en leverantör de redan har en relation med, och det är lättare för en konsult att rekommendera en kollega man känner och har förtroende för. <p><br>Detta är en av hörnstenarna i Konsultkooperativet - vi skapar ett konsultnätverk av professionella och erfarna konsulter, som tillsammans hjälps åt att skapa affärer så att vi får möjlighet att arbeta i utvecklande uppdrag där vi trivs.<p><br>Konsultkooperativet ger genom detta våra kunder och partners tillgång till en större och samlad kompetens, och för frilansande egenföretagande konsulter möjlighet till delad kompetens, inte bara inom sin egen domän, utan även om entreprenörsskap och hur man driver företag.",
+		"membersH2" : "<strong>Administration</strong>, fakturering och kontrakt",
+		"membersT2" : "Något som tar mycket tid och energi från egenföretagande konsulter kan vara all administration, det har Konsultkooperativet sett till att förenkla och automatisera. Vi använder oss av en modern redovisningsbyrå, <a href='http://www.wint.se'>Wint</a>, som sköter all ekonomisk hantering. Modern på så sätt att de hanterar våra pappersfakturor, ut- och inbetalningar etc, utan att vi behöver hantera några papper. Vår snigelpost hanteras av <a href='https://www.kivra.com/foretagsbrevlada/kivraplus/'>Kivra+</a> som scannar och epostar all inkommande post. Epost, tidrapportering, fakturering och kundregister sköts via <a href='http://www.zoho.com'>Zoho's</a> svit av verktyg. Vi använder oss internt av Zoho Connect för vårt <a href='https://intranet.konsult.coop'>intranät</a>, samt Zoho Cliq för realtidschat - båda verktygen är moderna och möjliga att bygga ut med chat-bottar eller egna applikationer, givetvis med bra integration av de övriga Zoho applikationerna, men även externa system såsom vårt ekonomisystem. Målet är att så mycket som möjligt av administrationen skall vara automatisk och enkel.",
+		"membersH1" : "Varumärke och <strong>ramavtal</strong>",
+		"membersT1" : "Att vara sin egen men inte ensam, är något som gör oss starkare. Tillsammans kan vi upphandla varor och tjänster till våra medlemmar, och vi kan göra affärer direkt mot våra kunder utan att vara tvingade att gå genom externa konsultmäklare. Tillsammans skapar vi vårt varumärke - vilket är en av våra viktigaste tillgångar. Att vara en konsult i Konsultkooperativet står för kvalitet, professionalism och glädje.",
+		"membersH4" : "Sociala event och <strong>gemenskap</strong>",
+		"membersT4" : "En av drivkrafterna bakom Konsultkooperativet är att skapa ett sammanhang för frilansande konsulter, som sällan existerar om man jobbar som t.ex. underkonsult till ett annat konsultföretag eller frilansar genom konsultmäklare. Vi vill skapa en kultur och en gemenskap som är konstant även om uppdragen växlar. Föreningen har den naturliga mötesplatsen på kontorshotellet <a href='http://entreprenörsgatan.se'>Entreprenörsgatan</a> men vi planerar även andra sammankomster, såsom konsultluncher, resor och events. För att det ska vara rättvist och valfritt är de flesta sociala eventen organiserade av föreningen, men bekostas av medlemmen själv.",
+		"membersH5" : "<strong>Ansvarsförsäkring</strong> för rådgivande konsulter",
+		"membersT5" : "Föreningen tecknar ansvarsförsäkring för alla medlemsföretag. Detta för att säkerställa att föreningen, eller medlemmens bolag, inte lider ekonomisk skada till följd av ett försäkringsärende från en kund. Konsultkooperativet nyttjar för tillfället <a href='http://www.lf.se'>Länsförsäkringar</a> för denna försäkring. Då vi är flera konsulter som delar på samma försäkring minskar kostnaden. <p><br>Exempel på andra tjänster och varor som vi upphandlar är utbildningar, försäkringar, både privata och för våra företag, tjänste- och hyrbilar, friskvård, bank & pensioner, etc. Ju fler medlemmar vi är, desto större möjligheter till fler och bra avtal."
+	
+
 
 	}
 }
