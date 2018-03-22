@@ -1,0 +1,405 @@
+{
+  "basics": {
+    "filename": "charlieorlenius",
+    "name": "Charlie Orlenius",
+    "label": "PMP Project Manager and Software Architect",
+    "picture": "https://konsult.coop/img/charlieorlenius.jpg",
+    "email": "co@konsult.coop",
+    "phone": "0735-214942",
+    "website": "",
+    "summary": "Markus is a technical consultant with experience within a broad range of technologies and businesses. Markus is a certified (PMP) project manager, having lead research projects for next generation mobile networks, as well as product development within internet safety and security.  Markus has excellent communications skills, and often takes a leading role in teams. Markus also has experience in office and staff management, having recruited both development engineers and sales executives. Comfortable in working on many platforms, in agile teams, and in international organisations. Very well structured and organised.",
+    "location": {
+      "address": "Doktor Lindhs gata 4",
+      "postalCode": "41325",
+      "city": "Göteborg",
+      "countryCode": "",
+      "region": ""
+    },
+    "birth": {
+		"place": "Munkfors",
+  		"state": "Sweden",
+  		"date": "1979-11-29"
+	 },
+    "profiles": [{
+      "network": "LinkedIn",
+      "username": "Markus Berglund",
+      "url": "https://www.linkedin.com/in/markusberglundmx/"
+    }]
+  },
+  "work": [
+    {
+      "company": "Konsultkooperativet",
+      "position": "Co-Founder of Sweden's first cooperative for self-employed consultants",
+      "website": "http://konsult.coop",
+      "startDate": "2017-11-20",
+      "endDate": "",
+      "keywords": ["Entrepreneurship"],
+      "summary": "Konsultkooperativet is an honest, democratic and open cooperative for freelancing technology and management consultants. We welcome all consultants who want real power to change, who are tired of brokers who charges too much, and of partnership companies, where all are not treated equal. Konsultkooperativet does not have any majority owners, or unfair terms.",
+      "highlights": [],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		  } 
+    },
+    {
+      "company": "Huawei Technologies Sweden AB",
+      "position": "Technical Project Manager",
+      "website": "",
+      "startDate": "2015-04-01",
+      "endDate": "2017-04-30",
+      "keywords": ["3GPP", "Telecom", "BTS System", "Project Management", "5G", "Research", "Matlab"],
+      "summary": "Technical project manager for a team of researchers researching technologies for the next generation mobile systems, focusing on the implementation of Massive MIMO antenna systems. Project included circa 20 highly skilled PhD's and MSc's, and resulted in several patent applications. ",
+      "highlights": [
+        "5G Research project with regular contacts with HQ in Shanghai, China"
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		} 
+    },
+    {
+      "company": "CronLab Ltd",
+      "position": "Chief Technology Officer",
+      "website": "http://www.cronlab.com",
+      "startDate": "2011-07-01",
+      "endDate": "2015-03-31",
+      "keywords": ["Entrepreneurship", "Project Management", "Linux", "Clustering", "PHP", "Bash", "Continuous Integration", "Android", "Squid"],
+      "summary": "Markus was in charge of development for CronLab Ltd’s web filtering services, which was used by companies and schools troughout Europe. The system was also built into other manufacturers’ products, e.g., the Android tablet Kurio, targeted to children, where CronLab’s filtering services limits web access. Markus was also managing all aspects of the Swedish subsidiary, being the only Director located in Sweden.",
+      "highlights": [
+        "The filtering service currently has over 1,000,000 users worldwide",
+        "Office manager, recruited and managed developers and sales staff"
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    },
+    {
+      "company": "CronLab Ltd",
+      "position": "Chief Technology Officer",
+      "website": "http://www.cronlab.com",
+      "startDate": "2009-11-01",
+      "endDate": "2011-06-30",
+      "keywords": ["Entrepreneurship", "Project Management", "Linux", "Clustering", "PHP", "Bash", "Continuous Integration", "SMTP"],
+      "summary": "Markus was in charge of developing an Anti-Spam service which was sold in about 15 countries in Europe. The service had an advanced configuration and management interface, both for end users and for resellers and distributors.",
+      "highlights": [],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    },
+    {
+      "company": "Ericsson",
+      "position": "Enbedded Software Engineer",
+      "website": "",
+      "startDate": "2007-09-01",
+      "endDate": "2010-08-31",
+		"keywords": ["3GPP", "BTS System", "Baseband", "C/C++", "Software Architecture", "Software Ingration", "ClearCase"],
+      "summary": "Markus worked with signal processing in the baseband parts of Ericsson’s WCDMA base station software. The work involved implementing the baseband application on a new architecture based on C++.",
+      "highlights": [
+        "Designed and implemented one of the key memory allocators for the baseband chips",
+        "Managed the integration of the different software modules"
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    },
+    {
+      "company": "TietoEnator",
+      "position": "Embedded Software Engineer",
+      "website": "",
+      "startDate": "2006-11-01",
+      "endDate": "2007-08-31",
+      "keywords": ["3GPP", "Baseband", "C", "ClearCase", "Bug Fixing", "Testing"],
+      "summary": "Markus worked with debugging and corrections of live base stations for Ericsson’s customers. The work included testing, simulations, developing new test cases and test methods. The work required a lot of creative debugging since information in trouble reports from customers usually were insufficient.",
+      "highlights": [],
+      "location": {
+			"city": "Karlstad",
+			"countryCode": "",
+			"region": ""
+		}
+	 } ,
+    {
+      "company": "Precise Biometrics Solutions AB",
+      "position": "Development Engineer",
+      "website": "",
+      "startDate": "2005-11-01",
+      "endDate": "2006-10-31",
+      "keywords": ["JAVA", "Smartcards", "Biometrics"],
+      "summary": "Developed new functionality in Precise Biometrics JAVA-card smart cards.",
+      "highlights": [],
+      "location": {
+			"city": "Karlstad",
+			"countryCode": "",
+			"region": ""
+		}
+	 } ,
+    {
+      "company": "WRC Swedish Rally",
+      "position": "Development Engineer",
+      "website": "",
+      "startDate": "2005-11-01",
+      "endDate": "2006-10-31",
+      "keywords": ["FPGA", "Verilog", "JAVA"],
+      "summary": "The Swedish Rally organisation wanted to create arenas along the rally course in Sweden. One of these arenas was Colin’s Crest in Värmland. Markus together with a few more engineers created a system to measure speed and jump length for the cars, this was accomplished with the use of photocells and an FPGA.",
+      "highlights": ["<a href='http://goo.gl/WJDj6f'>Article in Aftonbladet</a>"],
+      "location": {
+			"city": "Karlstad",
+			"countryCode": "",
+			"region": ""
+		} 
+
+	 } ,
+    {
+      "company": "Bioett",
+      "position": "Development Engineer",
+      "website": "",
+      "startDate": "2003-11-01",
+      "endDate": "2005-10-31",
+      "keywords": ["FPGA", "Verilog", "AXIS/ETRAX"],
+      "summary": "Developed software for an FPGA which enabled reading of biological RFID tags which were affected by temperature load. These tags were then used within logistics in the food industry.",
+      "highlights": [],
+      "location": {
+			"city": "Lund",
+			"countryCode": "",
+			"region": ""
+		} 
+
+	 } ,
+    {
+      "company": "Medical devices company",
+      "position": "Development Engineer",
+      "website": "",
+      "startDate": "2003-11-01",
+      "endDate": "2005-10-31",
+      "keywords": ["HW Prototyping", "C/C++", "JAVA", "Matlab", "PCB"],
+      "summary": "Markus developed a communications system for implants based on ultra sound. The work included hardware and software, and realistic experiments. A communications protocol was developed with error correction and high safety and security.",
+      "highlights": [],
+      "location": {
+			"city": "Lund",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    } ,
+    {
+      "company": "Genovis",
+      "position": "Development Engineer",
+      "website": "",
+      "startDate": "2003-11-01",
+      "endDate": "2005-10-31",
+      "keywords": ["HW Prototyping", "C/C++", "JAVA", "Matlab", "PCB"],
+      "summary": "Genovis among other things manufactures microscopic ferro particles which are used in biotech research to e.g. change genetic information in cells. Markus helped Genovis to develop different tools to measure the particle's sizes. Both by developing RF electronics to create high frequency magnetic fields and measure the induced energy, but also by developing simple systems to automate some lab tasks made by their staff.",
+      "highlights": [],
+      "location": {
+			"city": "Lund",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Lund Institute of Technology",
+      "area": "Computer Science",
+      "studyType": "Master of Science and Engineering",
+      "startDate": "1999-09-01",
+      "endDate": "2003-06-30",
+      "gpa": "",
+      "summary": "Markus graduated first in his class, 6 months ahead of time. The Master Thesis was a prototype for publishing digital camera photos to a cloud service. It was made as a product evaluation for AXIS Communications in Lund.",
+      "courses": [],
+      "location": {
+			"city": "Lund",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    },
+    {
+      "institution": "Think do and grow",
+      "area": "Management in Focus",
+      "studyType": "Personal Coaching",
+      "startDate": "2013-06-01",
+      "endDate": "2014-06-01",
+      "gpa": "",
+      "summary": "Professional one-on-one coaching programme, focusing on successful leadership principles. Increase co-workers motivation and efficiency by improving leadership skills.",
+      "courses": [],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    },
+    {
+      "institution": "Think do and grow",
+      "area": "Focused Leadership",
+      "studyType": "Personal Coaching",
+      "startDate": "2012-06-01",
+      "endDate": "2013-06-01",
+      "gpa": "",
+      "summary": "Professional one-on-one coaching programme, focusing on personal development and behavioral science.",
+      "courses": [],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    },
+    {
+      "institution": "Nohau",
+      "area": "C++ for embedded systems",
+      "studyType": "",
+      "startDate": "2008-08-01",
+      "endDate": "2008-08-31",
+      "gpa": "",
+      "summary": "C++ specifics for embedded systems with very limited resources",
+      "courses": [],
+      "location": {
+			"city": "Jönköping",
+			"countryCode": "",
+			"region": ""
+		} 
+
+    }
+  ],
+  "awards": [
+    {
+      "title": "Project Manager Professional",
+      "date": "2017-08-01",
+      "awarder": "Project Management Institute",
+      "summary": "Certified Project Manager Professional by the Project Management Institute",
+      "location": {
+			"city": "Stockholm",
+			"countryCode": "",
+			"region": ""
+		} 
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Management",
+      "level": "",
+      "keywords": [
+        "Project Management",
+        "Structured",
+        "Team Leader",
+        "Agile",
+        "PMI-PMP",
+        "Office and staff Management",
+        "Organized",
+        "Recruiting"
+      ]
+    },
+    {
+      "name": "Telecom",
+      "level": "",
+      "keywords": [
+		  "Massive MIMIO",
+        "3GPP",
+        "WCDMA",
+        "LTE",
+        "5G",
+        "Channel Modeling",
+		  "Simulations",
+		  "METIS",
+		  "BTS System"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": [
+        "C/C++",
+        "Matlab",
+        "PHP",
+        "Java",
+        "Bash",
+        "Android",
+        "Perl",
+        "Enbedded Systems",
+        "Make",
+        "Contiuous integration"
+		]
+    },
+    {
+      "name": "Internet / Web",
+      "level": "",
+      "keywords": [
+		  "SMTP",
+        "Networking",
+        "Clustering",
+        "Load balancing",
+        "HTML", 
+        "CSS", 
+        "AJAX"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Swedish",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [
+        {
+      "name": "Home Automation",
+      "keywords": [
+        "433MHz",
+        "Z-Wave",
+        "Freeboard.io",
+        "Telldus",
+        "Mathworks Thingspeak"
+      ],
+      "summary": "Using home automation to monitor and control the family's country house"
+    },
+    {
+      "name": "Politics and Society",
+      "keywords": [
+        "Finance",
+        "Politics",
+        "News"
+      ],
+      "summary": "Enjoy participating in debates on economy, politics and our society."
+    },
+    {
+      "name": "Food and Drink",
+      "keywords": [
+        "Wine Collecting",
+        "Fine dinig",
+        "cooking",
+        "Baking"
+      ],
+      "summary": "Collecting fine wines and enjoying good food, home or away"
+    }
+  ],
+  "references": [
+    {
+      "name": "Michael Wallenius, CEO CronLab Ltd",
+      "reference": "Markus is an extremely sharp and intelligent person with a broad competence ranging from technology to starting a business. On the social side he shares his elegant humor to all around him when there is time for fun. As an entrepreneurial CTO he has been one of the best I've ever met."
+    },
+    {
+      "name": "",
+      "reference": "Further references on request."
+    }
+
+  ]
+}
