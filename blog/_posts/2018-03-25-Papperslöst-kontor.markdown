@@ -8,8 +8,7 @@ excerpt: "konsultkooperativet arbetar med att minimera administrativt arbete, l�
 header:
   teaser: "assets/images/2018-03-25.png"
 ---
-# Kan driva ett konsultföretag utan att hantera mängder med papper?
-Javisst! Vi har med hjälp av flera olika verktyg och lösningar lyckats optimera bort den allra största delen av vår pappershantering.
+Kan man driva ett konsultföretag utan att hantera mängder med papper? Javisst! Vi har med hjälp av flera olika verktyg och lösningar lyckats optimera bort den allra största delen av vår pappershantering.
 
 ## Bokföring och redovisning
 Vi använder oss av en modern tjänst för bokföring och redovisning, [WINT](http://www.wint.se), de hjälper oss med att hantera bokföring, bokslut och alla andra delar av redovisning helt och hållet i molnet. Som vi ser det har WINT flera fördelar, men de som tilltalar oss allra mest är
