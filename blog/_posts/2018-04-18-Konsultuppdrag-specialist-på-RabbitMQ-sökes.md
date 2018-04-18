@@ -6,7 +6,7 @@ categories: konsultuppdrag rabbitmq
 author: mb
 comments: false
 header:
-  teaser: "assets/images/code-1839406_1280.jpg"
+  teaser: "assets/images/rabbit-mq.jpg"
 ---
 Vi söker en konsult med goda kunskaper i RabbitMQ för IPC - gärna med erfarenhet inom prestandaoptimering.
 
