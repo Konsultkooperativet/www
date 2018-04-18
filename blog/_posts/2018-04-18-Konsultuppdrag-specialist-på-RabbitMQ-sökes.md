@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Konsultuppdrag: Konsult med goda kunskaper inom RabbitMQ sökes till uppdrag i Göteborg"
-date:   2018-04-18 09:00:00 +0100
+date:   2018-04-18 07:00:00 +0100
 categories: konsultuppdrag rabbitmq
 author: mb
 comments: false
