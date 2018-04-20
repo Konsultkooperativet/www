@@ -7,18 +7,18 @@
     "email": "lv@konsult.coop",
     "phone": "070-1234567",
     "website": "",
-    "summary": "Kort presentation",
+    "summary": "Jag har jobbat som chef och projektledare i 15 år. Jag trivs som bäst när jag får jobba med att utveckla människor och organisationer i uppdrag som 1. Interimschef 2. Projektledare eller 3. Förändringsledare",
     "location": {
-      "address": "Gata",
-      "postalCode": "40000",
+      "address": "",
+      "postalCode": "",
       "city": "Mölndal",
       "countryCode": "",
       "region": ""
     },
     "birth": {
-		"place": "Ort",
-  		"state": "Sweden",
-  		"date": "1979-11-29"
+		"place": "",
+  		"state": "",
+  		"date": ""
 	 },
     "profiles": [{
       "network": "LinkedIn",
@@ -28,15 +28,14 @@
   },
   "work": [
     {
-      "company": "Huawei Technologies Sweden AB",
-      "position": "Technical Project Manager",
+      "company": "Stena Metall",
+      "position": "Manager Business Application",
       "website": "",
-      "startDate": "2015-04-01",
-      "endDate": "2017-04-30",
-      "keywords": ["3GPP", "Telecom", "BTS System", "Project Management", "5G", "Research", "Matlab"],
-      "summary": "Technical project manager for a team of researchers researching technologies for the next generation mobile systems, focusing on the implementation of Massive MIMO antenna systems. Project included circa 20 highly skilled PhD's and MSc's, and resulted in several patent applications. ",
+      "startDate": "2017-01-01",
+      "endDate": "",
+      "keywords": [],
+      "summary": "Interimschef för 25 medarbetare inom Application Management och med ansvar för en portfölj med 250 applikationer. ",
       "highlights": [
-        "5G Research project with regular contacts with HQ in Shanghai, China"
       ],
       "location": {
 			"city": "Gothenburg",
@@ -45,16 +44,238 @@
 		  } 
     },
     {
-      "company": "CronLab Ltd",
-      "position": "Chief Technology Officer",
-      "website": "http://www.cronlab.com",
-      "startDate": "2011-07-01",
-      "endDate": "2015-03-31",
-      "keywords": ["Entrepreneurship", "Project Management", "Linux", "Clustering", "PHP", "Bash", "Continuous Integration", "Android", "Squid"],
-      "summary": "Markus was in charge of development for CronLab Ltd’s web filtering services, which was used by companies and schools troughout Europe. The system was also built into other manufacturers’ products, e.g., the Android tablet Kurio, targeted to children, where CronLab’s filtering services limits web access. Markus was also managing all aspects of the Swedish subsidiary, being the only Director located in Sweden.",
+      "company": "KappAhl",
+      "position": "Projektledare, PMO",
+      "website": "",
+      "startDate": "2016-01-01",
+      "endDate": "2017-01-01",
+      "keywords": [],
+      "summary": "Leda projekt och projektkontor. OMNI-channel development.",
       "highlights": [
-        "The filtering service currently has over 1,000,000 users worldwide",
-        "Office manager, recruited and managed developers and sales staff"
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+  		} 
+    },
+    {
+      "company": "Ascom",
+      "position": "Senior Projektledare",
+      "website": "",
+      "startDate": "2015-01-01",
+      "endDate": "2016-01-01",
+      "keywords": [],
+      "summary": "Senior projektledare med ansvar för Ascom Wireless R&D-projekt med utvecklingsteam/delprojektledare i USA, Ryssland och Sverige.",
+      "highlights": [
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+  		} 
+    },
+    {
+      "company": "H&M",
+      "position": "Team Leader, Project Manager, Coach",
+      "website": "",
+      "startDate": "2014-01-01",
+      "endDate": "2015-01-01",
+      "keywords": [],
+      "summary": "Att som interim-chef leda två av H&M Onlines distribuerade utvecklingsteam samt att stödja projektledning av IT-organisationens outsourcing till Indien och coacha chefer/ledare runt om i organisationen på denna förändringsresan vad gäller souring-strategi, definition av sourcing-objekt, arbetssätt, governance modell och KPI:er för att planera, exekvera och följa upp arbetet som läggs ut på IBM.",
+      "highlights": [
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+  		} 
+    },
+    {
+      "company": "GTECH Interactive",
+      "position": "Head of Customer Delivery / Managing Director",
+      "website": "",
+      "startDate": "2011-01-01",
+      "endDate": "2013-01-01",
+      "keywords": [],
+      "summary": "Leda en global leveransorganisation med ansvar för fyra enheter (PMO/Projektledning, Solution Architecture, Test & Verification, Customer Configuration) och 70-tal anställda i Sverige, UK, Gibraltar, Indien och ett 30-tal parallella kundprojekt. Del av företagets ledningsgrupp och med stort fokus på portföljhanteringen av alla leveransprojekt.",
+      "highlights": [
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+  		} 
+    },
+    {
+      "company": "IKEA IT",
+      "position": "Senior projektledare",
+      "website": "",
+      "startDate": "2009-01-01",
+      "endDate": "2010-01-01",
+      "keywords": [],
+      "summary": "Bygga upp ett projektkontor (PMO) på IKEA IT med 120-tal projektledare samt del av Project & Program Management-teamet med syfte att leda företagets mest komplexa och globala projekt samt stötta och coacha PM kollegor med exvis audits för att höja den organisatoriska projektmognaden.",
+      "highlights": [
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+  		} 
+    },
+    {
+      "company": "IKEA IT USA",
+      "position": "Projektledare",
+      "website": "",
+      "startDate": "2008-01-01",
+      "endDate": "2009-01-01",
+      "keywords": [],
+      "summary": "Outsourcing-projekt i USA med syfte att flytta utveckling och underhåll av IKEA’s alla IT-system för den nordamerikanska marknaden till HCL, Indien.",
+      "highlights": [
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+  		} 
+    },
+    {
+      "company": "IKEA IT",
+      "position": "Programledare",
+      "website": "",
+      "startDate": "2007-01-01",
+      "endDate": "2008-01-01",
+      "keywords": [],
+      "summary": "Driva IKEA IT’s första stora outsourcing-program med syfte att välja leverantör, hantera kunskapsöverföring, förändringshantering, etablera nya arbetssätt och metoder i nära samarbete med affärssidan, medarbetarna och leverantören. Stort fokus på Change Management.",
+      "highlights": [
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+  		} 
+    },
+    {
+      "company": "IKEA IT",
+      "position": "IKEA IT",
+      "website": "",
+      "startDate": "2007-01-01",
+      "endDate": "2007-01-01",
+      "keywords": [],
+      "summary": "Interim-chef med uppdrag att förbättra IKEA of Swedens IT-stöd där Linda fick agera både beställare och leverantör av IT-system.",
+      "highlights": [
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+  		} 
+    },
+    {
+      "company": "IKEA IT",
+      "position": "Project Manager",
+      "website": "",
+      "startDate": "2006-01-01",
+      "endDate": "2007-01-01",
+      "keywords": [],
+      "summary": "Affärsutvecklingsprojekt för IKEA Communications (katalogen) som uppdragsgivare med syfte att förbättra deras IT-stöd.",
+      "highlights": [
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+  		} 
+    },
+    {
+      "company": "Boss Media",
+      "position": "Produktionschef",
+      "website": "",
+      "startDate": "2004-01-01",
+      "endDate": "2006-01-01",
+      "keywords": [],
+      "summary": "Chef för 20-30 medarbetare (projektledare, grafiker, utvecklare och testare) samt processägare för en av två huvudprocesser: ”Time to Customer”-process med delprocesser som Sales, Implementation, Test & Verfication, Delivery.",
+      "highlights": [
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+  		} 
+    },
+    {
+      "company": "Boss Media",
+      "position": "Förändringsledare",
+      "website": "",
+      "startDate": "2004-01-01",
+      "endDate": "2005-01-01",
+      "keywords": [],
+      "summary": "Att under en omfattande organisationsförändring jobba med att införa, informera, utbilda och coacha personalen genom denna förändring. Detta var Lindas första uppdrag inom Change Management.",
+      "highlights": [
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+  		} 
+    },
+    {
+      "company": "Boss Media",
+      "position": "Boss Media",
+      "website": "",
+      "startDate": "2003-01-01",
+      "endDate": "2004-01-01",
+      "keywords": [],
+      "summary": "Byggde upp en ny funktion och process med syfte att kundanpassa standardprodukter i samband med att företaget gick från att vara operatör till att bli leverantör. Detta var Lindas första uppdrag i rollen som chef och innefattade rekrytering, verksamhetsutveckling, resursplanering etc för en ny och växande enhet.",
+      "highlights": [
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+  		} 
+    },
+    {
+      "company": "Boss Media",
+      "position": "Projektledare",
+      "website": "",
+      "startDate": "2002-01-01",
+      "endDate": "2004-01-01",
+      "keywords": [],
+      "summary": "Projektleda leveranser till nya och befintliga kunder runt om i världen där uppdraget innebar nära samarbete med kunden och teamet från krav till implementation och utbildning. Detta hanterades parallellt med Lindas uppdrag som gruppchef.",
+      "highlights": [
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+  		} 
+    },
+    {
+      "company": "Boss Media",
+      "position": "System engineer",
+      "website": "",
+      "startDate": "2001-01-01",
+      "endDate": "2003-01-01",
+      "keywords": [],
+      "summary": "Konfigurering av företagets standardprodukt utifrån kundens behov av anpassning som språk, valutor, funktioner, marknader etc.",
+      "highlights": [
+      ],
+      "location": {
+			"city": "Gothenburg",
+			"countryCode": "",
+			"region": ""
+  		} 
+    },
+    {
+      "company": "Casino.com",
+      "position": "Webmaster",
+      "website": "",
+      "startDate": "2000-01-01",
+      "endDate": "2001-01-01",
+      "keywords": [],
+      "summary": "Design, utveckling och underhåll av världens största spelportal. Administration av nyhetsbrev och annonsering. Framtagning av illustrationer, logotyper, foto etc for webb och print. Daglig kontakt med internationella skribenter och kunder/spelleverantörer.",
+      "highlights": [
       ],
       "location": {
 			"city": "Gothenburg",
@@ -66,16 +287,159 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "Lund Institute of Technology",
-      "area": "Computer Science",
-      "studyType": "Master of Science and Engineering",
-      "startDate": "1999-09-01",
-      "endDate": "2003-06-30",
+      "institution": "Move Management",
+      "area": "Executive Management training",
+      "studyType": "",
+      "startDate": "2013-01-01",
+      "endDate": "2013-01-01",
       "gpa": "",
-      "summary": "Markus graduated first in his class, 6 months ahead of time. The Master Thesis was a prototype for publishing digital camera photos to a cloud service. It was made as a product evaluation for AXIS Communications in Lund.",
+      "summary": "",
       "courses": [],
       "location": {
-		  	"city": "Lund",
+		  	"city": "",
+			  "countryCode": "",
+			  "region": ""
+		  } 
+    },{
+      "institution": "Semcon",
+      "area": "Project Portfolio Management",
+      "studyType": "",
+      "startDate": "2012-01-01",
+      "endDate": "2012-01-01",
+      "gpa": "",
+      "summary": "",
+      "courses": [],
+      "location": {
+		  	"city": "",
+			  "countryCode": "",
+			  "region": ""
+		  } 
+    },{
+      "institution": "ESI International",
+      "area": "Managing Projects",
+      "studyType": "",
+      "startDate": "2010-01-01",
+      "endDate": "2010-01-01",
+      "gpa": "",
+      "summary": "",
+      "courses": [],
+      "location": {
+		  	"city": "",
+			  "countryCode": "",
+			  "region": ""
+		  } 
+    },{
+      "institution": "Managing Projects",
+      "area": "PPS – Advanced Project Management",
+      "studyType": "",
+      "startDate": "2007-01-01",
+      "endDate": "2007-01-01",
+      "gpa": "",
+      "summary": "",
+      "courses": [],
+      "location": {
+		  	"city": "",
+			  "countryCode": "",
+			  "region": ""
+		  } 
+    },{
+      "institution": "IKEA",
+      "area": "Next Generation Managers Program",
+      "studyType": "",
+      "startDate": "2007-01-01",
+      "endDate": "2009-01-01",
+      "gpa": "",
+      "summary": "",
+      "courses": [],
+      "location": {
+		  	"city": "",
+			  "countryCode": "",
+			  "region": ""
+		  } 
+    },{
+      "institution": "Växjö universitet",
+      "area": "Ledarskap och Organisation",
+      "studyType": "",
+      "startDate": "2006-01-01",
+      "endDate": "2006-01-01",
+      "gpa": "",
+      "summary": "",
+      "courses": [],
+      "location": {
+		  	"city": "",
+			  "countryCode": "",
+			  "region": ""
+		  } 
+    },{
+      "institution": "Tieto",
+      "area": "PPS – Practical Project Management",
+      "studyType": "",
+      "startDate": "2005-01-01",
+      "endDate": "2005-01-01",
+      "gpa": "",
+      "summary": "",
+      "courses": [],
+      "location": {
+		  	"city": "",
+			  "countryCode": "",
+			  "region": ""
+		  } 
+    },{
+      "institution": "Project Solutions by Appiro",
+      "area": "Project Management course",
+      "studyType": "",
+      "startDate": "2004-01-01",
+      "endDate": "2004-01-01",
+      "gpa": "",
+      "summary": "",
+      "courses": [],
+      "location": {
+		  	"city": "",
+			  "countryCode": "",
+			  "region": ""
+		  } 
+    },
+	   {
+      "institution": "Blekinge Tekniska Högskola",
+      "area": "Organisational theory",
+      "studyType": "",
+      "startDate": "2004-01-01",
+      "endDate": "2005-01-01",
+      "gpa": "",
+      "summary": "",
+      "courses": [],
+      "location": {
+		  	"city": "",
+			  "countryCode": "",
+			  "region": ""
+		  } 
+    },
+	   {
+      "institution": "Ledarskaparna",
+      "area": "Personal and Competency Development",
+      "studyType": "",
+      "startDate": "2004-01-01",
+      "endDate": "2005-01-01",
+      "gpa": "",
+      "summary": "",
+      "courses": [],
+      "location": {
+		  	"city": "",
+			  "countryCode": "",
+			  "region": ""
+		  } 
+    },
+	   {
+      "institution": "Reminder HB",
+      "area": "Reminder HB",
+      "studyType": "",
+      "startDate": "2003-01-01",
+      "endDate": "2003-01-01",
+      "gpa": "",
+      "summary": "",
+      "courses": [],
+      "location": {
+		  	"city": "",
 			  "countryCode": "",
 			  "region": ""
 		  } 
@@ -84,11 +448,22 @@
   "awards": [
     {
       "title": "Project Manager Professional",
-      "date": "2017-08-01",
+      "date": "2013-01-01",
       "awarder": "Project Management Institute",
       "summary": "Certified Project Manager Professional by the Project Management Institute",
       "location": {
-			  "city": "Stockholm",
+			  "city": "",
+			  "countryCode": "",
+			  "region": ""
+		  } 
+    },
+	  {
+      "title": "Certifiering Förändringsledare",
+      "date": "2015",
+      "awarder": "Prosci/ADKAR",
+      "summary": "",
+      "location": {
+			  "city": "",
 			  "countryCode": "",
 			  "region": ""
 		  } 
@@ -97,32 +472,34 @@
   "publications": [],
   "skills": [
     {
-      "name": "Management",
+      "name": "Metoder & Processer",
       "level": "",
       "keywords": [
-        "Project Management",
-        "Structured",
-        "Team Leader",
-        "Agile",
-        "PMI-PMP",
-        "Office and staff Management",
-        "Organized",
-        "Recruiting"
+        "Agila metoder allmänt",
+        "ITIL",
+        "KANBAN",
+        "LEAN",
+        "PPS",
+        "RUP/UP",
+        "Scrum",
+        "XLPM",
+	 "Processer och metoder"
       ]
     },
     {
-      "name": "Telecom",
+      "name": "Ledarskap",
       "level": "",
       "keywords": [
-		  "Massive MIMIO",
-        "3GPP",
-        "WCDMA",
-        "LTE",
-        "5G",
-        "Channel Modeling",
-		  "Simulations",
-		  "METIS",
-		  "BTS System"
+		  "Beteendevetenskap",
+        "Beteendevetenskap",
+        "Ledarskap",
+        "Mentor",
+        "Mentorskap",
+        "OBM (organizational behavioral management)",
+		  "Operativ ledning",
+		  "Organisationskultur och värdegrund",
+		  "Rekrytering & Personalutveckling",
+	      "VD"
       ]
     }
   ],
@@ -138,35 +515,15 @@
   ],
   "interests": [
         {
-      "name": "Home Automation",
-      "keywords": [
-        "433MHz",
-        "Z-Wave",
-        "Freeboard.io",
-        "Telldus",
-        "Mathworks Thingspeak"
-      ],
-      "summary": "Using home automation to monitor and control the family's country house"
-    },
-    {
-      "name": "Politics and Society",
-      "keywords": [
-        "Finance",
-        "Politics",
-        "News"
-      ],
-      "summary": "Enjoy participating in debates on economy, politics and our society."
-    }
-  ],
-  "references": [
-    {
-      "name": "Michael Wallenius, CEO CronLab Ltd",
-      "reference": "Markus is an extremely sharp and intelligent person with a broad competence ranging from technology to starting a business. On the social side he shares his elegant humor to all around him when there is time for fun. As an entrepreneurial CTO he has been one of the best I've ever met."
+      "name": "",
+      "keywords": [],
+      "summary": ""
     },
     {
       "name": "",
-      "reference": "Further references on request."
+      "keywords": [],
+      "summary": ""
     }
-
-  ]
+  ],
+  "references": [ ]
 }
