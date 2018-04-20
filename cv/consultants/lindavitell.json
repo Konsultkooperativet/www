@@ -293,10 +293,10 @@
       "startDate": "2013-01-01",
       "endDate": "2013-01-01",
       "gpa": "",
-      "summary": "",
+      "summary": " ",
       "courses": [],
       "location": {
-		  	"city": "",
+		  	"city": "Göteborg",
 			  "countryCode": "",
 			  "region": ""
 		  } 
@@ -307,10 +307,10 @@
       "startDate": "2012-01-01",
       "endDate": "2012-01-01",
       "gpa": "",
-      "summary": "",
+      "summary": " ",
       "courses": [],
       "location": {
-		  	"city": "",
+		  	"city": "Göteborg",
 			  "countryCode": "",
 			  "region": ""
 		  } 
@@ -321,10 +321,10 @@
       "startDate": "2010-01-01",
       "endDate": "2010-01-01",
       "gpa": "",
-      "summary": "",
+      "summary": " ",
       "courses": [],
       "location": {
-		  	"city": "",
+		  	"city": "Göteborg",
 			  "countryCode": "",
 			  "region": ""
 		  } 
@@ -335,10 +335,10 @@
       "startDate": "2007-01-01",
       "endDate": "2007-01-01",
       "gpa": "",
-      "summary": "",
+      "summary": " ",
       "courses": [],
       "location": {
-		  	"city": "",
+		  	"city": "Göteborg",
 			  "countryCode": "",
 			  "region": ""
 		  } 
@@ -349,10 +349,10 @@
       "startDate": "2007-01-01",
       "endDate": "2009-01-01",
       "gpa": "",
-      "summary": "",
+      "summary": " ",
       "courses": [],
       "location": {
-		  	"city": "",
+		  	"city": "Göteborg",
 			  "countryCode": "",
 			  "region": ""
 		  } 
@@ -363,10 +363,10 @@
       "startDate": "2006-01-01",
       "endDate": "2006-01-01",
       "gpa": "",
-      "summary": "",
+      "summary": " ",
       "courses": [],
       "location": {
-		  	"city": "",
+		  	"city": "Växjö",
 			  "countryCode": "",
 			  "region": ""
 		  } 
@@ -377,10 +377,10 @@
       "startDate": "2005-01-01",
       "endDate": "2005-01-01",
       "gpa": "",
-      "summary": "",
+      "summary": " ",
       "courses": [],
       "location": {
-		  	"city": "",
+		  	"city": "Göteborg",
 			  "countryCode": "",
 			  "region": ""
 		  } 
@@ -391,10 +391,10 @@
       "startDate": "2004-01-01",
       "endDate": "2004-01-01",
       "gpa": "",
-      "summary": "",
+      "summary": " ",
       "courses": [],
       "location": {
-		  	"city": "",
+		  	"city": "Göteborg",
 			  "countryCode": "",
 			  "region": ""
 		  } 
@@ -406,10 +406,10 @@
       "startDate": "2004-01-01",
       "endDate": "2005-01-01",
       "gpa": "",
-      "summary": "",
+      "summary": " ",
       "courses": [],
       "location": {
-		  	"city": "",
+		  	"city": "Göteborg",
 			  "countryCode": "",
 			  "region": ""
 		  } 
@@ -421,10 +421,10 @@
       "startDate": "2004-01-01",
       "endDate": "2005-01-01",
       "gpa": "",
-      "summary": "",
+      "summary": " ",
       "courses": [],
       "location": {
-		  	"city": "",
+		  	"city": "Göteborg",
 			  "countryCode": "",
 			  "region": ""
 		  } 
@@ -436,10 +436,10 @@
       "startDate": "2003-01-01",
       "endDate": "2003-01-01",
       "gpa": "",
-      "summary": "",
+      "summary": " ",
       "courses": [],
       "location": {
-		  	"city": "",
+		  	"city": "Göteborg",
 			  "countryCode": "",
 			  "region": ""
 		  } 
@@ -452,7 +452,7 @@
       "awarder": "Project Management Institute",
       "summary": "Certified Project Manager Professional by the Project Management Institute",
       "location": {
-			  "city": "",
+			  "city": "Göteborg",
 			  "countryCode": "",
 			  "region": ""
 		  } 
@@ -463,7 +463,7 @@
       "awarder": "Prosci/ADKAR",
       "summary": "",
       "location": {
-			  "city": "",
+			  "city": "Göteborg",
 			  "countryCode": "",
 			  "region": ""
 		  } 
