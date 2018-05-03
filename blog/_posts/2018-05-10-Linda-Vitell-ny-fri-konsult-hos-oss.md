@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Välkommen Linda Vitell!"
-date:   2018-04-30 08:00:00 +0100
+date:   2018-05-10 08:00:00 +0100
 categories: medlem
 author: mb
 excerpt: "Linda Vitell har valt att bli en friare konsult, Välkommen Linda!"
